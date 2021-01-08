@@ -8,7 +8,7 @@ module.exports = {
         .setURL('')
         .setDescription('')
         .addFields(
-            {name: 'Felszerelésekhez útmutatók és egyébb segítségre szolgaló dolgok', value: ':small_blue_diamond:[Felszerelés Angol Útmutató ](https://imgur.com/a/TNpH1rL) by Nerezza'},
+            {name: 'Felszerelésekhez útmutatók és egyéb segítségre szolgaló dolgok', value: ':small_blue_diamond:[Felszerelés Angol Útmutató ](https://imgur.com/a/TNpH1rL) by Nerezza'},
         )
         message.channel.send(newEmbed);
 
