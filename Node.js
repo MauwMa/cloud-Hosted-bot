@@ -27,10 +27,10 @@ client.on('message', message =>{
  
     if(command === 'ping'){
         client.commands.get('ping').execute(message, args);
-    }   else if(command == 'opsiren'){
-        client.commands.get('opsiren').execute(message, args, Discord);
     }   else if(command == 'nagato'){
         client.commands.get('nagato').execute(message, args, Discord);
+    }   else if(command == 'opsiren'){
+        client.commands.get('opsiren').execute(message, args, Discord);
     }   else if(command == 'csatlakozás-amagi'){
         client.commands.get('amagi').execute(message, args);
     }   else if(command == 'csatlakozás-avrora'){
