@@ -27,8 +27,14 @@ client.on('message', message =>{
  
     if(command === 'ping'){
         client.commands.get('ping').execute(message, args);
-    }   else if(command == 'nagato-build'){
+    }   else if(command == 'build-nagato'){
         client.commands.get('nagato').execute(message, args, Discord);
+    }   else if(command == 'build-intrepid'){
+        client.commands.get('intrepid').execute(message, args, Discord);
+    }   else if(command == 'build-friedrich'){
+        client.commands.get('friedrich').execute(message, args, Discord);
+    }   else if(command == 'parancsok'){
+        client.commands.get('parancsok').execute(message, args, Discord);
     }   else if(command == 'nagato-unloli'){
         client.commands.get('unloli').execute(message, args, Discord);
     }   else if(command == 'opsiren'){
