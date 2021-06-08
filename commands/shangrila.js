@@ -6,7 +6,7 @@ module.exports = {
         .setColor('#304281')
         .setTitle('Shangri-la Build')
         .setURL('')
-        .setDescription('Skydiver/ Helldriver/ Timing/ Budget')
+        .setDescription('Boss/ AA/ Mob/ Budget')
         .setImage('https://i.imgur.com/dHSHqmR.png')
         message.channel.send(shangrila);
 
