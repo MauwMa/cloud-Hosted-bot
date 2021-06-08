@@ -9,6 +9,9 @@ module.exports = {
         .setDescription('')
         .addFields('')
         .setImage ('https://pbs.twimg.com/media/D3TwNO6V4AAqRvc.jpg')
+        .setFooter('by Cica');
+
+
         message.channel.send(newEmbed);
 
     }    
