@@ -71,6 +71,8 @@ client.on('message', message =>{
         client.commands.get('tirpitz').execute(message, args, Discord);
     }   else if(command == 'build-newjersey'){
         client.commands.get('newjersey').execute(message, args, Discord);
+    }   else if(command == 'build'){
+        client.commands.get('build').execute(message, args, Discord);
     }   else if(command == 'parancsok'){
         client.commands.get('parancsok').execute(message, args, Discord);
     }   else if(command == 'nagato-unloli'){
