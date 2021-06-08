@@ -29,6 +29,8 @@ client.on('message', message =>{
         client.commands.get('ping').execute(message, args);
     }   else if(command == 'nagato-build'){
         client.commands.get('nagato').execute(message, args, Discord);
+    }   else if(command == 'nagato-unloli'){
+        client.commands.get('unloli').execute(message, args, Discord);
     }   else if(command == 'opsiren'){
         client.commands.get('opsiren').execute(message, args, Discord);
     }   else if(command == 'csatlakozás-amagi'){
