@@ -8,7 +8,7 @@ module.exports = {
         .setURL('')
         .setDescription('')
         .addFields(
-            {name: '', value: ''},
+            {name: 'Nagato build'},
         )
         .setImage('https://pbs.twimg.com/media/Ev8p-p1UYAIacwP.jpg')
         message.channel.send(valami);
