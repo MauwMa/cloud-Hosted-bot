@@ -1,0 +1,14 @@
+module.exports = {
+    name: 'alabama',
+    description: 'alabama',
+    execute (message, args, Discord){
+        const alabama = new Discord.MessageEmbed()
+        .setColor('#304281')
+        .setTitle('Alabama Build')
+        .setURL('')
+        .setDescription('Best in Slot?/ AP/ HE+timing/ budget')
+        .setImage('https://i.imgur.com/rZ6qN6j.png')
+        message.channel.send(alabama);
+
+    }    
+}

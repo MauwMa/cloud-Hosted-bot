@@ -27,8 +27,52 @@ client.on('message', message =>{
  
     if(command === 'ping'){
         client.commands.get('ping').execute(message, args);
-    }   else if(command == 'nagato-build'){
+    }   else if(command == 'build-nagato'){
         client.commands.get('nagato').execute(message, args, Discord);
+    }   else if(command == 'build-intrepid'){
+        client.commands.get('intrepid').execute(message, args, Discord);
+    }   else if(command == 'build-friedrich'){
+        client.commands.get('friedrich').execute(message, args, Discord);
+    }   else if(command == 'build-bismarck'){
+        client.commands.get('bismarck').execute(message, args, Discord);
+    }   else if(command == 'build-ibuki'){
+        client.commands.get('ibuki').execute(message, args, Discord);
+    }   else if(command == 'build-z23'){
+        client.commands.get('z23').execute(message, args, Discord);
+    }   else if(command == 'build-sandiego'){
+        client.commands.get('sandiego').execute(message, args, Discord);
+    }   else if(command == 'build-ayanami'){
+        client.commands.get('ayanami').execute(message, args, Discord);
+    }   else if(command == 'build-atago'){
+        client.commands.get('atago').execute(message, args, Discord);
+    }   else if(command == 'build-helena'){
+        client.commands.get('helena').execute(message, args, Discord);
+    }   else if(command == 'build-howe'){
+        client.commands.get('howe').execute(message, args, Discord);
+    }   else if(command == 'build-longisland'){
+        client.commands.get('longisland').execute(message, args, Discord);
+    }   else if(command == 'build-laffey'){
+        client.commands.get('laffey').execute(message, args, Discord);
+    }   else if(command == 'build-aquila'){
+        client.commands.get('aquila').execute(message, args, Discord);
+    }   else if(command == 'build-shinano'){
+        client.commands.get('shinano').execute(message, args, Discord);
+    }   else if(command == 'build-swiftsure'){
+        client.commands.get('swiftsure').execute(message, args, Discord);
+    }   else if(command == 'build-azuma'){
+        client.commands.get('azuma').execute(message, args, Discord);
+    }   else if(command == 'build-alabama'){
+        client.commands.get('alabama').execute(message, args, Discord);
+    }   else if(command == 'build-suzutsuki'){
+        client.commands.get('suzutsuki').execute(message, args, Discord);
+    }   else if(command == 'build-shangrila'){
+        client.commands.get('shangrila').execute(message, args, Discord);
+    }   else if(command == 'build-tirpitz'){
+        client.commands.get('tirpitz').execute(message, args, Discord);
+    }   else if(command == 'build-newjersey'){
+        client.commands.get('newjersey').execute(message, args, Discord);
+    }   else if(command == 'parancsok'){
+        client.commands.get('parancsok').execute(message, args, Discord);
     }   else if(command == 'nagato-unloli'){
         client.commands.get('unloli').execute(message, args, Discord);
     }   else if(command == 'opsiren'){
