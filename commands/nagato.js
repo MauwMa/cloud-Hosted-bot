@@ -6,8 +6,8 @@ module.exports = {
         .setColor('#304281')
         .setTitle('Nagato Build')
         .setURL('')
-        .setDescription('')
-        .setImage('https://pbs.twimg.com/media/Ev8p-p1UYAIacwP.jpg')
+        .setDescription('AP/Fast/HE/Budget')
+        .setImage('https://media.discordapp.net/attachments/789936506193182740/851162493878403162/Screenshot_2021-06-06-19-14-37.png?width=1112&height=626')
         message.channel.send(valami);
 
     }    
