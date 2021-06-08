@@ -27,7 +27,7 @@ client.on('message', message =>{
  
     if(command === 'ping'){
         client.commands.get('ping').execute(message, args);
-    }   else if(command == 'nagato'){
+    }   else if(command == 'nagato-buils'){
         client.commands.get('nagato').execute(message, args, Discord);
     }   else if(command == 'opsiren'){
         client.commands.get('opsiren').execute(message, args, Discord);
