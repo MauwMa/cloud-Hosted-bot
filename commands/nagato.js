@@ -8,7 +8,7 @@ module.exports = {
         .setURL('')
         .setDescription('')
         .addFields('')
-        .setImage ('https://media.discordapp.net/attachments/789936506193182740/851162493878403162/Screenshot_2021-06-06-19-14-37.png?width=1112&height=626')
+        .setImage ('https://pbs.twimg.com/media/D3TwNO6V4AAqRvc.jpg')
         message.channel.send(newEmbed);
 
     }    
