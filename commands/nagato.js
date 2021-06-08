@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'opsiren',
-    description: 'opsiren',
+    name: 'nagato',
+    description: 'nagato',
     execute (message, args, Discord){
         const valami = new Discord.MessageEmbed()
         .setColor('#304281')
