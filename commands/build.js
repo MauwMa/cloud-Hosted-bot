@@ -6,7 +6,7 @@ module.exports = {
         .setColor('#304281')
         .setTitle('Ezekre készült buildek')
         .setURL('')
-        .setDescription('Alabama  Amagi  Aquila  Atago  Ayanami  Azuma \nBismarck  Friedrich  Helena  Howe  Ibuki  Intrepid\nLaffey  LongIsland  Nagato  NewJersey  SanDiego  Shangrila\nShinano  Suzutsuki  Swiftsure  Tripitz  Z23')
+        .setDescription('Alabama, Amagi, Aquila, Atago, Ayanami, Azuma,\nBismarck, Friedrich, Helena, Howe, Ibuki, Intrepid,\nLaffey, LongIsland, Nagato, NewJersey, SanDiego, Shangrila,\nShinano, Suzutsuki, Swiftsure, Tripitz, Z23,')
         message.channel.send(build);
 
     }    
