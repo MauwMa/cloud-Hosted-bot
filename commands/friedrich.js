@@ -7,7 +7,7 @@ module.exports = {
         .setTitle('Friedrich der Große Build')
         .setURL('')
         .setDescription('HE dps/ AP dps/ Survival/ Budget')
-        .setImage('https://imgur.com/VGwVA3l')
+        .setImage('https://i.imgur.com/VGwVA3l.png')
         message.channel.send(friedrich);
 
     }    

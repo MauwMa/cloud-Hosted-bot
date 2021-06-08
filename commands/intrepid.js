@@ -7,7 +7,7 @@ module.exports = {
         .setTitle('Intrepid Build')
         .setURL('')
         .setDescription('AA/Boss/Mob/Budget')
-        .setImage('https://imgur.com/Ec7l8KP')
+        .setImage('https://i.imgur.com/Ec7l8KP.png')
         message.channel.send(intre);
 
     }    
