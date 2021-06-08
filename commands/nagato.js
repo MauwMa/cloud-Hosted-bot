@@ -7,7 +7,9 @@ module.exports = {
         .setTitle('Operation Siren Útmutatók')
         .setURL('')
         .setDescription('')
-        .addFields('')
+        .addFields(
+            {name: 'Operation Sirenhez útmutatók és egyéb segítségre szolgaló dolgok', value: ':small_blue_diamond:[Operation Siren Corrosin 7 útmutató](http://shorturl.at/lBFL8) by Cica'},
+        )
         .setImage('https://pbs.twimg.com/media/Ev8p-p1UYAIacwP.jpg')
         message.channel.send(valami);
 
