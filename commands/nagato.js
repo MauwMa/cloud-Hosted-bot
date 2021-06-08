@@ -2,7 +2,7 @@ module.exports = {
     name: 'opsiren',
     description: 'opsiren',
     execute (message, args, Discord){
-        const newEmbed = new Discord.MessageEmbed()
+        const valami = new Discord.MessageEmbed()
         .setColor('#304281')
         .setTitle('Operation Siren Útmutatók')
         .setURL('')
@@ -10,7 +10,7 @@ module.exports = {
         .addFields(
             {name: 'Operation Sirenhez útmutatók és egyéb segítségre szolgaló dolgok', value: ':small_blue_diamond:[Operation Siren Corrosin 7 útmutató](http://shorturl.at/lBFL8) by Cica'},
         )
-        message.channel.send(newEmbed);
+        message.channel.send(valami);
 
     }    
 }
