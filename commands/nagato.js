@@ -7,9 +7,8 @@ module.exports = {
         .setTitle('Nagato build')
         .setURL('')
         .setDescription('')
-        .addFields(
-            {name: 'https://media.discordapp.net/attachments/789936506193182740/851162493878403162/Screenshot_2021-06-06-19-14-37.png?width=1112&height=626'},
-        )
+        .addFields('')
+        .addImage ('https://media.discordapp.net/attachments/789936506193182740/851162493878403162/Screenshot_2021-06-06-19-14-37.png?width=1112&height=626')
         message.channel.send(newEmbed);
 
     }    
