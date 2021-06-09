@@ -8,6 +8,6 @@ module.exports = {
         .setURL('')
         .setDescription('Parancsnokok, véget ért a karbantartás.\nNe felejtsetek venni gemeket tőlem nyaaa~!\n @everyone')
         message.channel.send(karveg);
-
+    if (message.deletable) message.delete();
     }    
 }

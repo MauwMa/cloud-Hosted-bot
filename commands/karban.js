@@ -9,6 +9,6 @@ module.exports = {
         .setDescription('Parancsnokok, 6/10 Csütörtökön Magyar Időszámítás szerint \nreggel 09:00-kor lesz karbantartás. Kérjük a beosztásaitokat tervezzétek e szerint.')
         .setImage('https://i.imgur.com/0BEHNji.png')
         message.channel.send(karban);
-
+    if (message.deletable) message.delete();
     }    
 }
