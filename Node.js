@@ -31,6 +31,8 @@ client.on('message', message =>{
         client.commands.get('karban').execute(message, args, Discord);
     }   else if(command == 'karveg'){
         client.commands.get('karveg').execute(message, args, Discord);
+    }   else if(command == 'update'){
+        client.commands.get('update').execute(message, args, Discord);
     }   else if(command == 'eloora'){
         client.commands.get('eloora').execute(message, args, Discord);
     }   else if(command == 'ehes'){
