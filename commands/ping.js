@@ -5,5 +5,7 @@ module.exports = {
 
         message.channel.send("pong!");
 
+    if (message.deletable) message.delete();
+
     }    
 }
