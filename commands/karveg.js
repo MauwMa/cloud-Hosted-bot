@@ -6,7 +6,7 @@ module.exports = {
         .setColor('#ffff00')
         .setTitle('Karbantartás vége!')
         .setURL('')
-        .setDescription('Parancsnokok, véget ért a karbantartás.\nNe felejtsetek venni gemeket tőlem nyaaa~!')
+        .setDescription('Parancsnokok, véget ért a karbantartás.\nNe felejtsetek venni gemeket tőlem nyaaa~!\n @everyone')
         message.channel.send(karveg);
 
     }    
