@@ -3,7 +3,7 @@ module.exports = {
     description: 'aquila',
     execute (message, args, Discord){
         const aquila = new Discord.MessageEmbed()
-        .setColor('#304281')
+        .setColor('#065535')
         .setTitle('Aquila Build')
         .setURL('')
         .setDescription('Mob/ Boss/ Heal/ budget')

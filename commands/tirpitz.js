@@ -3,7 +3,7 @@ module.exports = {
     description: 'tirpitz',
     execute (message, args, Discord){
         const tirpitz = new Discord.MessageEmbed()
-        .setColor('#304281')
+        .setColor('#f2082d')
         .setTitle('Tirpitz Build')
         .setURL('')
         .setDescription('AP/ HE/ Tank/ Budget')

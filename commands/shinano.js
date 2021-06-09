@@ -3,7 +3,7 @@ module.exports = {
     description: 'shinano',
     execute (message, args, Discord){
         const shinano = new Discord.MessageEmbed()
-        .setColor('#304281')
+        .setColor('#ff90ff')
         .setTitle('Shinano Build')
         .setURL('')
         .setDescription('Boss/ Mob/ AA/ Budget')

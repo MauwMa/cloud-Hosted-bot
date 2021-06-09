@@ -3,7 +3,7 @@ module.exports = {
     description: 'shangrila',
     execute (message, args, Discord){
         const shangrila = new Discord.MessageEmbed()
-        .setColor('#304281')
+        .setColor('#16108b')
         .setTitle('Shangri-la Build')
         .setURL('')
         .setDescription('Boss/ AA/ Mob/ Budget')

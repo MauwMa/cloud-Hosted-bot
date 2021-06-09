@@ -3,7 +3,7 @@ module.exports = {
     description: 'ibuki',
     execute (message, args, Discord){
         const ibuki = new Discord.MessageEmbed()
-        .setColor('#304281')
+        .setColor('#ff90ff')
         .setTitle('Ibuki Build')
         .setURL('')
         .setDescription('Survival/ Damage/ Yolo/ "budget"')

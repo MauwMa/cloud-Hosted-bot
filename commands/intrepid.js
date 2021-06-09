@@ -3,7 +3,7 @@ module.exports = {
     description: 'intrepid',
     execute (message, args, Discord){
         const intre = new Discord.MessageEmbed()
-        .setColor('#304281')
+        .setColor('#16108b')
         .setTitle('Intrepid Build')
         .setURL('')
         .setDescription('AA/Boss/Mob/Budget')

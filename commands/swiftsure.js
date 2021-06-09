@@ -3,7 +3,7 @@ module.exports = {
     description: 'swiftsure',
     execute (message, args, Discord){
         const swiftsure = new Discord.MessageEmbed()
-        .setColor('#304281')
+        .setColor('#c5c5ff')
         .setTitle('Swiftsure Build')
         .setURL('')
         .setDescription('trigger/ AA/ Survival/ Budget')

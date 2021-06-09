@@ -3,7 +3,7 @@ module.exports = {
     description: 'ayanami',
     execute (message, args, Discord){
         const ayanami = new Discord.MessageEmbed()
-        .setColor('#304281')
+        .setColor('#ff90ff')
         .setTitle('Ayanami Build')
         .setURL('')
         .setDescription('Auto/ Manual/ Suicide/ Budget')

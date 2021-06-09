@@ -3,7 +3,7 @@ module.exports = {
     description: 'z23',
     execute (message, args, Discord){
         const z23 = new Discord.MessageEmbed()
-        .setColor('#304281')
+        .setColor('#f2082d')
         .setTitle('Z23 Build')
         .setURL('')
         .setDescription('Balanced/ FP Meme/ Tank/ Budget')

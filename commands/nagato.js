@@ -3,7 +3,7 @@ module.exports = {
     description: 'nagato',
     execute (message, args, Discord){
         const valami = new Discord.MessageEmbed()
-        .setColor('#304281')
+        .setColor('#ff90ff')
         .setTitle('Nagato Build')
         .setURL('')
         .setDescription('AP/Fast/HE/Budget')

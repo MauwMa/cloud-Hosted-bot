@@ -3,7 +3,7 @@ module.exports = {
     description: 'heinrich',
     execute (message, args, Discord){
         const heinrich = new Discord.MessageEmbed()
-        .setColor('#304281')
+        .setColor('#f2082d')
         .setTitle('Prinz Heinrich Build')
         .setURL('')
         .setDescription('AP/ Balanced/ Anti-shield/ Budget')

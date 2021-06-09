@@ -3,7 +3,7 @@ module.exports = {
     description: 'azuma',
     execute (message, args, Discord){
         const azuma = new Discord.MessageEmbed()
-        .setColor('#304281')
+        .setColor('#ff90ff')
         .setTitle('Azuma Build')
         .setURL('')
         .setDescription('Best in slot/ Good/ Meme?/ Budget')

@@ -3,7 +3,7 @@ module.exports = {
     description: 'laffey',
     execute (message, args, Discord){
         const laffey = new Discord.MessageEmbed()
-        .setColor('#304281')
+        .setColor('#16108b')
         .setTitle('Laffey Build')
         .setURL('')
         .setDescription('Auto(survival)/ Manual/ Auto(torp)/ Budget')

@@ -3,7 +3,7 @@ module.exports = {
     description: 'longisland',
     execute (message, args, Discord){
         const longisland = new Discord.MessageEmbed()
-        .setColor('#304281')
+        .setColor('#16108b')
         .setTitle('Long Island Build')
         .setURL('')
         .setDescription('Ideal')

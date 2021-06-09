@@ -3,7 +3,7 @@ module.exports = {
     description: 'suzutsuki',
     execute (message, args, Discord){
         const suzutsuki = new Discord.MessageEmbed()
-        .setColor('#304281')
+        .setColor('#ff90ff')
         .setTitle('Suzutsuki Build')
         .setURL('')
         .setDescription('dps/ AA/ Anti sub/ Budget')

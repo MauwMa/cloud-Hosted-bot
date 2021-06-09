@@ -3,7 +3,7 @@ module.exports = {
     description: 'sandiego',
     execute (message, args, Discord){
         const sandiego = new Discord.MessageEmbed()
-        .setColor('#304281')
+        .setColor('#16108b')
         .setTitle('San Diego Build')
         .setURL('')
         .setDescription('Best in slot/ Balanced/ No fly zone/ Budget')

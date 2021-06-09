@@ -3,7 +3,7 @@ module.exports = {
     description: 'howe',
     execute (message, args, Discord){
         const howe = new Discord.MessageEmbed()
-        .setColor('#304281')
+        .setColor('#c5c5ff')
         .setTitle('Höwe Build')
         .setURL('')
         .setDescription('HE/ AP/ AP(long battles)/ Budget')

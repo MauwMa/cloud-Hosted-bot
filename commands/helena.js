@@ -3,7 +3,7 @@ module.exports = {
     description: 'helena',
     execute (message, args, Discord){
         const helena = new Discord.MessageEmbed()
-        .setColor('#304281')
+        .setColor('#16108b')
         .setTitle('Helena Build')
         .setURL('')
         .setDescription('Időzített/ AP/ HE/ "Budget"')
