@@ -33,8 +33,12 @@ client.on('message', message =>{
         client.commands.get('karveg').execute(message, args, Discord);
     }   else if(command == 'update'){
         client.commands.get('update').execute(message, args, Discord);
-    }   else if(command == 'eloora'){
-        client.commands.get('eloora').execute(message, args, Discord);
+    }   else if(command == 'eloora4'){
+        client.commands.get('eloora4').execute(message, args, Discord);
+    }   else if(command == 'eloora6'){
+        client.commands.get('eloora6').execute(message, args, Discord);
+    }   else if(command == 'eloora8'){
+        client.commands.get('eloora8').execute(message, args, Discord);
     }   else if(command == 'ehes'){
         client.commands.get('ehes').execute(message, args, Discord);
     }   else if(command == 'build-nagato'){
