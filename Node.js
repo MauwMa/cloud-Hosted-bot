@@ -27,6 +27,8 @@ client.on('message', message =>{
  
     if(command === 'ping'){
         client.commands.get('ping').execute(message, args);
+    }   else if(command == 'ehes'){
+        client.commands.get('ehes').execute(message, args, Discord);
     }   else if(command == 'build-nagato'){
         client.commands.get('nagato').execute(message, args, Discord);
     }   else if(command == 'build-intrepid'){
