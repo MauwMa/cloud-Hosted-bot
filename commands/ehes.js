@@ -1,9 +1,9 @@
 module.exports = {
-    name: 'ping',
-    description: 'ping',
+    name: 'ehes',
+    description: 'ehes',
     execute (message, args){
 
-        message.channel.send("pong!");
+        message.channel.send("Akashi gemeket akar nyaaa~!");
 
     if (message.deletable) message.delete();
 
