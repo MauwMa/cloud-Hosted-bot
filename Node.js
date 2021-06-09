@@ -27,6 +27,10 @@ client.on('message', message =>{
  
     if(command === 'ping'){
         client.commands.get('ping').execute(message, args);
+    }   else if(command == 'karban'){
+        client.commands.get('karban').execute(message, args, Discord);
+    }   else if(command == 'karveg'){
+        client.commands.get('karveg').execute(message, args, Discord);
     }   else if(command == 'ehes'){
         client.commands.get('ehes').execute(message, args, Discord);
     }   else if(command == 'build-nagato'){
