@@ -87,6 +87,12 @@ client.on('message', message =>{
         client.commands.get('newjersey').execute(message, args, Discord);
     }   else if(command == 'build-heinrich'){
         client.commands.get('heinrich').execute(message, args, Discord);
+    }   else if(command == 'build-noshiro'){
+        client.commands.get('noshiro').execute(message, args, Discord);
+    }   else if(command == 'build-perseus'){
+        client.commands.get('perseus').execute(message, args, Discord);
+    }   else if(command == 'build-richelieu'){
+        client.commands.get('richelieu').execute(message, args, Discord);
     }   else if(command == 'build'){
         client.commands.get('build').execute(message, args, Discord);
     }   else if(command == 'parancsok'){
