@@ -93,6 +93,8 @@ client.on('message', message =>{
         client.commands.get('perseus').execute(message, args, Discord);
     }   else if(command == 'build-richelieu'){
         client.commands.get('richelieu').execute(message, args, Discord);
+    }   else if(command == 'build-sanfrancisco'){
+        client.commands.get('sanfrancisco').execute(message, args, Discord);
     }   else if(command == 'build'){
         client.commands.get('build').execute(message, args, Discord);
     }   else if(command == 'parancsok'){
@@ -101,6 +103,8 @@ client.on('message', message =>{
         client.commands.get('unloli').execute(message, args, Discord);
     }   else if(command == 'opsiren'){
         client.commands.get('opsiren').execute(message, args, Discord);
+    }   else if(command == 'keres'){
+        client.commands.get('keres').execute(message, args, Discord);
     }   else if(command == 'csatlakozás-amagi'){
         client.commands.get('amagi').execute(message, args);
     }   else if(command == 'csatlakozás-avrora'){
