@@ -105,6 +105,8 @@ client.on('message', message =>{
         client.commands.get('opsiren').execute(message, args, Discord);
     }   else if(command == 'keres'){
         client.commands.get('keres').execute(message, args, Discord);
+    }   else if(command == 'cica'){
+        client.commands.get('cica').execute(message, args, Discord);
     }   else if(command == 'csatlakozás-amagi'){
         client.commands.get('amagi').execute(message, args);
     }   else if(command == 'csatlakozás-avrora'){
