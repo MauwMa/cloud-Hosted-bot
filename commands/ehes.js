@@ -3,7 +3,7 @@ module.exports = {
     description: 'ehes',
     execute (message, args){
 
-        message.channel.send("Akashi gemeket akar nyaaa~!");
+        message.channel.send("Akashi pénzt akar nyaaa~!");
 
     if (message.deletable) message.delete();
 
