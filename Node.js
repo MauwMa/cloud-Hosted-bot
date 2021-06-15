@@ -13,12 +13,9 @@ for(const file of commandFiles){
  
     client.commands.set(command.name, command);
 }
- 
-const welcome = require('./udvozlo');
- 
+  
 client.once('ready', () => {
     console.log('Akashi is online!');
-    udvozlo(client)
 });
 
 client.on('message', message =>{
@@ -121,6 +118,8 @@ client.on('message', message =>{
         client.commands.get('sandy').execute(message, args);
     }   else if(command == 'csatlakozás-washington'){
         client.commands.get('washington').execute(message, args);
+    }   else if(command == 'udvozlo'){
+        client.commands.get('udvozlo').execute(message, args, Discord);
     }   else if(command == 'felszer'){
         client.commands.get('felszer').execute(message, args, Discord);
     }
