@@ -14,13 +14,11 @@ for(const file of commandFiles){
     client.commands.set(command.name, command);
 }
  
+const welcome = require('./udvozlo');
  
 client.once('ready', () => {
     console.log('Akashi is online!');
-});
-
-client.on('guildMemberAdd', guildMember =>{
-    guildMember.guild.channels.cache.get('791956226521956394').send(`Üdvözöllek <@${guildMember.user.id}> az Azur Lane Magyar szerverén nyaaa~`)
+    udvozlo(client)
 });
 
 client.on('message', message =>{
