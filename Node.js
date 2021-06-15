@@ -18,9 +18,9 @@ for(const file of commandFiles){
 client.once('ready', () => {
     console.log('Akashi is online!');
 });
- 
+
 client.on('guildMemberAdd', guildMember =>{
-    guildMember.guild.channels.cache.get('789927360329416758').send(`Üdvözöllek <@${guildMember.user.id}> az Azur Lane Magyar szerverén nyaaa~`)
+    guildMember.guild.channels.cache.get('791956226521956394').send(`Üdvözöllek <@${guildMember.user.id}> az Azur Lane Magyar szerverén nyaaa~`)
 });
 
 client.on('message', message =>{
