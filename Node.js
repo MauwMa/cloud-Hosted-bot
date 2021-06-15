@@ -19,6 +19,10 @@ client.once('ready', () => {
     console.log('Akashi is online!');
 });
  
+client.on('guildMemberAdd', guildMember =>{
+    guildMember.guild.channels.cache.get('789927360329416758').send(`Üdvözöllek <@${guildMember.user.id}> az Azur Lane Magyar szerverén nyaaa~`)
+});
+
 client.on('message', message =>{
     if(!message.content.startsWith(prefix) || message.author.bot) return;
  
@@ -97,6 +101,8 @@ client.on('message', message =>{
         client.commands.get('shirakamifubuki').execute(message, args, Discord);
     }   else if(command == 'build-sanfrancisco'){
         client.commands.get('sanfrancisco').execute(message, args, Discord);
+    }   else if(command == 'build-montpelier'){
+        client.commands.get('montpelier').execute(message, args, Discord);
     }   else if(command == 'build'){
         client.commands.get('build').execute(message, args, Discord);
     }   else if(command == 'parancsok'){
