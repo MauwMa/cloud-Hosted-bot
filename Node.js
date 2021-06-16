@@ -32,6 +32,8 @@ client.on('message', message =>{
         client.commands.get('karveg').execute(message, args, Discord);
     }   else if(command == 'update'){
         client.commands.get('update').execute(message, args, Discord);
+    }   else if(command == 'update2'){
+        client.commands.get('update2').execute(message, args, Discord);
     }   else if(command == 'eloora4'){
         client.commands.get('eloora4').execute(message, args, Discord);
     }   else if(command == 'eloora6'){
