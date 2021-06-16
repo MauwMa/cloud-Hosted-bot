@@ -4,10 +4,10 @@ module.exports = {
     execute (message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('❀Lily-White Longing❀')
+        .setTitle('❀Vacation Offensive!❀')
         .setURL('')
-        .setDescription('Biztos álmodok, hogy felvehessem ezt a fehér leplet... \nHaha, mégis, ami fontosabb, az életünk együtt! \nParancsnok, kérlek várd a násznevelésem gyümölcsét~\n\nÚj oath kinézet elérhető lesz a karbantartás után\nmiután elvetted Azumát')
-        .setImage('https://scontent-vie1-1.xx.fbcdn.net/v/t1.6435-9/191508814_1478459932518461_2916110463906339128_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=730e14&_nc_ohc=-aVp7Rt-dTkAX-LHUuc&_nc_ht=scontent-vie1-1.xx&oh=ba21c8328770b50d6814183708a94ef6&oe=60E6564A')
+        .setDescription('IJN Yamashiro új ruhájába öltözik. A közeljövőben a dokkodban fog  várni, Parancsnok.')
+        .setImage('https://images-ext-1.discordapp.net/external/Kz1djNKWXEdjqxq19R-2rsiOYJUF6kGSKmewkPiUPzU/https/pbs.twimg.com/media/E36wUz0VIAQUhE2.jpg%3Alarge?width=1365&height=675')
         message.channel.send(update);
     if (message.deletable) message.delete();
     }    
