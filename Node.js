@@ -100,6 +100,10 @@ client.on('message', message =>{
         client.commands.get('sanfrancisco').execute(message, args, Discord);
     }   else if(command == 'build-montpelier'){
         client.commands.get('montpelier').execute(message, args, Discord);
+    }   else if(command == 'build-prinzeugen'){
+        client.commands.get('prinzeugen').execute(message, args, Discord);
+    }   else if(command == 'build-suruga'){
+        client.commands.get('suruga').execute(message, args, Discord);
     }   else if(command == 'build'){
         client.commands.get('build').execute(message, args, Discord);
     }   else if(command == 'parancsok'){
