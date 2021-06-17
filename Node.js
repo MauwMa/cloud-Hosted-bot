@@ -104,6 +104,8 @@ client.on('message', message =>{
         client.commands.get('prinzeugen').execute(message, args, Discord);
     }   else if(command == 'build-suruga'){
         client.commands.get('suruga').execute(message, args, Discord);
+    }   else if(command == 'build-mutsuki'){
+        client.commands.get('mutsuki').execute(message, args, Discord);
     }   else if(command == 'build'){
         client.commands.get('build').execute(message, args, Discord);
     }   else if(command == 'parancsok'){
