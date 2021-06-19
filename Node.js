@@ -30,6 +30,8 @@ client.on('message', message =>{
         client.commands.get('karban').execute(message, args, Discord);
     }   else if(command == 'karveg'){
         client.commands.get('karveg').execute(message, args, Discord);
+    }   else if(command == 'tema'){
+        client.commands.get('tema').execute(message, args, Discord);
     }   else if(command == 'update'){
         client.commands.get('update').execute(message, args, Discord);
     }   else if(command == 'update2'){
@@ -106,6 +108,8 @@ client.on('message', message =>{
         client.commands.get('suruga').execute(message, args, Discord);
     }   else if(command == 'build-mutsuki'){
         client.commands.get('mutsuki').execute(message, args, Discord);
+    }   else if(command == 'build-southdakota'){
+        client.commands.get('southdakota').execute(message, args, Discord);
     }   else if(command == 'build'){
         client.commands.get('build').execute(message, args, Discord);
     }   else if(command == 'parancsok'){
