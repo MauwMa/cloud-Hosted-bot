@@ -4,10 +4,10 @@ module.exports = {
     execute (message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('★Kasumi (Retrofit)★')
+        .setTitle('Meme Review')
         .setURL('')
-        .setDescription('Jelenleg, Kasumi a kikötőben van fejlesztés miatt. Hamarosan vízre lesz bocsájtva nyaaa~')
-        .setImage('https://images-ext-1.discordapp.net/external/MVLl1U2YYJt0GrhlKvfZL8g1s7v-1YBJzXJM7uHGILs/https/pbs.twimg.com/media/E4P3KiIX0AUEq-q.jpg%3Alarge?width=405&height=676')
+        .setDescription('Parancsnokok\n\n Azur Lane két személyzete reagált a Mémeitekre nyaaa~\n\nNézzétek meg itt: https://t.co/ve1t0yaGY6')
+        .setImage('https://images-ext-2.discordapp.net/external/VDhk617N-_QpYRxsH9OhVng4zoPXjlLb5nd-xXUT5_c/https/pbs.twimg.com/media/E4Fizw4UUAI4ToU.jpg%3Alarge?width=1202&height=676')
         message.channel.send(update);
     if (message.deletable) message.delete();
     }    
