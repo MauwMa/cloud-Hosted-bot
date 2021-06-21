@@ -4,10 +4,10 @@ module.exports = {
     execute (message, args, Discord){
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Értesítés!')
+        .setTitle('★Part-Time Bomber★')
         .setURL('')
-        .setDescription('Parancsnokok,\n\nA harmadik évforduló weboldala elérhető! Érdekes információk vannak fent a liveról és eventről! Több információ a Rajz versenyről és Cosplay versenyről hamarosan posztolva lesznek nyaaa~\n Látogass el ide: https://t.co/PX0P5obOdT')
-        .setImage('https://images-ext-2.discordapp.net/external/23j_vWpixjmOcq1Ye1IWaJvDqrsCrAuWThHDPuKjqtk/https/pbs.twimg.com/media/E3-456sVIAQYONB.png%3Alarge?width=667&height=676')
+        .setDescription('USS Downes új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-1.discordapp.net/external/Fd8zlDiw0JXKkQQc2yImOvFOc9Ke1XcPHVwc1MTBWzE/https/pbs.twimg.com/media/E4Zw4IJUUAEGF2B.jpg%3Alarge?width=1271&height=629')
         message.channel.send(update2);
     if (message.deletable) message.delete();
     }    

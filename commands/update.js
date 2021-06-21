@@ -4,10 +4,10 @@ module.exports = {
     execute (message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Meme Review')
+        .setTitle('❀Sengoku☆Shredder!❀')
         .setURL('')
-        .setDescription('Parancsnokok\n\n Azur Lane két személyzete reagált a Mémeitekre nyaaa~\n\nNézzétek meg itt: https://t.co/ve1t0yaGY6')
-        .setImage('https://images-ext-2.discordapp.net/external/VDhk617N-_QpYRxsH9OhVng4zoPXjlLb5nd-xXUT5_c/https/pbs.twimg.com/media/E4Fizw4UUAI4ToU.jpg%3Alarge?width=1202&height=676')
+        .setDescription('IJN Urakaze új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-2.discordapp.net/external/9JGSYst1UaA7B2QP22UpsmbRbMJWaU3i0coaSm0erzc/https/pbs.twimg.com/media/E4Usb53VgAI1aDK.jpg%3Alarge?width=1271&height=629')
         message.channel.send(update);
     if (message.deletable) message.delete();
     }    
