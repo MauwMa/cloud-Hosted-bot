@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'ham',
-    description: 'ham',
+    name: 'ham2',
+    description: 'ham2',
     execute (client, message, args){
 
         message.channel.send("<a:AkashiGemDance:721896652126027826>")
