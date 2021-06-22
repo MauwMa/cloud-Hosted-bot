@@ -3,7 +3,7 @@ module.exports = {
     description: 'ham2',
     execute (client, message, args){
 
-        message.channel.send('<a:AkashiGemDance:721896652126027826>')
+        message.channel.send("<a:AkashiGemDance:856999350097543178>")
 
     if (message.deletable) message.delete();
 
