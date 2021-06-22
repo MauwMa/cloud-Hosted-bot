@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'avrora',
-    description: 'avrora',
+    name: 'csatlakozas-avrora',
+    description: 'csatlakozas-avrora',
     execute (client, message, args){
 
         if(message.member.roles.cache.has('789941238421651476')){
