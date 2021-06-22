@@ -6,7 +6,7 @@ module.exports = {
         .setColor('#f2082d')
         .setTitle('AzurTalk')
         .setURL('')
-        .setDescription('Üdvözletem Parancsnokok nyaaaa~\nAz eheti AzurTalk kinek mikor lenne jó nyaaa~?\nS=>Szombat ||| V=>Vasárnap')
+        .setDescription('Üdvözletem Parancsnokok nyaaaa~\nAz eheti AzurTalk kinek mikor lenne jó nyaaa~?\n\n\nS=>Szombat ||| V=>Vasárnap')
         message.channel.send(azurtalk);
 
     }    
