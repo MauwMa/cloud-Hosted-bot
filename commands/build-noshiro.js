@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'noshiro',
-    description: 'noshiro',
+    name: 'build-noshiro',
+    description: 'build-noshiro',
     execute (client, message, args, Discord){
         const noshiro = new Discord.MessageEmbed()
         .setColor('#ff90ff')

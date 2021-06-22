@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'atago',
-    description: 'atago',
+    name: 'build-atago',
+    description: 'build-atago',
     execute (client, message, args, Discord){
         const atago = new Discord.MessageEmbed()
         .setColor('#ff90ff')

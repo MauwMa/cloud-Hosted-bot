@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'alabama',
-    description: 'alabama',
+    name: 'build-alabama',
+    description: 'build-alabama',
     execute (client, message, args, Discord){
         const alabama = new Discord.MessageEmbed()
         .setColor('#16108b')

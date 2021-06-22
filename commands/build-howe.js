@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'howe',
-    description: 'howe',
+    name: 'build-howe',
+    description: 'build-howe',
     execute (client, message, args, Discord){
         const howe = new Discord.MessageEmbed()
         .setColor('#c5c5ff')

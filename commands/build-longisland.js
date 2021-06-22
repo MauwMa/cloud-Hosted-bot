@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'longisland',
-    description: 'longisland',
+    name: 'build-longisland',
+    description: 'build-longisland',
     execute (client, message, args, Discord){
         const longisland = new Discord.MessageEmbed()
         .setColor('#16108b')

@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'prinzeugen',
-    description: 'prinzeugen',
+    name: 'build-prinzeugen',
+    description: 'build-prinzeugen',
     execute (client, message, args, Discord){
         const prinzeugen = new Discord.MessageEmbed()
         .setColor('#f2082d')

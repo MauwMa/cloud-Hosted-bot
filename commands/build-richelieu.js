@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'richelieu',
-    description: 'richelieu',
+    name: 'build-richelieu',
+    description: 'build-richelieu',
     execute (client, message, args, Discord){
         const richelieu = new Discord.MessageEmbed()
         .setColor('#f5f9ff')

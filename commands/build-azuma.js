@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'azuma',
-    description: 'azuma',
+    name: 'build-azuma',
+    description: 'build-azuma',
     execute (mclient, essage, args, Discord){
         const azuma = new Discord.MessageEmbed()
         .setColor('#ff90ff')

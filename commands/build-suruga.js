@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'suruga',
-    description: 'suruga',
+    name: 'build-suruga',
+    description: 'build-suruga',
     execute (client, message, args, Discord){
         const suruga = new Discord.MessageEmbed()
         .setColor('#ff90ff')

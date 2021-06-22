@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'z23',
-    description: 'z23',
+    name: 'build-z23',
+    description: 'build-z23',
     execute (client, message, args, Discord){
         const z23 = new Discord.MessageEmbed()
         .setColor('#f2082d')

@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'nagato',
-    description: 'nagato',
+    name: 'build-nagato',
+    description: 'build-nagato',
     execute (client, message, args, Discord){
         const valami = new Discord.MessageEmbed()
         .setColor('#ff90ff')

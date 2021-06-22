@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'tirpitz',
-    description: 'tirpitz',
+    name: 'build-tirpitz',
+    description: 'build-tirpitz',
     execute (client, message, args, Discord){
         const tirpitz = new Discord.MessageEmbed()
         .setColor('#f2082d')

@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'newjersey',
-    description: 'newjersey',
+    name: 'build-newjersey',
+    description: 'build-newjersey',
     execute (client, message, args, Discord){
         const newjersey = new Discord.MessageEmbed()
         .setColor('#16108b')
