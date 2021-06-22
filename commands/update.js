@@ -4,10 +4,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('❀Sengoku☆Shredder!❀')
+        .setTitle('★A Breath of Fresh Air★')
         .setURL('')
-        .setDescription('IJN Urakaze új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-2.discordapp.net/external/9JGSYst1UaA7B2QP22UpsmbRbMJWaU3i0coaSm0erzc/https/pbs.twimg.com/media/E4Usb53VgAI1aDK.jpg%3Alarge?width=1271&height=629')
+        .setDescription('USS Memphis új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-2.discordapp.net/external/dIcxZ4Z8cGlL0yFzTJto-B2i6Jlm6r9fiJdqif8A19w/https/pbs.twimg.com/media/E4fpacFWQAMUDwK.jpg%3Alarge?width=1839&height=910')
         message.channel.send(update);
     if (message.deletable) message.delete();
     }    
