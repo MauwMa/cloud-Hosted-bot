@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'aquila',
-    description: 'aquila',
+    name: 'build-aquila',
+    description: 'build-aquila',
     execute (client, message, args, Discord){
         const aquila = new Discord.MessageEmbed()
         .setColor('#065535')
