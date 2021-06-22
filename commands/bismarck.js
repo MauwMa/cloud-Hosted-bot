@@ -1,7 +1,7 @@
 module.exports = {
     name: 'bismarck',
     description: 'bismarck',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const bismarck = new Discord.MessageEmbed()
         .setColor('#f2082d')
         .setTitle('Bismarck Build')

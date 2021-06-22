@@ -1,7 +1,7 @@
 module.exports = {
     name: 'eloora6',
     description: 'eloora6',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const eloora6 = new Discord.MessageEmbed()
         .setColor('#ffff00')
         .setTitle('Értesítés!')

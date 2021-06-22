@@ -1,7 +1,7 @@
 module.exports = {
     name: 'noshiro',
     description: 'noshiro',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const noshiro = new Discord.MessageEmbed()
         .setColor('#ff90ff')
         .setTitle('Noshiro Build')

@@ -1,7 +1,7 @@
 module.exports = {
     name: 'felszer',
     description: 'felszer',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const newEmbed = new Discord.MessageEmbed()
         .setColor('#c30000')
         .setTitle('Felszerelés Útmutatók')

@@ -1,7 +1,7 @@
 module.exports = {
     name: 'update',
     description: 'update',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setTitle('❀Sengoku☆Shredder!❀')

@@ -1,7 +1,7 @@
 module.exports = {
     name: 'mutsuki',
     description: 'mutsuki',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const mutsuki = new Discord.MessageEmbed()
         .setColor('#ff90ff')
         .setTitle('Mutsuki Build')

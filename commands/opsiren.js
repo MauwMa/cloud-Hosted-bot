@@ -1,7 +1,7 @@
 module.exports = {
     name: 'opsiren',
     description: 'opsiren',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const newEmbed = new Discord.MessageEmbed()
         .setColor('#304281')
         .setTitle('Operation Siren Útmutatók')

@@ -1,7 +1,7 @@
 module.exports = {
     name: 'suruga',
     description: 'suruga',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const suruga = new Discord.MessageEmbed()
         .setColor('#ff90ff')
         .setTitle('Suruga Build')

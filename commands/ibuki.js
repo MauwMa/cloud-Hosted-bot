@@ -1,7 +1,7 @@
 module.exports = {
     name: 'ibuki',
     description: 'ibuki',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const ibuki = new Discord.MessageEmbed()
         .setColor('#ff90ff')
         .setTitle('Ibuki Build')

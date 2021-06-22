@@ -1,7 +1,7 @@
 module.exports = {
     name: 'suzutsuki',
     description: 'suzutsuki',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const suzutsuki = new Discord.MessageEmbed()
         .setColor('#ff90ff')
         .setTitle('Suzutsuki Build')

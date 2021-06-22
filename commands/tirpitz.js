@@ -1,7 +1,7 @@
 module.exports = {
     name: 'tirpitz',
     description: 'tirpitz',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const tirpitz = new Discord.MessageEmbed()
         .setColor('#f2082d')
         .setTitle('Tirpitz Build')

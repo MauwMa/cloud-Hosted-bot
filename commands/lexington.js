@@ -1,7 +1,7 @@
 module.exports = {
     name: 'lexington',
     description: 'lexington',
-    execute (message, args){
+    execute (client, essage, args){
 
         if(message.member.roles.cache.has('789941240912805898')){
             

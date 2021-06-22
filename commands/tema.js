@@ -1,7 +1,7 @@
 module.exports = {
     name: 'tema',
     description: 'tema',
-    execute (message, args){
+    execute (client, message, args){
 
         message.channel.send("Parancsnokok, nagyon eltérünk a szoba témájától nyaaa~");
 

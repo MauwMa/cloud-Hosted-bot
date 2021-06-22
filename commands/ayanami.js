@@ -1,7 +1,7 @@
 module.exports = {
     name: 'ayanami',
     description: 'ayanami',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const ayanami = new Discord.MessageEmbed()
         .setColor('#ff90ff')
         .setTitle('Ayanami Build')

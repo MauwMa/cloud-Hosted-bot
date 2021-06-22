@@ -1,7 +1,7 @@
 module.exports = {
     name: 'shinano',
     description: 'shinano',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const shinano = new Discord.MessageEmbed()
         .setColor('#ff90ff')
         .setTitle('Shinano Build')

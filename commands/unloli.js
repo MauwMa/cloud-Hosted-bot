@@ -1,7 +1,7 @@
 module.exports = {
     name: 'unloli',
     description: 'unloli',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const unosloli = new Discord.MessageEmbed()
         .setColor('#304281')
         .setTitle('Nagato már nem loli többé')

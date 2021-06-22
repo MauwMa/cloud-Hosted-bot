@@ -1,7 +1,7 @@
 module.exports = {
     name: 'shirakamifubuki',
     description: 'shirakamifubuki',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const shirakamifubuki = new Discord.MessageEmbed()
         .setColor('#ff90ff')
         .setTitle('Shirakami Fubuki Build')

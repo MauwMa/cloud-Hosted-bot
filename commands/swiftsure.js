@@ -1,7 +1,7 @@
 module.exports = {
     name: 'swiftsure',
     description: 'swiftsure',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const swiftsure = new Discord.MessageEmbed()
         .setColor('#c5c5ff')
         .setTitle('Swiftsure Build')

@@ -1,7 +1,7 @@
 module.exports = {
     name: 'build',
     description: 'build',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const build = new Discord.MessageEmbed()
         .setColor('#304281')
         .setTitle('Ezekre készült buildek')

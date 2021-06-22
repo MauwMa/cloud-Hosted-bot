@@ -1,7 +1,7 @@
 module.exports = {
     name: 'update2',
     description: 'update2',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setTitle('★Part-Time Bomber★')

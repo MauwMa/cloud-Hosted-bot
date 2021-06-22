@@ -1,7 +1,7 @@
 module.exports = {
     name: 'keres',
     description: 'keres',
-    execute (message, args){
+    execute (client, message, args){
 
         message.channel.send("Van valakinek valamilyen build kérése Cicához nyaaa~?");
 

@@ -1,7 +1,7 @@
 module.exports = {
     name: 'perseus',
     description: 'perseus',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const perseus = new Discord.MessageEmbed()
         .setColor('#c5c5ff')
         .setTitle('Perseus Build')

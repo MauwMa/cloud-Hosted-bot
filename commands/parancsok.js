@@ -1,7 +1,7 @@
 module.exports = {
     name: 'parancsok',
     description: 'parancsok',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const parancsoks = new Discord.MessageEmbed()
         .setColor('#bada55')
         .setTitle('Parancsok')

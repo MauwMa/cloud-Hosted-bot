@@ -1,7 +1,7 @@
 module.exports = {
     name: 'karban',
     description: 'karban',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const karban = new Discord.MessageEmbed()
         .setColor('#ffff00')
         .setTitle('Karbantartás!!')

@@ -1,7 +1,7 @@
 module.exports = {
     name: 'intrepid',
     description: 'intrepid',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const intre = new Discord.MessageEmbed()
         .setColor('#16108b')
         .setTitle('Intrepid Build')

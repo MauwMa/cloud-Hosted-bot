@@ -1,7 +1,7 @@
 module.exports = {
     name: 'aquila',
     description: 'aquila',
-    execute (message, args, Discord){
+    execute (client, message, args, Discord){
         const aquila = new Discord.MessageEmbed()
         .setColor('#065535')
         .setTitle('Aquila Build')

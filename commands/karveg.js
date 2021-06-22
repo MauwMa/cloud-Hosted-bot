@@ -1,7 +1,7 @@
 module.exports = {
     name: 'karveg',
     description: 'karveg',
-    execute (message, args){
+    execute (client, message, args){
 
         message.channel.send("Parancsnokok, véget ért a karbantartás.\nNe felejtsetek venni gemeket tőlem nyaaa~!\n @everyone");
 
