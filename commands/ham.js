@@ -3,9 +3,7 @@ module.exports = {
     description: 'ham',
     execute (client, message, args){
 
-        const emoji = bot.emojis.cache.get("856993966296399872")
-
-    message.channel.send(`${emoji}`)
+        message.channel.send("<:akashigem:856993966296399872>")
 
     if (message.deletable) message.delete();
 
