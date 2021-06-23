@@ -4,7 +4,7 @@ module.exports = {
     description: 'idu',
     execute (client, message, args){
 
-        var exportScheduler = schedule.scheduleJob('0 40 13 23 6 *', function() { 
+        var exportScheduler = schedule.scheduleJob('0 42 11 23 6 *', function() { 
             message.channel.send("idu"); 
         });
 
