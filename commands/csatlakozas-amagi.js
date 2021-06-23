@@ -4,8 +4,7 @@ module.exports = {
     execute (client, message, args){
 
         if(message.member.roles.cache.has('789941230171062293')){
-            
-
+            message.channel.send("Már van ilyen szereped nyaaa~")
         } else {
             message.channel.send('Sikeresen csatlakoztál az Amagi szerverhez nya~');
             message.member.roles.add('789941230171062293');
