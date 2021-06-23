@@ -12,9 +12,8 @@ module.exports = {
             .setDescription('1 órás előzetes értesítés a következő karbantartásról.\n Minden szerver előreláthatólag 8 órán keresztül le lesznek állítva. \nKérjük ne felejtsétek el megetetni a hajóitokat nyaa~!')
             .setImage('https://i.imgur.com/0BEHNji.png')
             message.channel.send(idu);
-         if (message.deletable) message.delete(); 
         });
 
-        //if (message.deletable) message.delete();
+        if (message.deletable) message.delete();
     }    
 }
