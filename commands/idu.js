@@ -4,7 +4,7 @@ module.exports = {
     description: 'idu',
     execute (client, message, args, Discord){
 
-        var exportScheduler = schedule.scheduleJob('0 50 11 23 6 *', function() { 
+        var exportScheduler = schedule.scheduleJob('0 52 11 23 6 *', function() { 
             const idu = new Discord.MessageEmbed()
             .setColor('#ffff00')
             .setTitle('Értesítés!')
