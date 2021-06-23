@@ -6,10 +6,10 @@ module.exports = {
         .setColor('#bada55')
         .setTitle('Parancsok')
         .setURL('')
-        .setDescription('')
+        .setDescription('Fontos, hogy ékezetnélkül írjátok be nyaaa~')
         .addFields(
             {name: 'Útmutatók:', value: '/build-hajónév\n/opsiren\n/felszer'},
-            {name: 'Szerepadás:', value: '/csatlakozás-amagi - Csatlakozol az Amagi szerver szerephez\n/csatlakozás-avrora - Csatlakozol az Avrora szerver szerephez\n/csatlakozás-lexington - Csatlakozol az Lexington szerver szerephez\n/csatlakozás-sandy - Csatlakozol az Sandy szerver szerephez\n/csatlakozás-washington - Csatlakozol az Washington szerver szerephez'}
+            {name: 'Szerepadás:', value: '/csatlakozas-amagi - Csatlakozol az Amagi szerver szerephez\n/csatlakozas-avrora - Csatlakozol az Avrora szerver szerephez\n/csatlakozas-lexington - Csatlakozol az Lexington szerver szerephez\n/csatlakozas-sandy - Csatlakozol az Sandy szerver szerephez\n/csatlakozas-washington - Csatlakozol az Washington szerver szerephez'}
         )
         message.channel.send(parancsoks);
 
