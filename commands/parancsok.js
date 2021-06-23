@@ -13,5 +13,6 @@ module.exports = {
         )
         message.channel.send(parancsoks);
 
+        if (message.deletable) message.delete();
     }    
 }
