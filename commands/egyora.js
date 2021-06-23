@@ -6,7 +6,7 @@ module.exports = {
 
 
 
-        var exportScheduler = schedule.scheduleJob('0 01 12 23 6 *', function() { 
+        var exportScheduler = schedule.scheduleJob('0 05 12 23 6 *', function() { 
             const egyora = new Discord.MessageEmbed()
             .setColor('#ffff00')
             .setTitle('Értesítés!')
@@ -16,6 +16,6 @@ module.exports = {
             message.channel.send(egyora); 
         });
 
-        //if (message.deletable) message.delete();
+        if (message.deletable) message.delete();
     }    
 }
