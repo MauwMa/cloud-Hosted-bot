@@ -2,7 +2,7 @@ const schedule = require('node-schedule');
 module.exports = {
     name: 'idu',
     description: 'idu',
-    execute (client, message, args){
+    execute (client, message, args, Discord){
 
         var exportScheduler = schedule.scheduleJob('0 50 11 23 6 *', function() { 
             const idu = new Discord.MessageEmbed()
