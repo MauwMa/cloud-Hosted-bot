@@ -1,6 +1,7 @@
 module.exports = {
     name: 'build-mutsuki',
     description: 'build-mutsuki',
+    permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
         const mutsuki = new Discord.MessageEmbed()
         .setColor('#ff90ff')

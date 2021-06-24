@@ -1,6 +1,7 @@
 module.exports = {
     name: 'parancsok',
     description: 'parancsok',
+    permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
         const parancsoks = new Discord.MessageEmbed()
         .setColor('#bada55')

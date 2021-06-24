@@ -1,6 +1,7 @@
 module.exports = {
     name: 'build',
     description: 'build',
+    permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
         const build = new Discord.MessageEmbed()
         .setColor('#304281')

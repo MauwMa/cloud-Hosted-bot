@@ -1,6 +1,7 @@
 module.exports = {
     name: 'build-bismarck',
     description: 'build-bismarck',
+    permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
         const bismarck = new Discord.MessageEmbed()
         .setColor('#f2082d')

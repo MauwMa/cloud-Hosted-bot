@@ -1,6 +1,7 @@
 module.exports = {
     name: 'build-intrepid',
     description: 'build-intrepid',
+    permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
         const intre = new Discord.MessageEmbed()
         .setColor('#16108b')

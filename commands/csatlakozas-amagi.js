@@ -1,6 +1,7 @@
 module.exports = {
     name: 'csatlakozas-amagi',
     description: 'csatlakozas-amagi',
+    permissions: ["SEND_MESSAGES"],
     execute (client, message, args){
 
         if(message.member.roles.cache.has('789941230171062293')){

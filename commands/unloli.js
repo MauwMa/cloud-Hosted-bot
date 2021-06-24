@@ -1,6 +1,7 @@
 module.exports = {
     name: 'unloli',
     description: 'unloli',
+    permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
         const unosloli = new Discord.MessageEmbed()
         .setColor('#304281')

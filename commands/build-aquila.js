@@ -1,6 +1,7 @@
 module.exports = {
     name: 'build-aquila',
     description: 'build-aquila',
+    permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
         const aquila = new Discord.MessageEmbed()
         .setColor('#065535')

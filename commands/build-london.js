@@ -1,6 +1,7 @@
 module.exports = {
     name: 'build-london',
     description: 'build-london',
+    permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
         const london = new Discord.MessageEmbed()
         .setColor('#c5c5ff')

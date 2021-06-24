@@ -1,6 +1,7 @@
 module.exports = {
     name: 'build-shangrila',
     description: 'build-shangrila',
+    permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
         const shangrila = new Discord.MessageEmbed()
         .setColor('#16108b')

@@ -1,5 +1,6 @@
 module.exports = {
     name: 'build-southdakota',
+    permissions: ["SEND_MESSAGES"],
     description: 'build-southdakota',
     execute (client, message, args, Discord){
         const southdakota = new Discord.MessageEmbed()

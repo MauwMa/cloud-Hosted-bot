@@ -1,6 +1,7 @@
 module.exports = {
     name: 'build-azuma',
     description: 'build-azuma',
+    permissions: ["SEND_MESSAGES"],
     execute (mclient, essage, args, Discord){
         const azuma = new Discord.MessageEmbed()
         .setColor('#ff90ff')

@@ -1,6 +1,7 @@
 module.exports = {
     name: 'build-ibuki',
     description: 'build-ibuki',
+    permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
         const ibuki = new Discord.MessageEmbed()
         .setColor('#ff90ff')

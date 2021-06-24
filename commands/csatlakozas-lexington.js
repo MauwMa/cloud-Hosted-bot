@@ -1,6 +1,7 @@
 module.exports = {
     name: 'csatlakozas-lexington',
     description: 'csatlakozas-lexington',
+    permissions: ["SEND_MESSAGES"],
     execute (client, message, args){
 
         if(message.member.roles.cache.has('789941240912805898')){

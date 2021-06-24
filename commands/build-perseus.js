@@ -1,6 +1,7 @@
 module.exports = {
     name: 'build-perseus',
     description: 'build-perseus',
+    permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
         const perseus = new Discord.MessageEmbed()
         .setColor('#c5c5ff')

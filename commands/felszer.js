@@ -1,6 +1,7 @@
 module.exports = {
     name: 'felszer',
     description: 'felszer',
+    permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
         const newEmbed = new Discord.MessageEmbed()
         .setColor('#c30000')

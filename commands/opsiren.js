@@ -1,6 +1,7 @@
 module.exports = {
     name: 'opsiren',
     description: 'opsiren',
+    permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
         const newEmbed = new Discord.MessageEmbed()
         .setColor('#304281')

@@ -1,6 +1,7 @@
 module.exports = {
     name: 'build-shinano',
     description: 'build-shinano',
+    permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
         const shinano = new Discord.MessageEmbed()
         .setColor('#ff90ff')

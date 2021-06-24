@@ -1,6 +1,7 @@
 module.exports = {
     name: 'build-jeanne',
     description: 'build-jeanne',
+    permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
         const jeanne = new Discord.MessageEmbed()
         .setColor('#16108b')

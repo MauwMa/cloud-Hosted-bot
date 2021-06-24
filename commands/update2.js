@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('★Part-Time Bomber★')
+        .setTitle('❀At School with Foo❀')
         .setURL('')
-        .setDescription('USS Downes új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/Fd8zlDiw0JXKkQQc2yImOvFOc9Ke1XcPHVwc1MTBWzE/https/pbs.twimg.com/media/E4Zw4IJUUAEGF2B.jpg%3Alarge?width=1271&height=629')
+        .setDescription('IJN Kasumi új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-2.discordapp.net/external/c77rbDpuvL849u4d6hTMbcHxeWNxgRr9bd0PwoerfYs/https/pbs.twimg.com/media/E4lNunaVcAgBhg1.jpg%3Alarge?width=1365&height=675')
         message.channel.send(update2);
     if (message.deletable) message.delete();
     }    

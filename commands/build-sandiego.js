@@ -1,6 +1,7 @@
 module.exports = {
     name: 'build-sandiego',
     description: 'build-sandiego',
+    permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
         const sandiego = new Discord.MessageEmbed()
         .setColor('#16108b')

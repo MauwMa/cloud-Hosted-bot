@@ -1,6 +1,7 @@
 module.exports = {
     name: 'build-roon',
     description: 'build-roon',
+    permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
         const roon = new Discord.MessageEmbed()
         .setColor('#f2082d')
