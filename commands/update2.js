@@ -1,6 +1,7 @@
 module.exports = {
     name: 'update2',
     description: 'update2',
+    permissions: ["KICK_MEMBERS"],
     execute (client, message, args, Discord){
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
