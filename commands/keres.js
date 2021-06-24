@@ -1,5 +1,6 @@
 module.exports = {
     name: 'keres',
+    permissions: ["KICK_MEMBERS"],
     description: 'keres',
     execute (client, message, args){
 

@@ -1,6 +1,7 @@
 const schedule = require('node-schedule');
 module.exports = {
     name: 'egyora',
+    permissions: ["KICK_MEMBERS"],
     description: 'egyora',
     execute (client, message, args, Discord){
 

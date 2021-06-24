@@ -1,6 +1,7 @@
 module.exports = {
     name: 'ham',
     description: 'ham',
+    permissions: ["KICK_MEMBERS"],
     execute (client, message, args){
 
         message.channel.send("<:akashigem:792393120171819010>")

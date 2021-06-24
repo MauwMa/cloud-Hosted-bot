@@ -1,5 +1,6 @@
 module.exports = {
     name: 'karban',
+    permissions: ["KICK_MEMBERS"],
     description: 'karban',
     execute (client, message, args, Discord){
         const karban = new Discord.MessageEmbed()

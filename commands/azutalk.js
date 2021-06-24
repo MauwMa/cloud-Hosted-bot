@@ -1,5 +1,6 @@
 module.exports = {
     name: 'azurtalk',
+    permissions: ["KICK_MEMBERS"],
     description: 'azurtalk',
     execute (client, message, args, Discord){
         const azurtalk = new Discord.MessageEmbed()
