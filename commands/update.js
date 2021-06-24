@@ -4,10 +4,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('❀Kazagumo❀')
+        .setTitle('❀Shirayuki❀')
         .setURL('')
-        .setDescription('IJN Kazagumo felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('https://images-ext-2.discordapp.net/external/VnPZpv5uKDwi_-JrzaPieTAwEa-4JjzHx0YORi-U5js/https/pbs.twimg.com/media/E4i5ZvsUUAYR7Ii.jpg%3Alarge?width=1291&height=676')
+        .setDescription('IJN Shirayuki felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
+        .setImage('https://images-ext-2.discordapp.net/external/Po8OR4Sgv-OBMf4otnryDwVPY1FaidIVgUtsyyaRVVQ/https/pbs.twimg.com/media/E4lM1cUVoAU8XlK.jpg%3Alarge?width=1194&height=625')
         message.channel.send(update);
     if (message.deletable) message.delete();
     }    
