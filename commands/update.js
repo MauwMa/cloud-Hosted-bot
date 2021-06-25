@@ -5,10 +5,9 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('★Shopping Carte Blanche★')
+        .setTitle('Swirling Cherry Blossoms')
         .setURL('')
-        .setDescription('USS Cassin új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-2.discordapp.net/external/mfhGXwbeFR0LoADRer--5Ngs9HAfWRvtbLlVDtgc5UY/https/pbs.twimg.com/media/E4nrldwVUAwwkrl.jpg%3Alarge?width=1839&height=910')
+        .setDescription('Parancsnokok, a Swirling Cherry Blossoms event visszatért! Sikerült már találkoznotok Noshiroval és Ryuuhouval?\nhttps://www.youtube.com/watch?v=dGadadIQo0g')
         message.channel.send(update);
     if (message.deletable) message.delete();
     }    
