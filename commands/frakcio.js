@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#f2082d')
         .setTitle('Melyik frakció fleetet látnátok szíveszen fleet összeállításban Cicától nyaaa~?')
         .setURL('')
-        .setDescription(':purple_circle:Sakura :blue_circle:Eagle :green_circle:Sardegna ')
+        .setDescription(':purple_circle:Sakura | :blue_circle:Eagle | :green_circle:Sardegna | :white_circle:Orosz/Kína\n:yellow_circle:Royal | :orange_circle:Vichy/Iris | :red_circle:Iron | :brown_circle:Egyéb')
         message.channel.send(frakcio);
 
 
