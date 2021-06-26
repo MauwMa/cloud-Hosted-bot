@@ -11,10 +11,9 @@ module.exports = {
         message.channel.send(frakcio)
         .then ((msg) => {setTimeout(function(){
             msg.react("🔵")
+            msg.react("🟠")
         }, 1000)})
-        .then ((msg) => {setTimeout(function(){
-            msg.react("🟣")
-        }, 1000)});
+        
 if (message.deletable) message.delete();
     }    
 
