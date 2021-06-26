@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('❀After-School Melody❀')
+        .setTitle('Event')
         .setURL('')
-        .setDescription('IJN Kazagumo új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/g_CSahZTv0kdHtxgE3GaxrMalEONt-uYdbv9jHrwAfo/https/pbs.twimg.com/media/E4onANSVcAYDN7W.jpg%3Alarge?width=1839&height=910')
+        .setDescription('Kazagumo, Shirayuki és a többiek, kik jelenleg építhető 7/8 magyar időszámítás szerint reggel 9:00-ig lesznek elérhetők!')
+        .setImage('https://images-ext-2.discordapp.net/external/AELr3QTzLhHxC4k6c43E_jiq7iGItTZVFjNdwG1ZUGU/https/pbs.twimg.com/media/E4t9tpaVgAUz5ex.jpg%3Alarge')
         message.channel.send(update2);
     if (message.deletable) message.delete();
     }    
