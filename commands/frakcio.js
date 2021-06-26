@@ -8,7 +8,7 @@ module.exports = {
         .setTitle('Melyik frakció fleetet látnátok szíveszen fleet összeállításban Cicától nyaaa~?')
         .setURL('')
         .setDescription(':purple_circle:=>Sakura | :blue_circle:=>Eagle | :green_circle:=>Sardegna | :white_circle:=>Orosz/Kína\n\n:yellow_circle:=>Royal | :orange_circle:=>Vichy/Iris | :red_circle:=>Iron | :brown_circle:=>Egyéb')
-        message.channel.send(frakcio).then(message.react(':purple_circle:'));
+        message.channel.send(frakcio).then(message.react('🔵'));
 
 if (message.deletable) message.delete();
     }    
