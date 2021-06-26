@@ -10,8 +10,6 @@ module.exports = {
         .setDescription(':purple_circle:=>Sakura | :blue_circle:=>Eagle | :green_circle:=>Sardegna | :white_circle:=>Orosz/Kína\n\n:yellow_circle:=>Royal | :orange_circle:=>Vichy/Iris | :red_circle:=>Iron | :brown_circle:=>Egyéb')
         message.channel.send(frakcio);
 
-        message.react(emojji)
-
 if (message.deletable) message.delete();
     }    
 
