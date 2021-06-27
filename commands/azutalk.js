@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#GREEN')
         .setTitle('AzurTalk')
         .setURL('')
-        .setDescription('1 órás előzetes értesítés az AzurTalktról.\nCsevegő nyitva a Voice chat 18:55-kor fog nyílni gyülekezésre és 19:00-kor kezdünk nyaaa~')
+        .setDescription('1 órás előzetes értesítés az AzurTalktról.\nCsevegő nyitva, a Voice chat 18:55-kor fog nyílni gyülekezésre és 19:00-kor kezdünk nyaaa~')
         message.channel.send(azurtalk);
 
 
