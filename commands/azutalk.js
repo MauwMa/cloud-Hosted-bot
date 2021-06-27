@@ -4,10 +4,10 @@ module.exports = {
     description: 'azurtalk',
     execute (client, message, args, Discord){
         const azurtalk = new Discord.MessageEmbed()
-        .setColor('#f2082d')
+        .setColor('#GREEN')
         .setTitle('AzurTalk')
         .setURL('')
-        .setDescription('Az időpont lezárult. 6/27 Vasárnap 19:00-kor lesz az AzurTalk nyaaa~')
+        .setDescription('1 órás előzetes értesítés az AzurTalktról.\nCsevegő nyitva a Voice chat 18:55-kor fog nyílni gyülekezésre és 19:00-kor kezdünk nyaaa~')
         message.channel.send(azurtalk);
 
 
