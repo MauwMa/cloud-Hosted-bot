@@ -7,8 +7,8 @@ module.exports = {
         .setColor('RANDOM')
         .setTitle('FREEGEMS')
         .setURL('')
-        .setDescription('Hogy megünnepeljük a harmadik évfordulús Rajz és Cosplay verseny iránti túlzott lelkesedést, HQ 200gemet és egyéb jutalmat küldött minden játékosnak!')
-        .setImage('https://images-ext-1.discordapp.net/external/0ayfzNi0hSAfwgUxWQprhGObqrLNoAT5JBle-8nJmm4/https/pbs.twimg.com/media/E4yfrI8VcAUkcJB.jpg%3Alarge')
+        .setDescription('Ezek az iskolai kinézetű öltözékek elérhetőek 7/8 magyar időszámítászerint 9:00-ig.\nKészen állsz, hogy Memphisel és többiekkel tanulj?')
+        .setImage('https://images-ext-2.discordapp.net/external/EvJUL-Qt2FSb15W2_XHnxtfwHLlPvO26IMpYk3CdgWk/https/pbs.twimg.com/media/E45WOvzVcAgY2s7.jpg%3Alarge')
         message.channel.send(update);
     if (message.deletable) message.delete();
     }    
