@@ -7,8 +7,8 @@ module.exports = {
         .setColor('RANDOM')
         .setTitle('Emlékeztető')
         .setURL('')
-        .setDescription('Ezek az iskolai kinézetű öltözékek elérhetőek 7/8 magyar időszámítászerint 9:00-ig.\nKészen állsz, hogy Memphisel és többiekkel tanulj?')
-        .setImage('https://images-ext-2.discordapp.net/external/EvJUL-Qt2FSb15W2_XHnxtfwHLlPvO26IMpYk3CdgWk/https/pbs.twimg.com/media/E45WOvzVcAgY2s7.jpg%3Alarge')
+        .setDescription('Swirling Cherry Blossoms event visszatérésével, az L2D skinek Noshirora és atöbbiekre is visszatértek. Egészen 7/8 reggel 9:00-ig.')
+        .setImage('https://images-ext-2.discordapp.net/external/eDa-GGpdDx8Ujd76LWmx_rd5G8GR8KnyTiq1ZWsp5pI/https/pbs.twimg.com/media/E5D8Wb9VcAUM9il.jpg%3Alarge')
         message.channel.send(update);
     if (message.deletable) message.delete();
     }    
