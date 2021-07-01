@@ -8,7 +8,7 @@ module.exports = {
         .setTitle('Mainz Build')
         .setURL('')
         .setDescription('Tank(front)/ DPS(Back)/ Helena Fight/ Budget')
-        .setImage('https://i.imgur.com/40N0fEz.png')
+        .setImage('https://i.imgur.com/ldFXtiU.png')
         message.channel.send(mainz);
 
     }    
