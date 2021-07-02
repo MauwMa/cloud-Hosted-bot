@@ -4,10 +4,10 @@ module.exports = {
     description: 'azurtalk',
     execute (client, message, args, Discord){
         const azurtalk = new Discord.MessageEmbed()
-        .setColor('#GREEN')
+        .setColor('GREEN')
         .setTitle('AzurTalk')
         .setURL('')
-        .setDescription('Tartsunk AzuTalkot most hétvégén?')
+        .setDescription('Tartsunk AzurTalkot most hétvégén?')
         message.channel.send(azurtalk)
         .then ((msg) => {setTimeout(function(){
             msg.react("👍")
