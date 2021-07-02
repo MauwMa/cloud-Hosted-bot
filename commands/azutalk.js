@@ -7,7 +7,7 @@ module.exports = {
         .setColor('GREEN')
         .setTitle('AzurTalk')
         .setURL('')
-        .setDescription('Szombaton vagy Vasárnap lenne jobb?')
+        .setDescription('Szombaton hány órakkor tartsuk meg?')
         message.channel.send(azurtalk)
         .then ((msg) => {setTimeout(function(){
             msg.react(":regional_indicator_s:")
