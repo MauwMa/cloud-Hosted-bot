@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Emlékeztető')
+        .setTitle('Tájékoztató')
         .setURL('')
-        .setDescription('Swirling Cherry Blossoms event visszatérésével, az L2D skinek Noshirora és a többiekre is visszatértek. Egészen 7/8 reggel 9:00-ig.')
-        .setImage('https://images-ext-2.discordapp.net/external/eDa-GGpdDx8Ujd76LWmx_rd5G8GR8KnyTiq1ZWsp5pI/https/pbs.twimg.com/media/E5D8Wb9VcAUM9il.jpg%3Alarge')
+        .setDescription('Júliusi bejelentkezős bútor: Nyári Buborék Medence')
+        .setImage('https://images-ext-2.discordapp.net/external/IwsYJHo4Y0fb19i7uVruXSCN3uCMBpDwHhfnKazZeGY/https/pbs.twimg.com/media/E5SObc-VcAUGTFH.jpg%3Alarge?width=1370&height=623')
         message.channel.send(update);
     if (message.deletable) message.delete();
     }    
