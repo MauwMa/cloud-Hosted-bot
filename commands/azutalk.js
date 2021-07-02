@@ -7,11 +7,11 @@ module.exports = {
         .setColor('GREEN')
         .setTitle('AzurTalk')
         .setURL('')
-        .setDescription('Tartsunk AzurTalkot most hétvégén?')
+        .setDescription('Szombaton vagy Vasárnap lenne jobb?')
         message.channel.send(azurtalk)
         .then ((msg) => {setTimeout(function(){
-            msg.react("👍")
-            msg.react("👎")
+            msg.react(":regional_indicator_s:")
+            msg.react(":regional_indicator_v:")
         }, 1000)})
         
 if (message.deletable) message.delete();
