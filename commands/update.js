@@ -7,8 +7,8 @@ module.exports = {
         .setColor('RANDOM')
         .setTitle('⛨Marco Polo⛨')
         .setURL('')
-        .setDescription('Remélem tudod mit csinálsz, amiért felébresztettél engem. Hehehe... Vitézség és kúltúra parancsnokának nézel ki. Csodálatos! Én Marco Polo vagyok. Most hát, gyere! Az első ügyrendületünk Sardegna Empire dícsőségének elterjesztése az egész világon!\n\nRN Marco Polo felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('https://scontent-vie1-1.xx.fbcdn.net/v/t1.6435-9/204493521_1495816017449519_7146274071691006615_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=730e14&_nc_ohc=WdiZ47toL2oAX9eaCHK&_nc_ht=scontent-vie1-1.xx&oh=6a1ad81e32fa0c6256c988eb91a0af57&oe=60E54E83')
+        .setDescription('Pa... rancsnok? Nem... Tanár? Tancsi-tanár? Anchorage vagyok. Woohoo! Tanár! A kedvencem! Tanááááár! \n\nUSS Anchorage felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
+        .setImage('https://scontent-vie1-1.xx.fbcdn.net/v/t1.6435-9/212142023_1496438234053964_34196587938986942_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=730e14&_nc_ohc=Op1tu0BGYpMAX8Ll6Hz&_nc_ht=scontent-vie1-1.xx&oh=e4b73119e416c79ca6c9e7209752d188&oe=60E4A375')
         message.channel.send(update);
     if (message.deletable) message.delete();
     }    
