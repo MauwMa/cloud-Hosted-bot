@@ -7,7 +7,7 @@ module.exports = {
         .setColor('GREEN')
         .setTitle('AzurTalk')
         .setURL('')
-        .setDescription('Ma 20:00-kor lesz az AzurTalk nyaaa~')
+        .setDescription('Ma 19:30-kor lesz az AzurTalk. Mivel nagyon nem történt nagyon semmi a héten, így max 1 órás lesz nyaaa~')
         message.channel.send(azurtalk)
         .then ((msg) => {setTimeout(function(){
             msg.react("")
