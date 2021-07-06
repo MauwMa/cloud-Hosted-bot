@@ -4,7 +4,7 @@ module.exports = {
     description: 'keres',
     execute (client, message, args){
 
-        message.channel.send("Van valakinek valamilyen build kérése Cicához nyaaa~?");
+        client.channels.cache.find(channel => channel.id === "789936506193182740").send("Van valakinek valamilyen build kérése Cicához nyaaa~?");
 
     if (message.deletable) message.delete();
 
