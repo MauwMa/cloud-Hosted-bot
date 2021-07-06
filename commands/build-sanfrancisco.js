@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#16108b')
         .setTitle('San Francisco Build')
         .setURL('')
-        .setDescription('Balanced/ FP(back)/ Tank(front)/ Budget')
+        .setDescription('Balanced | FP(back) | Tank(front) | Budget')
         .setImage('https://i.imgur.com/nGzw59t.png')
         message.channel.send(sanfrancisco);
 

@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#ff90ff')
         .setTitle('Atago Build')
         .setURL('')
-        .setDescription('Ideal?/ Auto/ Manual/ Budget')
+        .setDescription('Ideal? | Auto | Manual | Budget')
         .setImage('https://i.imgur.com/YMF2PQk.png')
         message.channel.send(atago);
 

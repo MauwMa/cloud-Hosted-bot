@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#ff90ff')
         .setTitle('Ryuuhou Build')
         .setURL('')
-        .setDescription('Dmg/ Support(Slow)/ Heal/ budget')
+        .setDescription('Dmg | Support(Slow) | Heal | budget')
         .setImage('https://i.imgur.com/Q4ux5qf.png')
         message.channel.send(ryuuhou);
 

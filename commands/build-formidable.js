@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#c5c5ff')
         .setTitle('Formidable Build')
         .setURL('')
-        .setDescription('Boss+timing/ Boss/ Mob/ Budget')
+        .setDescription('Boss+timing | Boss | Mob | Budget')
         .setImage('https://i.imgur.com/Gc61HYP.png')
         message.channel.send(formidable);
 

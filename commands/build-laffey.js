@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#16108b')
         .setTitle('Laffey Build')
         .setURL('')
-        .setDescription('Auto(survival)/ Manual/ Auto(torp)/ Budget')
+        .setDescription('Auto(survival) | Manual | Auto(torp) | Budget')
         .setImage('https://i.imgur.com/cxohosG.png')
         message.channel.send(laffey);
 

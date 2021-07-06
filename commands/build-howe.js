@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#c5c5ff')
         .setTitle('Höwe Build')
         .setURL('')
-        .setDescription('HE/ AP/ AP(long battles)/ Budget')
+        .setDescription('HE | AP | AP(long battles) | Budget')
         .setImage('https://i.imgur.com/Z95z2nl.png')
         message.channel.send(howe);
 

@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#c5c5ff')
         .setTitle('Perseus Build')
         .setURL('')
-        .setDescription('Burst"/ Fast reload/ AA/ Budget')
+        .setDescription('Burst" | Fast reload | AA | Budget')
         .setImage('https://i.imgur.com/t3rvQuK.png')
         message.channel.send(perseus);
 

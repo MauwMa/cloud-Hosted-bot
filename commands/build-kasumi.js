@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#ff90ff')
         .setTitle('Kasumi Build')
         .setURL('')
-        .setDescription('Balanced/ Manual/ Auto/ Budget"')
+        .setDescription('Balanced | Manual | Auto | Budget"')
         .setImage('https://i.imgur.com/MRrmoOT.png')
         message.channel.send(kasumi);
 

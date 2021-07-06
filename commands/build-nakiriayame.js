@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#ff90ff')
         .setTitle('Nakiri Ayame Build')
         .setURL('')
-        .setDescription('DPS/ Balanced/ Tank/ Budget')
+        .setDescription('DPS | Balanced | Tank | Budget')
         .setImage('https://i.imgur.com/tqOWfQr.png')
         message.channel.send(nakiriayame);
 

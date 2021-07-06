@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#16108b')
         .setTitle('montpelier Build')
         .setURL('')
-        .setDescription('Tank(mob)/ Tank(Boss)/ Full AA/ Budget')
+        .setDescription('Tank(mob) | Tank(Boss) | Full AA | Budget')
         .setImage('https://i.imgur.com/PFnC7un.png')
         message.channel.send(montpelier);
 

@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#ff90ff')
         .setTitle('Ibuki Build')
         .setURL('')
-        .setDescription('Survival/ Damage/ Yolo/ "budget"')
+        .setDescription('Survival | Damage | Yolo | "budget"')
         .setImage('https://i.imgur.com/6cYRkfX.png')
         message.channel.send(ibuki);
 

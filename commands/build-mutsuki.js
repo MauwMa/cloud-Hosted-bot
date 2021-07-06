@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#ff90ff')
         .setTitle('Mutsuki Build')
         .setURL('')
-        .setDescription('But why?/ Manual/ Auto/ Budget')
+        .setDescription('But why? | Manual | Auto | Budget')
         .setImage('https://i.imgur.com/KfzKB0X.png')
         message.channel.send(mutsuki);
 

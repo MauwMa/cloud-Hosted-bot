@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#f5f9ff')
         .setTitle('Richelieu Build')
         .setURL('')
-        .setDescription('Slot /HE /Survival /Budget')
+        .setDescription('Slot | HE | Survival | Budget')
         .setImage('https://i.imgur.com/LYy5afX.png')
         message.channel.send(richelieu);
 

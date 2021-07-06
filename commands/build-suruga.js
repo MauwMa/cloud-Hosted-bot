@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#ff90ff')
         .setTitle('Suruga Build')
         .setURL('')
-        .setDescription('AP/ HE/ Speed/ Budget')
+        .setDescription('AP | HE | Speed | Budget')
         .setImage('https://i.imgur.com/WPxHXKJ.png')
         message.channel.send(suruga);
 

@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#f2082d')
         .setTitle('Odin Build')
         .setURL('')
-        .setDescription('CH13/ HE/ AP/ Budget')
+        .setDescription('CH13 | HE | AP | Budget')
         .setImage('https://i.imgur.com/PdymKIn.png')
         message.channel.send(Odin);
 

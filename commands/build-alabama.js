@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#16108b')
         .setTitle('Alabama Build')
         .setURL('')
-        .setDescription('Best in Slot?/ AP/ HE+timing/ budget')
+        .setDescription('Best in Slot? | AP | HE+timing | budget')
         .setImage('https://i.imgur.com/rZ6qN6j.png')
         message.channel.send(alabama);
 

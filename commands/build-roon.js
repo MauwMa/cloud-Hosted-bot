@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#f2082d')
         .setTitle('Roon Build')
         .setURL('')
-        .setDescription('Reload/ Tank/ FP/ Budget')
+        .setDescription('Reload | Tank | FP | Budget')
         .setImage('https://i.imgur.com/Tshg9y1.png')
         message.channel.send(roon);
 

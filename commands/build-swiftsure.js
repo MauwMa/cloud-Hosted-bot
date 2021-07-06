@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#c5c5ff')
         .setTitle('Swiftsure Build')
         .setURL('')
-        .setDescription('trigger/ AA/ Survival/ Budget')
+        .setDescription('trigger | AA | Survival | Budget')
         .setImage('https://i.imgur.com/6TBcYmK.png')
         message.channel.send(swiftsure);
 

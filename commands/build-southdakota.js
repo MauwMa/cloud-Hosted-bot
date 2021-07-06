@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#16108b')
         .setTitle('South Dakota Build')
         .setURL('')
-        .setDescription('Support BB/ AP/ HE/ budget')
+        .setDescription('Support BB | AP | HE | budget')
         .setImage('https://i.imgur.com/0fmBz4X.png')
         message.channel.send(southdakota);
 

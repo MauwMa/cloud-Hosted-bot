@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#16108b')
         .setTitle('Ranger Build')
         .setURL('')
-        .setDescription('Slow/ Boss/ Mob/ Budget')
+        .setDescription('Slow | Boss | Mob | Budget')
         .setImage('https://i.imgur.com/85u643r.png')
         message.channel.send(ranger);
 

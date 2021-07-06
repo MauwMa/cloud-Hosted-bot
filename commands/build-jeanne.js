@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#16108b')
         .setTitle('Jeanne dArc Build')
         .setURL('')
-        .setDescription('Offtank 1/ Helena Fight/ Offtank 2/ Budget')
+        .setDescription('Offtank 1 | Helena Fight | Offtank 2 | Budget')
         .setImage('https://i.imgur.com/9VXUYx3.png')
         message.channel.send(jeanne);
 

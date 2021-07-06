@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#f2082d')
         .setTitle('Tirpitz Build')
         .setURL('')
-        .setDescription('AP/ HE/ Tank/ Budget')
+        .setDescription('AP | HE | Tank | Budget')
         .setImage('https://i.imgur.com/GkRDIm0.png')
         message.channel.send(tirpitz);
 

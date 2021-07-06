@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#c5c5ff')
         .setTitle('London Build')
         .setURL('')
-        .setDescription('HE/ AP/ Helena fight/ Budget')
+        .setDescription('HE | AP | Helena fight | Budget')
         .setImage('https://i.imgur.com/xrfb7jr.png')
         message.channel.send(london);
 

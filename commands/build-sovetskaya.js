@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#16108b')
         .setTitle('sovetskaya Build')
         .setURL('')
-        .setDescription('CH13/ AP/ HE/ budget')
+        .setDescription('CH13 | AP | HE | budget')
         .setImage('https://i.imgur.com/JgNg5Dt.png')
         message.channel.send(sovetskaya);
 

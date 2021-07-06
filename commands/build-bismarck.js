@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#f2082d')
         .setTitle('Bismarck Build')
         .setURL('')
-        .setDescription('AP/ FAST/ HE/ Budget')
+        .setDescription('AP | FAST | HE | Budget')
         .setImage('https://i.imgur.com/vCEoEay.png')
         message.channel.send(bismarck);
 

@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#ff90ff')
         .setTitle('Ayanami Build')
         .setURL('')
-        .setDescription('Auto/ Manual/ Suicide/ Budget')
+        .setDescription('Auto | Manual | Suicide | Budget')
         .setImage('https://i.imgur.com/xuyabkN.png')
         message.channel.send(ayanami);
 

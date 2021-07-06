@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#f2082d')
         .setTitle('Z23 Build')
         .setURL('')
-        .setDescription('Balanced/ FP Meme/ Tank/ Budget')
+        .setDescription('Balanced | FP Meme | Tank | Budget')
         .setImage('https://i.imgur.com/Vo48OAj.png')
         message.channel.send(z23);
 
