@@ -12,7 +12,7 @@ module.exports = {
             .setColor('#ffff00')
             .setTitle('Értesítés!')
             .setURL('')
-            .setDescription('1 órás előzetes értesítés a következő karbantartásról.\n Minden szerver előreláthatólag 6 órán keresztül le lesznek állítva. \nKérjük ne felejtsétek el megetetni a hajóitokat nyaa~!')
+            .setDescription('1 órás előzetes értesítés a következő karbantartásról.\n Minden szerver előreláthatólag 8 órán keresztül le lesznek állítva. \nKérjük ne felejtsétek el megetetni a hajóitokat nyaa~!')
             .setImage('https://i.imgur.com/0BEHNji.png')
             client.channels.cache.find(channel => channel.id === "789936292413571102").send(egyora); 
         });
