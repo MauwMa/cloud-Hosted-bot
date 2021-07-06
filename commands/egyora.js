@@ -14,7 +14,7 @@ module.exports = {
             .setURL('')
             .setDescription('1 órás előzetes értesítés a következő karbantartásról.\n Minden szerver előreláthatólag 6 órán keresztül le lesznek állítva. \nKérjük ne felejtsétek el megetetni a hajóitokat nyaa~!')
             .setImage('https://i.imgur.com/0BEHNji.png')
-            message.channel.send(egyora); 
+            client.channels.cache.find(channel => channel.id === "789936292413571102").send(egyora); 
         });
 
         if (message.deletable) message.delete();

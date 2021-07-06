@@ -8,7 +8,7 @@ module.exports = {
         .setTitle('AzurTalk')
         .setURL('')
         .setDescription('Az eheti AzurTalk Hétköznap vagy Hétvégén legyen nyaaa~\n\nUni -> hétköznap\nMinea -> hétvége')
-        message.channel.send(azurtalk)
+        client.channels.cache.find(channel => channel.id === "856904370595561473").send(azurtalk)
         .then ((msg) => {setTimeout(function(){
             msg.react("<:uniiszik:790194634163748904>")
             msg.react("<:minikorty:852821789046472705>")
