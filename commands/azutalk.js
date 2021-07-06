@@ -10,8 +10,8 @@ module.exports = {
         .setDescription('Az eheti AzurTalk hétvégén lesz. Kinek mikor jó Szombat vagy Vasárnap?')
         client.channels.cache.find(channel => channel.id === "856904370595561473").send(azurtalk)
         .then ((msg) => {setTimeout(function(){
-            msg.react("<:uniiszik:790194634163748904>")
-            msg.react("<:minikorty:852821789046472705>")
+            msg.react(":regional_indicator_s:")
+            msg.react(":regional_indicator_v:")
         }, 1000)})
         
 if (message.deletable) message.delete();
