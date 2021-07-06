@@ -17,6 +17,9 @@ module.exports = {
             client.channels.cache.find(channel => channel.id === "789936292413571102").send(egyora); 
         });
 
-        //if (message.deletable) message.delete();
+        if (egyora){
+            return message.channel.send(`El fogom küldeni az egy órás értesítést, amikor eljött az ideje nyaaa~`);
+          }
+    if (message.deletable) message.delete();
     }    
 }
