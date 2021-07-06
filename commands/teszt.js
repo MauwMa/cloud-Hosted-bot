@@ -3,7 +3,7 @@ module.exports = {
     description: 'teszt',
     permissions: ["KICK_MEMBERS"],
     execute (client, message, args, Discord){
-        client.channels.cache.find(channel => channel.id === "853629612986990612");
+        client.channels.cache.find(channel => channel.id === "853629612986990612")
         const teszt = new Discord.MessageEmbed() 
         .setColor('RANDOM')
         .setTitle('Emlékeztető')
