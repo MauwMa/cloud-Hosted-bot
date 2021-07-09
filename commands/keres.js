@@ -7,7 +7,7 @@ module.exports = {
         keres.send("Van valakinek valamilyen build kérése Cicához nyaaa~?");
         if (message.deletable) message.delete();
         if (keres){
-            return message.channel.send(`Elküldtem az kérést nyaaa~`);
+            return message.channel.send(`Megkérdeztem a többi parancsnokoktól nyaaa~`);
           }
 
 
