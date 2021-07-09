@@ -7,7 +7,7 @@ module.exports = {
         karveg.send("Parancsnokok, véget ért a karbantartás.\nNe felejtsetek venni gemeket tőlem nyaaa~!\n @everyone");
         if (message.deletable) message.delete();
         if (karveg){
-            return message.channel.send(`Elküldtem az kérést nyaaa~`);
+            return message.channel.send(`Informáltam a többieket a karbantartás végéről nyaaa~`);
           }
 
     }    
