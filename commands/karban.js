@@ -12,7 +12,7 @@ module.exports = {
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(karban);
         if (message.deletable) message.delete();
         if (karban){
-            return message.channel.send(`Elküldtem az karbantartás értesítést nyaaa~`);
+            return message.channel.send(`Elküldtem a karbantartás értesítést nyaaa~`);
           }
     }    
 }
