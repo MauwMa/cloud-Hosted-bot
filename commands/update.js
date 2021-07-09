@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('✠Ägir✠')
+        .setTitle('Értesítés')
         .setURL('')
-        .setDescription('Üdvözöllek. Ägir a nagy cirkáló vagyok. Az akaratod a parancsom. Hehehe... Akkor hát, derítsük ki mit tudsz elérni, a tehetségarzenálommal.\n\n KMS Ägir felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('https://scontent-vie1-1.xx.fbcdn.net/v/t1.6435-9/s960x960/211358116_1498658303831957_4502901987929414526_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=730e14&_nc_ohc=Sk8ve_bEYA4AX-59rvL&_nc_ht=scontent-vie1-1.xx&tp=7&oh=43c9d9635903e14d3173072175af1b1e&oe=60E8EFBF')
+        .setDescription('Parancsnok, Twitter elérte a 240 ezer követőt! Perseus megérkezett és ünneplésképp HQ 10 <:kocka:790201634100740117> és 15000 <:pnz:790201580812894218> küld!')
+        .setImage('https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/212693767_1500741930290261_7261754425460431905_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=730e14&_nc_ohc=GDCqNfSfdGUAX-LoJ0d&_nc_ht=scontent-vie1-1.xx&oh=604551b0db9806f471b48dc58c5a9ad5&oe=60EC2C1C')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (message.deletable) message.delete();
         if (update){
