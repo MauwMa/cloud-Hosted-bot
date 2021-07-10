@@ -7,12 +7,12 @@ module.exports = {
         .setColor('GREEN')
         .setTitle('AzurTalk')
         .setURL('')
-        .setDescription('Az eheti AzurTalk szombaton lesz. Kinek hány órakor jó délután?')
+        .setDescription('Az eheti AzurTalk szombaton magyar időszámítás szerint 18:00-kor nyaaa~')
         client.channels.cache.find(channel => channel.id === "856904370595561473").send(azurtalk)
-        .then ((msg) => {setTimeout(function(){
-            msg.react("<:one:>")
+       // .then ((msg) => {setTimeout(function(){
+         //   msg.react("<:one:>")
         //    msg.react(":regional_indicator_v:")
-        }, 1000)})
+        //}, 1000)})
         
 if (message.deletable) message.delete();
 if (azurtalk){
