@@ -52,7 +52,7 @@ module.exports = (Discord, client, message) => {
           }
         }
         if (invalidPerms.length){
-          return console.channel.send(`Nem vettél elég gemet, hogy használd ezt nyaaa~ <:akashigem:792393120171819010>`);
+          return channel.send(`Nem vettél elég gemet, hogy használd ezt nyaaa~ <:akashigem:792393120171819010>`);
         }
       }
 
