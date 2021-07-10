@@ -2,7 +2,7 @@ module.exports = {
     name: 'akashiham',
     description: 'akashiham',
     permissions: ["KICK_MEMBERS"],
-    execute (client, message, args, Discord){
+    execute (client, message, args){
 
         message.channel.send("<:akashigem:792393120171819010>")
 

@@ -1,8 +1,8 @@
 module.exports = {
-    name: 'akashiham2',
-    description: 'akashiham2',
+    name: 'ham2',
+    description: 'ham2',
     permissions: ["KICK_MEMBERS"],
-    execute (client, message, args, Discord){
+    execute (client, message, args){
 
         message.channel.send("<a:AkashiGemDance:856999350097543178>")
 
