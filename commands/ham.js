@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'ham',
-    description: 'ham',
+    name: 'akashiham',
+    description: 'akashiham',
     permissions: ["KICK_MEMBERS"],
     execute (client, message, args, Discord){
 
