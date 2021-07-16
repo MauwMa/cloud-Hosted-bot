@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#bada55')
         .setTitle('Parancsok')
         .setURL('')
-        .setDescription('/ehes | /frakcio | /ham | /ham2 | /karveg | /keres | /tema | /update')
+        .setDescription('/ehes | /frakcio | /ham | /ham2 | /karveg | /keres | /tema | /update | /mute1 | /mute2 | /mute3 | /egyora | /karban')
         message.channel.send(nparancsoks);
 
         if (message.deletable) message.delete();
