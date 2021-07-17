@@ -20,7 +20,6 @@ module.exports = {
             msg.react("🟤")
         }, 1000)})
         
-if (message.deletable) message.delete();
     }    
 
 }

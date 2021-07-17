@@ -18,6 +18,5 @@ module.exports = {
             client.channels.cache.find(channel => channel.id === "791956226521956394").send(egyora); 
             //client.channels.cache.find(channel => channel.id === "789936292413571102").send(egyora); 
         });
-        if (message.deletable) message.delete();
     }    
 }

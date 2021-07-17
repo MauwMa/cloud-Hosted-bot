@@ -5,7 +5,6 @@ module.exports = {
     execute (client, message, args){
         const karveg = client.channels.cache.find(channel => channel.id === "789936292413571102");
         karveg.send("Parancsnokok, véget ért a karbantartás.\nNe felejtsetek venni gemeket tőlem nyaaa~!\n @everyone");
-        if (message.deletable) message.delete();
         if (karveg){
             return message.channel.send(`Informáltam a többieket a karbantartás végéről nyaaa~`);
           }
