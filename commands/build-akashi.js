@@ -7,8 +7,8 @@ module.exports = {
         .setColor('#ff90ff')
         .setTitle('Akashi Build')
         .setURL('')
-        .setDescription('Best in slot? | Auto | Manual | Budget')
-        .setImage('https://i.imgur.com/xSvnfPR.png')
+        .setDescription('AA | Anti Ambush | Hybrid | Badget(normal?)')
+        .setImage('https://i.imgur.com/c57HBD6.png')
         message.channel.send(akashi);
 
     }    
