@@ -8,7 +8,7 @@ module.exports = {
         .setTitle('')
         .setURL('https://youtu.be/MBe9uuFpCDE')
         .setDescription('★Azur Lane x THE IDOLM@STER Kollaborálás Animációja PV★\n\nÚj kollaborálás fő event, Azur Himnusz, Július 22.-én fog kezdődni, amely az IDOLM@ASTER karaktereit fogja bemutatni!')
-        .setImage('')
+        .setImage('https://youtu.be/MBe9uuFpCDE')
 
         message.channel.send(update3);
           }
