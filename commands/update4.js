@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'ehes',
-    description: 'ehes',
+    name: 'update4',
+    description: 'update4',
     permissions: ["KICK_MEMBERS"],
     execute (client, message, args){
 
