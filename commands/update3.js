@@ -3,7 +3,7 @@ module.exports = {
     description: 'update3',
     permissions: ["KICK_MEMBERS"],
     execute (client, message, args, Discord){
-        const update2 = new Discord.MessageEmbed()
+        const update3 = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setTitle('')
         .setURL('https://youtu.be/MBe9uuFpCDE')
