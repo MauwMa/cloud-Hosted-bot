@@ -6,9 +6,9 @@ module.exports = {
         const update3 = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setTitle('')
-        .setURL('https://youtu.be/MBe9uuFpCDE')
-        .setDescription('★Azur Lane x THE IDOLM@STER Kollaborálás Animációja PV★\n\nÚj kollaborálás fő event, Azur Himnusz, Július 22.-én fog kezdődni, amely az IDOLM@ASTER karaktereit fogja bemutatni!')
-        .setImage('https://youtu.be/MBe9uuFpCDE')
+        .setURL('')
+        .setDescription('★Azur Lane x THE IDOLM@STER Kollaborálás Animációja PV★\n\nÚj kollaborálás fő event, Azur Himnusz, Július 22.-én fog kezdődni, amely az IDOLM@ASTER karaktereit fogja bemutatni!\n\nHd verzió: https://youtu.be/MBe9uuFpCDE')
+        .setImage('')
 
         message.channel.send(update3);
           }
