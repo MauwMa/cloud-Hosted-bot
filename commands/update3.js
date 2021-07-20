@@ -7,7 +7,8 @@ module.exports = {
         .setColor('RANDOM')
         .setTitle('')
         .setURL('')
-        .setDescription('★Azur Lane x THE IDOLM@STER Kollaborálás Animációja PV★\n\nÚj kollaborálás fő event, Azur Himnusz, Július 22.-én fog kezdődni, amely az IDOLM@ASTER karaktereit fogja bemutatni!\n\nHd verzió: https://youtu.be/MBe9uuFpCDE')
+        //.setDescription('★Azur Lane x THE IDOLM@STER Kollaborálás Animációja PV★\n\nÚj kollaborálás fő event, Azur Himnusz, Július 22.-én fog kezdődni, amely az IDOLM@ASTER karaktereit fogja bemutatni!\n\nHd verzió: https://youtu.be/MBe9uuFpCDE')
+        .setDescription('https://www.youtube.com/watch?v=MBe9uuFpCDE')
         .setImage('')
 
         message.channel.send(update3);
