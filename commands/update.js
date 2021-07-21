@@ -5,7 +5,7 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('❀Nyári Virágok és Summer Flowers and Perzselő Ütések❀')
+        .setTitle('❀Nyári Virágok és Perzselő Ütések❀')
         .setURL('')
         .setDescription('Ami Futami új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
         .setImage('https://images-ext-1.discordapp.net/external/IKi7VxVCmOvvAPiZFFLKUkjz-5by4PijWT_069JLDec/https/pbs.twimg.com/media/E6vXaFZVUAMTXvM.jpg%3Alarge?width=1090&height=567')
