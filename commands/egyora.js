@@ -12,11 +12,9 @@ module.exports = {
             .setColor('#ffff00')
             .setTitle('Értesítés!')
             .setURL('')
-            .setDescription('Kezdődik a live (tesztelem az időzített üzenetet)')
-            //.setDescription('30 perces előzetes értesítés a következő karbantartásról.\n Minden szerver előreláthatólag 4 órán keresztül le lesznek állítva. \nKérjük ne felejtsétek el megetetni a hajóitokat nyaa~!')
+            .setDescription('1 órás előzetes értesítés a következő karbantartásról.\n Minden szerver előreláthatólag 8 órán keresztül le lesznek állítva. \nKérjük ne felejtsétek el megetetni a hajóitokat nyaa~!')
             .setImage('https://i.imgur.com/0BEHNji.png')
-            client.channels.cache.find(channel => channel.id === "791956226521956394").send(egyora); 
-            //client.channels.cache.find(channel => channel.id === "789936292413571102").send(egyora); 
+            client.channels.cache.find(channel => channel.id === "789936292413571102").send(egyora); 
         });
     }    
 }
