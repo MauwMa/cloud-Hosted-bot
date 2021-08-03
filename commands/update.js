@@ -7,7 +7,7 @@ module.exports = {
         .setColor('RANDOM')
         .setTitle('')
         .setURL('')
-        .setDescription('Parancsnokok,\n\n A közelgő karbantartás kötelező frissítés lesz az Azur Lanehez. Kérünk mindenki bizonyosodjon meg róla, hogy a le van kötve a felhastnálótók az elvesztése érdekében. Minden parancsnokot 200<:gems:790201608855486513> fogunk kompenzálni. ')
+        .setDescription('Parancsnokok,\n\n A közelgő karbantartás kötelező frissítés lesz az Azur Lanehez. Kérünk mindenki bizonyosodjon meg róla, hogy le van kötve a felhasználótók az elvesztése elkerüléséért. Minden parancsnokot 200<:gems:790201608855486513> fogunk kompenzálni. ')
         .setImage('https://images-ext-1.discordapp.net/external/XHfJ2m6qEUXGFerh8-BWt_-aVqRSiUUj1jSdrKzqUHM/https/pbs.twimg.com/media/E7x7jS9VEAI2NXF.jpg%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
