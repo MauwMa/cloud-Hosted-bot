@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('❀Ütős Leszámolás - Nyári Formáció❀')
+        .setTitle('Memória Kinuhoz')
         .setURL('')
-        .setDescription('Ritsuko Akizuki új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-2.discordapp.net/external/YbSo3PVjl_qBKQIqjZWrtJHlKhhnzqan6L_LRCs5hZg/https/pbs.twimg.com/media/E61CvLWUUAQtjEV.jpg%3Alarge?width=1090&height=567')
+        .setDescription('Parancsnokok,\n\nA karbantartás után új memória lesz elérhető Kinuhoz.')
+        .setImage('https://images-ext-2.discordapp.net/external/EeWMvXG3WglKKsZhXmUCl-wQIXbk4RXm3NmnIvPxvTI/https/pbs.twimg.com/media/E73ooiyWEAUC6vm.png%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update2);
         if (update2){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
