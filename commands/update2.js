@@ -7,8 +7,8 @@ module.exports = {
         .setColor('RANDOM')
         .setTitle('')
         .setURL('')
-        .setDescription('Parancsnokok,\n\nA 3. évforduló megünepléseképp, az első <:gems:790201608855486513> vásárlás duplázási bónusza reszetelve lesz Augusztus 12.-én. ')
-        .setImage('https://images-ext-1.discordapp.net/external/fMI3LDZ3m65PsDUbE_efpfzgB4P8nZculhDxbv8ib58/https/pbs.twimg.com/media/E8WyTTbUYAg3hpu.png%3Alarge')
+        .setDescription('Parancsnokok,\n\n Posztolj meg egy 10 másodperces vagy hosszabb videót az Azur Lane kívánságaidról vagy a játék pillanatodról Twitteren vagy Facebookon a #AzurLane3rdAnniv hashtaggel ide (https://t.co/46UryzQ5Qo) és 200<:gems:790201608855486513> kapsz jutalomként.')
+        .setImage('https://images-ext-2.discordapp.net/external/UU6eFeGfxdLNNk3JshbpxvaiSFo_5ptCULgdA4hjyNw/https/pbs.twimg.com/media/E8bxW1kWQBEUMkl.jpg%3Alarge?width=1240&height=676')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update2);
         if (update2){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
