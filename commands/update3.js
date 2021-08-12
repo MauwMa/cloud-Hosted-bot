@@ -4,7 +4,7 @@ module.exports = {
     permissions: ["KICK_MEMBERS"],
     execute (client, message, args){
 
-        message.channel.send("https://fxtwitter.com/AzurLane_EN/status/1425303026248536067");
+        message.channel.send("Bismarcknak mind1");
 
     if (message.deletable) message.delete();
 
