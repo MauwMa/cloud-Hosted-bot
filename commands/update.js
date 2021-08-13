@@ -7,8 +7,8 @@ module.exports = {
         .setColor('RANDOM')
         .setTitle('')
         .setURL('')
-        .setDescription('Parancsnokok\n\nA hálózati hiba, amit a instabil hálózat okozott meg lett oldva. A főhadiszállás őszintén bocsánatot kér a probléma miatt. Kompenzálásként a főhadiszállás minden parancsnoknak 100<:gems:790201608855486513> küld. Köszönjük a folyamatos támogatásaitokat.')
-        .setImage('https://images-ext-1.discordapp.net/external/2fddijLmSP-q8Ze2ZSeE9ruK8JUbXxmKGx4vBTLe-Us/https/pbs.twimg.com/media/E8mK7OiUYAIFyMv.jpg%3Alarge')
+        .setDescription('3 Nap van hátra még a 3. Évfordulóhoz, Tashkent, Chang Chun és Surcouf már várja az évfordulót~')
+        .setImage('https://images-ext-2.discordapp.net/external/31jbrC70Ocz6DvHB96Ey87SL3jroP6fPmclkY8Zrsdk/https/pbs.twimg.com/media/E8pSbkOVIAASVJR.jpg%3Alarge?width=603&height=676')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
