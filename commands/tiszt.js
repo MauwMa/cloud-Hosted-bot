@@ -2,7 +2,7 @@ module.exports = {
     name: 'tiszt',
     description: 'tiszt',
     permissions: ["KICK_MEMBERS"],
-	async execute(message, args, client) {
+	async run(message, args, client) {
 		const amount = args[1];
 
 		if (!amount || isNaN(amount))
