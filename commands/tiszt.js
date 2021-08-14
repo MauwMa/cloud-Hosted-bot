@@ -8,14 +8,14 @@ module.exports = {
 		if (!amount || isNaN(amount))
 			return message.reply(
 				`${
-					amount == undefined ? "Nothing" : amount
+					amount == undefined ? 'Nothing' : amount
 				} is not a valid number!`
 			);
 
 		const amountParsed = parseInt(amount);
 
 		if (amountParsed > 100)
-			return message.reply("You cannot clear more than 100 messages!");
+			return message.reply('You cannot clear more than 100 messages!');
 
 		message.channel.bulkDelete(amountParsed);
 
