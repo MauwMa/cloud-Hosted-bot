@@ -1,6 +1,7 @@
 module.exports = {
     name: 'kuka',
     description: "kuka",
+    permissions: ["KICK_MEMBERS"],
     async execute(message, args){
         if(!args[0]) return message.reply("írd be azt a számot, ahány üzenetet akarsz törölni!");
         if(isNaN(args[0])) return message.reply("kérlek írj be egy egész számot!");
