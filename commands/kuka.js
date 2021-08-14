@@ -13,6 +13,6 @@ module.exports = {
     }
 
     message.channel.bulkDelete(deleteAmount + 1, true);
-    message.reply(`Sikeresen Törölt ***${deleteAmount}*** Üzetetet nyaaa~`)
+    message.reply(`Sikeresen Törölt ***${deleteAmount}*** Üzenetet nyaaa~`)
     }    
 }
