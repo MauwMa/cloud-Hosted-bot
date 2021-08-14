@@ -7,7 +7,7 @@ module.exports = {
         const messages = message.channel.messages.fetch();
 
         if (member) {
-            const userMessages = (await messeges).filter(
+            const userMessages = (await messages).filter(
                 (m) => m.author.id === message.author.id
             );
         await message.channel.bulkDelete(userMessages);
@@ -19,7 +19,7 @@ module.exports = {
                 return message.channel.send("Numbers are only allowed");
             if(parseInt(args[0]) > 99)
                 return message.channel.send("The max amount of messages that I can delete is 99");
-            await messeges.channel
+            await messages.channel
             .bulkDelete(parseInt(args[0]) +1)
             .catch((err) => console.log(err));
             message.channel.send("I'm deleted" + args[0] + "from this channel.")
