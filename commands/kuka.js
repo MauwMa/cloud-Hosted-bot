@@ -2,12 +2,12 @@ module.exports = {
     name: 'kuka',
     description: "kuka",
     permissions: ["KICK_MEMBERS"],
-    async execute(message, args, client){
-        if(!args[0]) return message.lineReply("írd be azt a számot, ahány üzenetet akarsz törölni!");
-        if(isNaN(args[0])) return message.lineReply("kérlek írj be egy egész számot!");
+    async execute(message, args, client, Discord){
+        if(!args[0]) return message.reply("írd be azt a számot, ahány üzenetet akarsz törölni!");
+        if(isNaN(args[0])) return message.reply("kérlek írj be egy egész számot!");
 
-        if(args[0] > 300) return message.lineReply("Nem tudsz 300-nál több üzenetet törölni!");
-        if(args[0] < 1) return message.lineReply("Legalább egy üzenetet törölnöd kell!");
+        if(args[0] > 300) return message.reply("Nem tudsz 300-nál több üzenetet törölni!");
+        if(args[0] < 1) return message.reply("Legalább egy üzenetet törölnöd kell!");
 
         await message.channel.messages.fetch({limit: args[0]}).then(messages =>{
             message.channel.bulkDelete(messages);
