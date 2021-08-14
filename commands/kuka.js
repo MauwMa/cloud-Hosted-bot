@@ -6,8 +6,8 @@ module.exports = {
 
     if (isNaN(args[0]) || parseInt(args[0]) <= 0) { return message.reply('Valós számot írj be nyaaa~') }
 
-    if (parseInt(args[0]) > 300) {
-        return message.reply('Maximum 300 üzenetet tudsz törölni nyaaa~')
+    if (parseInt(args[0]) > 100) {
+        return message.reply('Maximum 100 üzenetet tudsz törölni nyaaa~')
     } else {
         deleteAmount = parseInt(args[0]);
     }
