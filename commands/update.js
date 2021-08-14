@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('【Microlayer Medley Rerun】')
+        .setTitle('')
         .setURL('')
-        .setDescription('Parancsnok, Microlayer Medley rerun event visszatér a következő karbantartás után. Készen állsz találkozni Bremerton, Reno és a többi új karakterekkel?')
-        .setImage('https://images-ext-1.discordapp.net/external/rZJUR4qpBaLiJVXys_KRP88rMrMiH1FT0Xfb228Grz0/https/pbs.twimg.com/media/E8qiivPVIAAa9mR.png%3Alarge')
+        .setDescription('2 Nap van hátra még a 3. Évfordulóhoz. Tashkent, Chang Chun és Surcouf már gyülekezik~')
+        .setImage('https://images-ext-2.discordapp.net/external/P55yOBaWVK5pmBkbks1HRsD0M_E30J3YrgKaRFh2Qa8/https/pbs.twimg.com/media/E8vEEQgVcAAQWkW.jpg%3Alarge?width=604&height=676')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
