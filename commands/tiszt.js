@@ -2,29 +2,28 @@ module.exports = {
     name: 'tiszt',
     description: 'tiszt',
     permissions: ["KICK_MEMBERS"],
-    async execute (client, message, args){
-        const member = message.mentions.members.first();
-        const messages = message.channel.messages.fetch();
+	async execute(message, args, client) {
+		const amount = args[1];
 
-        if (member) {
-            const userMessages = (await messages).filter(
-                (m) => m.author.id === message.author.id
-            );
-        await message.channel.bulkDelete(userMessages);
-        message.channel.send(`${member} messages has been cleared`);
-        } else {
-            if(!args[0])
-                return message.channel.send("Please specify a number of messages to delete ranging from 1 - 99");
-            if (isNaN(args[0]))
-                return message.channel.send("Numbers are only allowed");
-            if(parseInt(args[0]) > 99)
-                return message.channel.send("The max amount of messages that I can delete is 99");
-            await messages.channel
-            .bulkDelete(parseInt(args[0]) +1)
-            .catch((err) => console.log(err));
-            message.channel.send("I'm deleted" + args[0] + "from this channel.")
-        }
-    }    
-}
+		if (!amount || isNaN(amount))
+			return message.reply(
+				`${
+					amount == undefined ? "Nothing" : amount
+				} is not a valid number!`
+			);
 
+		const amountParsed = parseInt(amount);
+
+		if (amountParsed > 100)
+			return message.reply("You cannot clear more than 100 messages!");
+
+		message.channel.bulkDelete(amountParsed);
+
+		const msg = await message.channel.send(
+			`Cleared ${amountParsed} messages!`
+		);
+
+		setTimeout(() => msg.delete(), 5000);
+	}
+});
 
