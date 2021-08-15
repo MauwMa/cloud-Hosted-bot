@@ -14,7 +14,7 @@ module.exports = {
         //    msg.react(":regional_indicator_v:")
         //}, 1000)})
         
-if (message.deletable) message.delete();
+//if (message.deletable) message.delete();
 if (azurtalk){
     return message.channel.send(`Elküldtem az AzurTalk üzenetet nyaaa~`);
   }
