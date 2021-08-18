@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('★Ingraham★')
+        .setTitle('')
         .setURL('')
-        .setDescription('USS Ingraham felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/oJkIDwRuhAcAb7HGPKTA7SP91MKZBkMbjorDUuc0Wk4/https/pbs.twimg.com/media/E8qwulLVgAYwvFm.jpg%3Alarge?width=1291&height=676')
+        .setDescription('Parancsnokok,\n\n A 3. évforduló Limitált Megemlékezés Doboz rózsa verziója és cseresznye verziója elérhető~ \nRagadd meg az utolsó alkalmat, hogy megszerezd őket még mielőtt elfogynak.\n\n Bolt Link: https://t.co/fdl58JV2d9')
+        .setImage('https://images-ext-2.discordapp.net/external/7Dc1oa55yKxPRvysaPFBwrZ8XiIfT_Npgchgm4icIC8/%3Fformat%3Dpng%26name%3D386x202/https/pbs.twimg.com/card_img/1425274092702167041/1BLZJciq')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update2);
         if (update2){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
