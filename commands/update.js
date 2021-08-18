@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('★Délutáni Nyújtózkodás★')
+        .setTitle('')
         .setURL('')
-        .setDescription('USS Nautilus új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/5C5EvTbtl-5QiwG-qwslMcphDrhAtJIcodvP0iy1h1w/https/pbs.twimg.com/media/E8_vGqWUcAE715g.jpg%3Alarge?width=1240&height=676')
+        .setDescription('Parancsnokok\n\n Egy kis előnézet Abercrombie Live2D Skinéhez\n\nA tartalom még fejlesztés alatt van, így nem reprezentálja a végleges verziót.')
+        .setImage('https://images-ext-2.discordapp.net/external/mLLgKlvoEaa863SdMNXQhHQUbIf2wxLptPp63epu-AE/https/pbs.twimg.com/ext_tw_video_thumb/1427960191736107008/pu/img/UxbY2bcUDMIaJHNK.jpg')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
