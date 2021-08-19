@@ -7,8 +7,8 @@ module.exports = {
         .setColor('RANDOM')
         .setTitle('')
         .setURL('')
-        .setDescription('Promise Crate Augusztus 19. reggel 9:00 óráig elérhető!')
-        .setImage('https://images-ext-2.discordapp.net/external/lE5YEzS0eL2qcy4pG5MNXFnN6ljX_QbBHptJh2zGToU/https/pbs.twimg.com/media/E9EApBGVUAsT0yr.jpg%3Alarge')
+        .setDescription('Parancsnokok\n\nÉlveztétek a 3. évfordulós élőközvetítést? Kérjük töltsd ki ezt a kérdőívet visszajelzésképpen. A kérdőív kitöltése után 5 szerencsés Parancsnok között véletlenszerűen 3000<:gems:790201608855486513> osztunk ki.\n\nA kérdőív: https://t.co/0zVsmwjoR0')
+        .setImage('')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
