@@ -7,8 +7,8 @@ module.exports = {
         .setColor('RANDOM')
         .setTitle('')
         .setURL('')
-        .setDescription('Parancsnokok\n\nÉlveztétek a 3. évfordulós élőközvetítést? Kérjük töltsd ki ezt a kérdőívet visszajelzésképpen. A kérdőív kitöltése után 5 szerencsés Parancsnok között véletlenszerűen 3000<:gems:790201608855486513> osztunk ki.\n\nA kérdőív: https://t.co/0zVsmwjoR0')
-        .setImage('')
+        .setDescription('A Microlayer Dedley Szerencse Doboz 2021 elérhető egészen Szeptember 2 reggel 9:00 óráig!')
+        .setImage('https://images-ext-1.discordapp.net/external/26_sz0l8HUk3pjvc3VxtaKzAgcIRhGFM1IoUFKJGuRM/https/pbs.twimg.com/media/E9KDqLGVkAMBDIT.jpg%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
