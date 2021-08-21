@@ -1,5 +1,6 @@
 module.exports = {
     name: 'tiszt',
+    permissions: ["SEND_MESSAGES"],
     description: 'tiszt',
     execute (client, message, args, Discord){
 
