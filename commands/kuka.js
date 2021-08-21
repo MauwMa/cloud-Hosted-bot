@@ -1,7 +1,7 @@
 module.exports = {
     name: 'tiszt',
-    description: 'tiszt',
     permissions: ["KICK_MEMBERS"],
+    description: 'tiszt',
     execute (client, message, args, Discord){
 
         if (!message.member.permissions.has("MANAGE_MESSAGES")) return message.channel.send('Lack of Perms!');
