@@ -2,7 +2,7 @@ module.exports = {
     name: 'tiszt',
     description: 'tiszt',
     permissions: ["KICK_MEMBERS"],
-    execute (client, message, args){
+    execute (client, message, args, Discord){
 
     if (isNaN(args[0]) || parseInt(args[0]) <= 0) { return message.reply('Valós számot írj be nyaaa~') }
 
