@@ -4,6 +4,11 @@ module.exports = {
     permissions: ["KICK_MEMBERS"],
     execute (client, message, args, Discord){
 
+        if (!message.member.permissions.has("MANAGE_MESSAGES")) return message.channel.send('Lack of Perms!');
+    
+        let deleteAmount;
+    
+
     if (isNaN(args[0]) || parseInt(args[0]) <= 0) { return message.reply('Valós számot írj be nyaaa~') }
 
     if (parseInt(args[0]) > 100) {
