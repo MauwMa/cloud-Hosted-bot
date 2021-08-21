@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'kuka',
-    description: 'kuka',
+    name: 'tiszt',
+    description: 'tiszt',
     permissions: ["KICK_MEMBERS"],
     execute (client, message, args){
 
@@ -14,5 +14,7 @@ module.exports = {
 
     message.channel.bulkDelete(deleteAmount + 1, true);
     message.reply(`Sikeresen Törölt ***${deleteAmount}*** Üzenetet nyaaa~`)
+
+
     }    
 }
