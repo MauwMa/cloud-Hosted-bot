@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#ffff00')
         .setTitle('Karbantartás!!')
         .setURL('')
-        .setDescription('Parancsnokok, 8/19 Csütörtökön Magyar Időszámítás szerint \nreggel 09:00-kor lesz karbantartás. Kérjük a beosztásaitokat tervezzétek e szerint nyaaa~.')
+        .setDescription('Parancsnokok, 9/2 Csütörtökön Magyar Időszámítás szerint \nreggel 09:00-kor lesz karbantartás. Kérjük a beosztásaitokat tervezzétek e szerint nyaaa~.')
         .setImage('https://i.imgur.com/0BEHNji.png')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(karban);
         if (karban){

@@ -7,8 +7,8 @@ module.exports = {
         .setColor('RANDOM')
         .setTitle('')
         .setURL('')
-        .setDescription('Parancsnokok,\n\nAbercrombie, Ingraham és Nautilus az új nyuszi kinézetükkel csatlakoztak hozzánk. Szeptember 2. 9:00 óráig lesznek elérhetőek!')
-        .setImage('https://images-ext-2.discordapp.net/external/Eob_7Bq1uW-QZo7nlpXYU9DBzMeXwElWdaxzIqWoPi0/https/pbs.twimg.com/media/E9KNudSUYAoWZXF.jpg%3Alarge?width=1373&height=676')
+        .setDescription('Szeptemberi Becsekkoló bútorzat: Ugráló labda')
+        .setImage('https://images-ext-2.discordapp.net/external/PJ_7GpBHTYK8UQ1tv6VFh2q8luvemBomfW-87J5jhK0/https/pbs.twimg.com/media/E-Ggci2VIAY2Ahz.jpg%3Alarge?width=1440&height=655')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
