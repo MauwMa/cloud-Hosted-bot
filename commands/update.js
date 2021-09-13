@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('❀A Csillogó Kéken❀')
+        .setTitle('❀Katsuragi❀')
         .setURL('')
-        .setDescription('Az új Sakura Empire főesemény, A Csillogó Kéken, Szeptember 16.-án fog kezdődni. Ez az event az új Ur rombolót, Shimakazét mutatja be.\n\nMaradj Résen!')
-        .setImage('https://images-ext-2.discordapp.net/external/T3kk0vb7FwQ4e7P5wfQ_xkGBEa46doO22VoQA4ZDKxg/https/pbs.twimg.com/media/E_FhMaaWYAYhnWq.png%3Alarge')
+        .setDescription('Hellóka, Parancsnok! Unryuu-osztájú repülőgép hordozó  vagyok, Katsuragi. Nem csak hordozó vagyok, hanem teljes értékű repülőgép hordozó, ami azt jelenti, hogy mindent tudok csinálni, amire egy repülőgép hordozó képes megtenni! Nem mondom el miket nem szeretek, viszont rengeteg hobbim van~ Például~ (1 percel később) ...Szóval jah! Héj, Parancsnok, még mindig figyelsz?\n\nIJN Katsuragi felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
+        .setImage('https://images-ext-1.discordapp.net/external/Zgp-YM2OnAOKpgtHqNOLLsIVvZ-AI8m0Xtga-DUMEl4/https/pbs.twimg.com/media/E_KEzsdVgAksCJ8.jpg%3Alarge?width=1032&height=540')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
