@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('❀Katsuragi❀')
+        .setTitle('❀Éjszakát-Megvilágító Fesztivál❀')
         .setURL('')
-        .setDescription('Hellóka, Parancsnok! Unryuu-osztályú repülőgép hordozó vagyok, Katsuragi. Nem csak hordozó vagyok, hanem teljes értékű repülőgép hordozó, ami azt jelenti, hogy mindent tudok csinálni, amit egy repülőgép hordozó képes megtenni! Nem mondom el miket nem szeretek, viszont rengeteg hobbim van~ Például~ (1 perccel később) ...Szóval jah! Héj, Parancsnok, még mindig figyelsz?\n\nIJN Katsuragi felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/Zgp-YM2OnAOKpgtHqNOLLsIVvZ-AI8m0Xtga-DUMEl4/https/pbs.twimg.com/media/E_KEzsdVgAksCJ8.jpg%3Alarge?width=1032&height=540')
+        .setDescription('Itt – a– nyári– fesztivál–!! Öhm, nos, talán kicsit késő a "nyári" fesztiválhoz, szóval talán sima fesztivál is megteszi? Bárhogy is legyen a fontos dolog, hogy szórakozz, Parancsnok! Mert én biztos, hogy rengeteget fogok!\n\nIJN Katsuragi új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-2.discordapp.net/external/gsHaGgqiDAjrk9f0lexkQHa_s8yVAgNi8Y2t9u3c8N4/https/pbs.twimg.com/media/E_KGEKhUcAM2_-G.jpg%3Alarge?width=1240&height=676')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
