@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('❀Yura❀ ')
+        .setTitle('❀Yamakaze❀')
         .setURL('')
-        .setDescription('Öhm... Esetleg tudod, hogy merre lehet a Parancsnok? Yura a nevem, és ma érkeztem meg. Te vagy a parancsnok? Öhm, van aláírott papírod vagy bizonyítványod, hogy megerősítsd?\n\nIJN Yura felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('https://i.imgur.com/Zv1WcqA.jpg')
+        .setDescription('Roooooaar! Yamakaze a Shiratsuyu-osztályú romboló jelentkezik! ... Szóval, öhm, ezt a "Parancsnok" személyt keresem. Van ötleted arról, hogy merre lehet? ...Óh! Te vagy az?\n\nIJN Yamakaze felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
+        .setImage('https://images-ext-1.discordapp.net/external/ngpUC-VHs3tbbDE2jpCbVATd29MX_6-guEBvKBcLQTo/https/pbs.twimg.com/media/E_Ph27sVUAYx5UF.jpg%3Alarge?width=1282&height=671')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update2);
         if (update2){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
