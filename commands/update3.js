@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update3 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('')
+        .setTitle('❀Chikuma❀')
         .setURL('')
-        .setDescription('Limitált bútorzatok amelyek 5/27 előtt, kivéve a kolab szettek és új szettek amelyek 5/27 után voltak elérhetők, limitált ideig újra elérhetőek lesznek.')
-        .setImage('https://images-ext-1.discordapp.net/external/qL3049K9Xw_LnUzexVXgCxrIdAYWqmalgiRp9eCi8C8/https/pbs.twimg.com/media/E8_1z93XMBEX70_.png%3Alarge')
+        .setDescription('Chikuma vagyok. Örülök, hogy megismerhetlek. Nos, talán ez a helyzet, de én már tudok ezt-azt rólad... Óh, kíváncsi vagy? Rá fogsz jönni előbb vagy utóbb, hehe.\n\nIJN Chikuma felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
+        .setImage('https://i.imgur.com/M1SSPAA.jpg')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update3);
         if (update3){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
