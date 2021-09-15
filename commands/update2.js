@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('❀Yamakaze❀')
+        .setTitle('❀Umikaze❀')
         .setURL('')
-        .setDescription('Roooooaar! Yamakaze a Shiratsuyu-osztályú romboló jelentkezik! ... Szóval, öhm, ezt a "Parancsnok" személyt keresem. Van ötleted arról, hogy merre lehet? ...Óh! Te vagy az?\n\nIJN Yamakaze felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/ngpUC-VHs3tbbDE2jpCbVATd29MX_6-guEBvKBcLQTo/https/pbs.twimg.com/media/E_Ph27sVUAYx5UF.jpg%3Alarge?width=1282&height=671')
+        .setDescription('Az átdolgozott Shiratsuyu-osztályú romboló vagyok, Umikaze. Parancsnok, remélhetőleg támogatni foglak téged és flottádat a legjobb képességemmel... Re-remélem jól ki fogunk jönni!\n\nIJN Umikaze felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
+        .setImage('https://images-ext-1.discordapp.net/external/Be8NI2VB09wQftoOlXeei-6LGHXcXAKl7lSghml65oE/https/pbs.twimg.com/media/E_Pi0f-XoAQpJzk.jpg%3Alarge?width=1284&height=672')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update2);
         if (update2){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
