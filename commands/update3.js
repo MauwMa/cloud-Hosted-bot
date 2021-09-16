@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update3 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Poha és Bolyhos Terápia')
+        .setTitle('❀Véletlen túlmelegedés?❀')
         .setURL('')
-        .setDescription('Mi a gond, Parancsnok? Ó, ez az öltözék? ...Öhm, úgy hallottam, hogy ez a ruha terapeutás előnyöket hoz és reméltem, hogy kipróbálhatom...M-Mit gondolsz? Terapeutásan érződik számodra?\n\nIJN Umikaze felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/fMZtL9TYXnJmHV1__1QP4-46n3Bdg6KFP8_q_rgtoBQ/https/pbs.twimg.com/media/E_PjXsdWUAQ6m3J.jpg%3Alarge?width=1232&height=672')
+        .setDescription('Voah! ...Megint elestem... De legalább már hűvösebb van... Mi? Fotózás? Neeee, ne készíts rólam képet~\n\nIJN Isuzu felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
+        .setImage('https://images-ext-1.discordapp.net/external/78JUTwcn42m2kZsOsl5aHIJcz6jx6XZUHoYwRg6juGc/https/pbs.twimg.com/media/E_Vk8W6VkAMC1r-.jpg%3Alarge?width=1232&height=672')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update3);
         if (update3){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);

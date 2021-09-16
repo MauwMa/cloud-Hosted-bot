@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('❀Umikaze❀')
+        .setTitle('★Hold Fesztivál Űrséta★')
         .setURL('')
-        .setDescription('Az átdolgozott Shiratsuyu-osztályú romboló vagyok, Umikaze. Parancsnok, remélhetőleg támogatni foglak téged és flottádat a legjobb képességemmel... Re-remélem jól ki fogunk jönni!\n\nIJN Umikaze felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/Be8NI2VB09wQftoOlXeei-6LGHXcXAKl7lSghml65oE/https/pbs.twimg.com/media/E_Pi0f-XoAQpJzk.jpg%3Alarge?width=1284&height=672')
+        .setDescription('Eldridge megérkezik a kijelölt magasságba... Hold, holdsütemény és Manjuuk észlelve...\n\nUSS Eldridge felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
+        .setImage('https://images-ext-2.discordapp.net/external/Y7TZUMSU3mYFZ32qofkHqEq3mvfp4KiB_7wu9K3azS8/https/pbs.twimg.com/media/E_Vkm3gVQAc4H2N.jpg%3Alarge?width=1316&height=658')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update2);
         if (update2){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
