@@ -6,7 +6,7 @@ module.exports = {
         const teszt = client.channels.cache.find(channel => channel.id === "789936292413571102");
         teszt.send("8 óra*");
         if (teszt){
-            return message.channel.send(`Informáltam a többieket a karbantartás végéről nyaaa~`);
+            return message.channel.send(`Nyaaa~`);
           }
 
     }    
