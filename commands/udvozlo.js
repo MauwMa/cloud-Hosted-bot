@@ -1,4 +1,8 @@
-module.exports = (client) => {
+module.exports = {
+    name: 'udvozlo',
+    description: 'udvozlo',
+    permissions: ["SEND_MESSAGES"],
+    execute (client, message, args, Discord){
     const welcomechannelId = '853629612986990612' //Channel You Want to Send The Welcome Message
     const targetChannelId = `789934791260241931` //Channel For Rules
 
@@ -18,4 +22,5 @@ Chat In <#787083837833871404>`)
     channel.send(embed)
         
     })
+}
 }
