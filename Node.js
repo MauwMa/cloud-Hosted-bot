@@ -19,7 +19,7 @@ client.on('guildMemberAdd', guildMember =>{
 
         .setColor('#f2082d')
         .setTitle(`Üvözlünk az Azur Lane Magyar Szerverén`)
-        .setThumbnail(member.user.displayAvatarURL({dynamic: true, size: 512}))
+        .setThumbnail(guildMember.user.displayAvatarURL({dynamic: true, size: 512}))
         .setDescription(`Hello <@${guildMember.user.id}>, Üvözlünk az Azur Lane Magyar Szerverén.`)
         .setFooter(`Welcome ${member.user.username}#${member.user.discriminator}`,member.user.displayAvatarURL({dynamic: true, size: 512}))
         .setColor('RANDOM')
