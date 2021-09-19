@@ -21,7 +21,7 @@ client.on('guildMemberAdd', guildMember =>{
         .setTitle(`Üvözlünk az Azur Lane Magyar Szerverén`)
         .setThumbnail(guildMember.user.displayAvatarURL({dynamic: true, size: 512}))
         .setDescription(`Hello <@${guildMember.user.id}>, Üvözlünk az Azur Lane Magyar Szerverén.`)
-        .setFooter(`Welcome ${member.user.username}#${member.user.discriminator}`,member.user.displayAvatarURL({dynamic: true, size: 512}))
+        .setFooter(`Welcome ${guildMember.user.username}#${guildMember.user.discriminator}`,guildMember.user.displayAvatarURL({dynamic: true, size: 512}))
         .setColor('RANDOM')
 
     guildMember.guild.channels.cache.get('781214332583149599').send(embed)
