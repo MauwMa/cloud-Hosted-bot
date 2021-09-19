@@ -18,7 +18,7 @@ client.on('guildMemberAdd', guildMember =>{
         //.setImage('https://i.imgur.com/Vo48OAj.png')   
 
         .setColor('#f2082d')
-        .setTitle(`Üvözlünk az Azur Lane Magyar Szerverén`)
+        .setTitle(`Üdvözlünk az  ${guildMember.guild.name}`)
         .setThumbnail(guildMember.user.displayAvatarURL({dynamic: true, size: 512}))
         .setDescription(`Hello <@${guildMember.user.id}>, Üvözlünk az Azur Lane Magyar Szerverén.`)
         .setFooter(`Welcome ${guildMember.user.username}#${guildMember.user.discriminator}`,guildMember.user.displayAvatarURL({dynamic: true, size: 512}))
