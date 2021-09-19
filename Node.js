@@ -15,7 +15,6 @@ client.on('guildMemberAdd', guildMember =>{
         .setThumbnail(guildMember.user.displayAvatarURL({dynamic: true, size: 512}))
         .setDescription(`Megérkezett a kikötőbe <@${guildMember.user.id}> Parancsnok nyaaa~`)
         .setFooter(`Üdv ${guildMember.user.username}#${guildMember.user.discriminator}`,guildMember.user.displayAvatarURL({dynamic: true, size: 512}))
-        .setColor('RANDOM')
 guildMember.guild.channels.cache.get('889129697873637416').send(udvozloembed)
 });
 
