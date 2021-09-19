@@ -1,20 +1,16 @@
-const schedule = require('node-schedule');
-module.exports = {
-    name: 'egyora',
-    permissions: ["KICK_MEMBERS"],
-    description: 'egyora',
-    execute (client, message, args, Discord){
-
-
-
-        var exportScheduler = schedule.scheduleJob('0 0 6 16 9 *', function() { 
-            const egyora = new Discord.MessageEmbed()
-            .setColor('#ffff00')
-            .setTitle('Értesítés!')
-            .setURL('')
-            .setDescription('1 órás előzetes értesítés a következő karbantartásról.\n Minden szerver előreláthatólag 6 órán keresztül le lesznek állítva. \nKérjük ne felejtsétek el megetetni a hajóitokat nyaa~!')
-            .setImage('https://i.imgur.com/0BEHNji.png')
-            client.channels.cache.find(channel => channel.id === "789936292413571102").send(egyora); 
-        });
-    }    
-}
+module.exports = (client) => {
+    const channelId = "812458294085550121";
+    const rulesChannel = "812460469016199248";
+    client.on("guildMemberAdd", (member) => {
+      console.log(member);
+  
+      const message = `Welcome <@${
+        member.id
+      }> to our server! Be sure to check out our ${member.guild.channels.cache
+        .get(rulesChannel)
+        .toString()}`;
+  
+      const channel = member.guild.channels.cache.get(channelId);
+      channel.send(message);
+    });
+  };
