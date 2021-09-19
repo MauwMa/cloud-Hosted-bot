@@ -9,21 +9,14 @@ client.events = new Discord.Collection();
 })
 
 client.on('guildMemberAdd', guildMember =>{
-
         const embed = new Discord.MessageEmbed()
-        //.setColor('#f2082d')
-        //.setTitle('Z23 Build')
-        //.setURL('')
-        //.setDescription('Balanced | FP Meme | Tank | Budget')
-        //.setImage('https://i.imgur.com/Vo48OAj.png')   
-
         .setColor('#f2082d')
         .setTitle(`Üdvözlünk az Azur Lane Magyar Szerverén`)
         .setThumbnail(guildMember.user.displayAvatarURL({dynamic: true, size: 512}))
-        .setDescription(`Üdv <@${guildMember.user.id}> Parancsnok`)
+        .setDescription(`Megérkezett a kikötőbe <@${guildMember.user.id}> Parancsnok nyaaa~`)
         .setFooter(`Üdv ${guildMember.user.username}#${guildMember.user.discriminator}`,guildMember.user.displayAvatarURL({dynamic: true, size: 512}))
         .setColor('RANDOM')
-
-    guildMember.guild.channels.cache.get('781214332583149599').send(embed)
+guildMember.guild.channels.cache.get('781214332583149599').send(embed)
 });
+
 client.login(process.env.token);
