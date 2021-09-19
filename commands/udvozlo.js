@@ -1,6 +1,11 @@
-module.exports = (client) => {
-    const channelId = "853629612986990612";
-    const rulesChannel = "853629612986990612";
+module.exports = {
+  name: 'udvozlo',
+  permissions: ["KICK_MEMBERS"],
+  description: 'udvozlo',
+  execute (client, message, args){
+  
+    const channelId = "789927360329416758";
+    const rulesChannel = "789927360329416758";
     client.on("guildMemberAdd", (member) => {
       console.log(member);
   
@@ -12,5 +17,6 @@ module.exports = (client) => {
   
       const channel = member.guild.channels.cache.get(channelId);
       channel.send(message);
-    });
-  };
+    })
+  }
+}
