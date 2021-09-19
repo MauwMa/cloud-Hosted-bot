@@ -11,13 +11,11 @@ client.events = new Discord.Collection();
 client.on('guildMemberAdd', guildMember =>{
 
         const embed = new Discord.MessageEmbed()
-        .setTitle(`Welcome To ${member.guild.name}`)
-        .setThumbnail(member.user.displayAvatarURL({dynamic: true, size: 512}))
-        .setDescription(`Hello <@${member.user.id}>, Welcome to **${member.guild.name}**. Thanks For Joining Our Server.
-Please Read ${member.guild.channels.cache.get(targetChannelId).toString()}. Have a Nice Time.
-Chat In <#787083837833871404>`)
-        .setFooter(`Welcome ${member.user.username}#${member.user.discriminator}`,member.user.displayAvatarURL({dynamic: true, size: 512}))
-        .setColor('RANDOM')
+        .setColor('#f2082d')
+        .setTitle('Tirpitz Build')
+        .setURL('')
+        .setDescription('AP | HE | Tank | Budget')
+        .setImage('https://i.imgur.com/GkRDIm0.png')
 
     guildMember.guild.channels.cache.get('781214332583149599').send(embed)
 });
