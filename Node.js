@@ -16,7 +16,7 @@ client.on('guildMemberAdd', guildMember =>{
         .setDescription(`Megérkezett a kikötőbe <@${guildMember.user.id}> Parancsnok nyaaa~`)
         .setFooter(`Üdv ${guildMember.user.username}#${guildMember.user.discriminator}`,guildMember.user.displayAvatarURL({dynamic: true, size: 512}))
         .setColor('RANDOM')
-guildMember.guild.channels.cache.get('781214332583149599').send(udvozloembed)
+guildMember.guild.channels.cache.get('791934562409381888').send(udvozloembed)
 });
 
 client.login(process.env.token);
