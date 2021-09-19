@@ -10,7 +10,7 @@ client.events = new Discord.Collection();
 
 client.on('guildMemberAdd', guildMember =>{
         const udvozloembed = new Discord.MessageEmbed()
-        .setColor('WHITE')
+        .setColor('#ff90ff')
         .setTitle(`Üdvözlünk az Azur Lane Magyar Szerverén`)
         .setThumbnail(guildMember.user.displayAvatarURL({dynamic: true, size: 512}))
         .setDescription(`Megérkezett a kikötőbe <@${guildMember.user.id}> Parancsnok nyaaa~`)
