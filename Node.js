@@ -9,14 +9,14 @@ client.events = new Discord.Collection();
 })
 
 client.on('guildMemberAdd', guildMember =>{
-        const embed = new Discord.MessageEmbed()
-        .setColor('#f2082d')
+        const udvozloembed = new Discord.MessageEmbed()
+        .setColor('WHITE')
         .setTitle(`Üdvözlünk az Azur Lane Magyar Szerverén`)
         .setThumbnail(guildMember.user.displayAvatarURL({dynamic: true, size: 512}))
         .setDescription(`Megérkezett a kikötőbe <@${guildMember.user.id}> Parancsnok nyaaa~`)
         .setFooter(`Üdv ${guildMember.user.username}#${guildMember.user.discriminator}`,guildMember.user.displayAvatarURL({dynamic: true, size: 512}))
         .setColor('RANDOM')
-guildMember.guild.channels.cache.get('781214332583149599').send(embed)
+guildMember.guild.channels.cache.get('781214332583149599').send(udvozloembed)
 });
 
 client.login(process.env.token);
