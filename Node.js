@@ -10,7 +10,7 @@ client.events = new Discord.Collection();
 
 client.on('guildMemberAdd', guildMember =>{
 
-        const embed = new MessageEmbed()
+        const embed = new Discord.MessageEmbed()
         .setTitle(`Welcome To ${member.guild.name}`)
         .setThumbnail(member.user.displayAvatarURL({dynamic: true, size: 512}))
         .setDescription(`Hello <@${member.user.id}>, Welcome to **${member.guild.name}**. Thanks For Joining Our Server.
