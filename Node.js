@@ -11,11 +11,17 @@ client.events = new Discord.Collection();
 client.on('guildMemberAdd', guildMember =>{
 
         const embed = new Discord.MessageEmbed()
-        .setTitle(`Üvözlünk az Azur Lane Magyar Szerverén`)
-        .setThumbnail(member.user.displayAvatarURL({dynamic: true, size: 512}))
-        .setDescription(`Hello <@${guildMember.user.id}>, Üvözlünk az Azur Lane Magyar Szerverén.`)
-        .setFooter(`Welcome ${member.user.username}#${member.user.discriminator}`,member.user.displayAvatarURL({dynamic: true, size: 512}))
-        .setColor('RANDOM')
+        .setColor('#f2082d')
+        .setTitle('Z23 Build')
+        .setURL('')
+        .setDescription('Balanced | FP Meme | Tank | Budget')
+        .setImage('https://i.imgur.com/Vo48OAj.png')   
+          
+  //      .setTitle(`Üvözlünk az Azur Lane Magyar Szerverén`)
+  //      .setThumbnail(member.user.displayAvatarURL({dynamic: true, size: 512}))
+  //      .setDescription(`Hello <@${guildMember.user.id}>, Üvözlünk az Azur Lane Magyar Szerverén.`)
+  //       .setFooter(`Welcome ${member.user.username}#${member.user.discriminator}`,member.user.displayAvatarURL({dynamic: true, size: 512}))
+  //      .setColor('RANDOM')
 
     guildMember.guild.channels.cache.get('781214332583149599').send(embed)
 });
