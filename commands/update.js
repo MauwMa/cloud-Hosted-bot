@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('★Hold nézés 29½.-én★')
+        .setTitle('')
         .setURL('')
-        .setDescription('Az éves hold nézés fesztivál megint jön~ Áh, szóval tudsz ezt-azt a Közép-Őszi Fesztiválról, Parancsnok? Akkor számítok rá, hogy tudod mit fogunk csinálni az este, rendben~?♡\n\nUSS Marblehead új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-2.discordapp.net/external/iqmM9Q1OEY3TKcH-kwci-bOTHM9fZozAAy0_UWmFGEQ/https/pbs.twimg.com/media/E_VlTGwUcAEErga.jpg%3Alarge?width=1316&height=658')
+        .setDescription('Parancsnokok,\n\nA Manjuu Nyári Fesztivál bútorzatok elérhetőek egészen 10/3 08:59-ig. Ragadjátok meg ezt a bútorzat szettet, hogy megtapasztáljátok a csodálatos fesztivált.')
+        .setImage('https://images-ext-2.discordapp.net/external/86RsHwwK_BmI5XAdF1MmhxdnbUfaNIG_5leUmRrHxRY/https/pbs.twimg.com/media/E_o70MyVEAEY9rN.jpg%3Alarge?width=948&height=602')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
