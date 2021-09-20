@@ -12,7 +12,7 @@ client.on('guildMemberAdd', guildMember =>{
         const udvozloembed = new Discord.MessageEmbed()
         .setColor('#2ecc70')
         .setTitle(`Üdvözlünk az Azur Lane Magyar Szerverén`)
-        .setThumbnail(guildMember.user.displayAvatarURL({dynamic: true, size: 512}))
+        .setThumbnail(`https://c.tenor.com/7SPCcu15LtwAAAAi/azur-lane-cats.gif`)
         .setDescription(`Megérkezett a kikötőbe <@${guildMember.user.id}> Parancsnok nyaaa~`)
         .setFooter(`Üdv ${guildMember.user.username}#${guildMember.user.discriminator}`,guildMember.user.displayAvatarURL({dynamic: true, size: 512}))
 guildMember.guild.channels.cache.get('889129697873637416').send(udvozloembed)
