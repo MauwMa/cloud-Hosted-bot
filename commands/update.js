@@ -4,11 +4,11 @@ module.exports = {
     permissions: ["KICK_MEMBERS"],
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
-        .setColor('RANDOM')
+        .setColor('⚜Egy-lányú Zenekar⚜')
         .setTitle('')
         .setURL('')
-        .setDescription('Parancsnokok,\n\na jelenlegi event a "Upon the Shimmering Blue". Ezeket a limitált karakterek magyar időszámítás szerint 10/4 08:59-ig lesznek elérhetőek építeni.')
-        .setImage('https://images-ext-1.discordapp.net/external/jZnvLHNJkDy7O7uNlH_u8pD3ViiIVY1RTuJOLNeN_aQ/https/pbs.twimg.com/media/E_o8YvAVUAIzvfb.jpg%3Alarge?width=1112&height=571')
+        .setDescription('Igen, a húrok... Hallom az ünnepi dallamot... Most hát, kövess engem és még nagyszerűbbé teszük ezt a zen– Óh, Parancsnok? Azt kérdezed, hogy mi ez az egész? Öhm... Tudod... Ahahaha...\n\nHMNF Vauquelin új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-1.discordapp.net/external/RyemabXzAJhCXTLed9gEVuSbwXeBkm_rgt2q_fW7gdI/https/pbs.twimg.com/media/E_uEz9PVUAAC1tc.jpg%3Alarge?width=1112&height=405')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
