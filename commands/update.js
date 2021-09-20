@@ -7,8 +7,8 @@ module.exports = {
         .setColor('RANDOM')
         .setTitle('')
         .setURL('')
-        .setDescription('Parancsnokok,\n\nA Manjuu Nyári Fesztivál bútorzatok elérhetőek egészen 10/3 08:59-ig. Ragadjátok meg ezt a bútorzat szettet, hogy megtapasztáljátok a csodálatos fesztivált.')
-        .setImage('https://images-ext-2.discordapp.net/external/86RsHwwK_BmI5XAdF1MmhxdnbUfaNIG_5leUmRrHxRY/https/pbs.twimg.com/media/E_o70MyVEAEY9rN.jpg%3Alarge?width=948&height=602')
+        .setDescription('Parancsnokok,\n\na jelenlegi event a "Upon the Shimmering Blue". Ezeket a limitált karakterek magyar időszámítás szerint 10/4 08:59-ig lesznek elérhetőek építeni.')
+        .setImage('https://images-ext-1.discordapp.net/external/jZnvLHNJkDy7O7uNlH_u8pD3ViiIVY1RTuJOLNeN_aQ/https/pbs.twimg.com/media/E_o8YvAVUAIzvfb.jpg%3Alarge?width=1112&height=571')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
