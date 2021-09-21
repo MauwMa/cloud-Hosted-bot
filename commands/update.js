@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('♚Angyali Napsütés♚')
+        .setTitle('✠Weiss Uhrzeiger✠')
         .setURL('')
-        .setDescription('Az időjárás szép napos, bármit is fogok csinálni ma az biztosan sikeres lesz. Mindenki másnak legyen ilyen szép napja... Awuhau! Kicsi manjuu, jól vagy? Nem hiszem el, hogy megbotlottam...\n\nHMS Fortune új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-2.discordapp.net/external/HenEsLlTf4mobV-Z7zsIjej4QK1Y1o6PCvLu27D6Yjo/https/pbs.twimg.com/media/E_uFGEvVIAEhT2-.jpg%3Alarge?width=1112&height=405')
+        .setDescription('Már úgy is tudod, nem igaz? Mivel olyan sok időt töltöttem azzal, hogy ilyen ruhába öltözzek a kedvedért... Heh, viszonozásképp rengeteg idődet fogom elvenni. Hehehe.\n\nKMS Peter Strasser új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-2.discordapp.net/external/ARdU45Wxrxiv8w0ckA04IOflfCo6fcB3Wll-ILYMarY/https/pbs.twimg.com/media/E_zeNiTVkAYHomV.jpg%3Alarge?width=1112&height=405')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
