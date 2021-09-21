@@ -4,11 +4,11 @@ module.exports = {
     permissions: ["KICK_MEMBERS"],
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
-        .setColor('⚜Egy-lányú Zenekar⚜')
+        .setColor('♚Angyali Napsütés♚')
         .setTitle('')
         .setURL('')
-        .setDescription('Igen, a húrok... Hallom az ünnepi dallamot... Most hát, kövess engem és még nagyszerűbbé teszük ezt a zen– Óh, Parancsnok? Azt kérdezed, hogy mi ez az egész? Öhm... Tudod... Ahahaha...\n\nHMNF Vauquelin új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/RyemabXzAJhCXTLed9gEVuSbwXeBkm_rgt2q_fW7gdI/https/pbs.twimg.com/media/E_uEz9PVUAAC1tc.jpg%3Alarge?width=1112&height=405')
+        .setDescription('Az időjárás szép napos, bármit is fogok csinálni ma az biztosan sikeres lesz. Mindenki másnak legyen ilyen szép napja... Awuhau! Kicsi manjuu, jól vagy? Nem hiszem el, hogy megbotlottam...\n\nHMS Fortune új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-2.discordapp.net/external/HenEsLlTf4mobV-Z7zsIjej4QK1Y1o6PCvLu27D6Yjo/https/pbs.twimg.com/media/E_uFGEvVIAEhT2-.jpg%3Alarge?width=1112&height=405')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
