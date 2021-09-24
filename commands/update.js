@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Emlékeztető')
+        .setTitle('❀Csábítás a tengeri szellőben❀')
         .setURL('')
-        .setDescription('Parancsnokok,\n\nNéhány előző party skinek visszatértek limitált ideig. 10/14 Magyar időszámítás szerint reggel 09:00-ig lesznek elérhetőek. Ne hagyd ki az esélyt, hogy megszerezd őket!')
-        .setImage('https://images-ext-2.discordapp.net/external/YSTWZQ7BXttHOgpKZZtwIiZGS54_rWPNHdrSKIpHXPw/https/pbs.twimg.com/media/E_-YGZqVgAEBwkV.jpg%3Alarge?width=1112&height=417')
+        .setDescription('Az új oath skin a következő karbantartás után elérhető lesz miután megesküszöl Tauhouval.')
+        .setImage('https://images-ext-1.discordapp.net/external/e4U9NgVfJ7Y_om9W3F4Ul9dtAtAy2BKm5sTGBxJRzn8/https/pbs.twimg.com/media/FADei3aUcAINqIh.jpg%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
