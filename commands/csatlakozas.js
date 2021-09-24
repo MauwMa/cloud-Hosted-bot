@@ -1,6 +1,7 @@
 module.exports = {
     name: 'csatlakozas',
     description: "Sets up a reaction role message!",
+    permissions: ["SEND_MESSAGES"],
     async execute(message, args, Discord, client) {
         const channel = '853629612986990612';
         const yellowTeamRole = message.guild.roles.cache.find(role => role.name === "Amagi");
