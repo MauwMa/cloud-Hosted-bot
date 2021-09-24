@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('★The Longing Princess★')
+        .setTitle('Lucky Box')
         .setURL('')
-        .setDescription('Rendben, a ruha jól néz ki. Ellenőrzöm a sminket... Alaposnak kell lennem, így nem fogom beégetni magam mikor találkozok- MI??? P-Parancsnok?!\n\nUSS San Juan az új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-2.discordapp.net/external/YXFtpJdxPFzFm-JSAPqw3Nl4pgrMYMdKkhCtw-BqdvQ/https/pbs.twimg.com/media/E_42rXUUUAgEOYb.jpg%3Alarge?width=1112&height=405')
+        .setDescription('A 2021-es Party Skin Zsákbamacska elérhető egészen 10/14 Magyar időszámítás szerint reggel 09:00-ig!')
+        .setImage('hhttps://images-ext-1.discordapp.net/external/QFg7y3Ev8vRKkzgeKb1BAWDz4hsLhSAJHksLKwIJmoo/https/pbs.twimg.com/media/E_-Y1JkVUAQ7Dxl.jpg%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update2);
         if (update2){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
