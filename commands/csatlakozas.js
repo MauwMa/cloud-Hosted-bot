@@ -4,8 +4,8 @@ module.exports = {
     permissions: ["SEND_MESSAGES"],
     async execute(message, args, Discord, client) {
         const channel = '853629612986990612';
-        const yellowTeamRole = message.guild.roles.cache.find(role => role.name === "Amagi");
-        const blueTeamRole = message.guild.roles.cache.find(role => role.name === "Lexington");
+        const yellowTeamRole = message.guild.roles.cache.find(role => role.name === "789941230171062293");
+        const blueTeamRole = message.guild.roles.cache.find(role => role.name === "789941240912805898");
  
         const yellowTeamEmoji = '<:Catlook:860443436984959006>';
         const blueTeamEmoji = '<:Ibucry:883269294367064125>';
