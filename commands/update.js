@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('♚A tisztaság esküje♚')
+        .setTitle('Emlékeztető')
         .setURL('')
-        .setDescription('Azta,,, Ez az én Egyenruhám a ceremóniára, ami a Tisztaság Esküje néven simert? Hohoho... Ez biztosan a sors. Csatlakozz hozzám, Parancsnok, és csináljuk újra igazzá a világot! ')
-        .setImage('https://images-ext-2.discordapp.net/external/5g-giqIkOTjzNI44E2fc-oSYk7ZnRWtOvlDra2Wme7A/https/pbs.twimg.com/media/FAImM-JVUAA8lov.jpg%3Alarge?width=1172&height=676')
+        .setDescription('Parancsnokok,\n\nAz új party skinek Cheshire, Aquila, Exter és a többiekre megérkeztek. Magyar időszámítás szerint 10/14 8:59-ig lesznek elérhetőek.')
+        .setImage('https://images-ext-2.discordapp.net/external/C13il1qV18vNQ2Sye_kdx6iOt7QBDdCrrP_DplmyE-c/https/pbs.twimg.com/media/FAImivhXIAEwSMu.jpg%3Alarge?width=1920&height=862')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
