@@ -7,7 +7,7 @@ module.exports = {
         .setColor('RANDOM')
         .setTitle('❀Yuudachi (Retrofit)❀')
         .setURL('')
-        .setDescription('Jelenleg Yuudachi a kikötőben van fejlesztés miatt. Hamarosan vízre lesz bocsájtva nyaaa~')
+        .setDescription('Vau...? Képzelődöm vagy alacsonyabb lettél, Parancsnok? Hacsak nem... én vagyok az, aki nagyobb lett? Komolyan?! Senki sem mondta, hogy az átalakítás magasabbá tesz! \n\nJelenleg Yuudachi a kikötőben van fejlesztés miatt. Hamarosan vízre lesz bocsájtva nyaaa~')
         .setImage('https://images-ext-1.discordapp.net/external/QIvzLzufvIhrD4DJQgQP2ga7dvQsM1pmaUoHPIki2p8/https/pbs.twimg.com/media/FAM6FrLUUAE0ASl.jpg%3Alarge?width=845&height=676')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
