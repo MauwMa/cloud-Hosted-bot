@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Emlékeztető')
+        .setTitle('Értesítés')
         .setURL('')
-        .setDescription('Parancsnokok,\n\nAz új party skinek Cheshire, Aquila, Exter és a többiekre megérkeztek. Magyar időszámítás szerint 10/14 8:59-ig lesznek elérhetőek.')
-        .setImage('https://images-ext-2.discordapp.net/external/C13il1qV18vNQ2Sye_kdx6iOt7QBDdCrrP_DplmyE-c/https/pbs.twimg.com/media/FAImivhXIAEwSMu.jpg%3Alarge?width=1920&height=862')
+        .setDescription('A karbantartás után a Daily Raidekhez egy új nehézségi szint fog bemutatkozni. A "Supply Line Disruption" heti 2-re lesz lelimitálva. Javasolt hogy az új nehézségi szintre várjatok, amíg elérhető lesz a karbantartás után mielőtt kipróbálnátok.')
+        .setImage('https://images-ext-1.discordapp.net/external/6NG1wllz0P09O2FGV---ETCaVEwKDk9zrJNl81llHs0/https/pbs.twimg.com/media/FAM5SPDVkAUE7lX.jpg%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
