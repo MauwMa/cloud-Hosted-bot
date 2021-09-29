@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('❀Yuudachi (Retrofit)❀')
+        .setTitle('【Cruise Missions】')
         .setURL('')
-        .setDescription('Vau...? Képzelődöm vagy alacsonyabb lettél, Parancsnok? Hacsak nem... én vagyok az, aki nagyobb lett? Komolyan?! Senki sem mondta, hogy az átalakítás magasabbá tesz! \n\nJelenleg Yuudachi a kikötőben van fejlesztés miatt. Hamarosan vízre lesz bocsájtva nyaaa~')
-        .setImage('https://images-ext-1.discordapp.net/external/QIvzLzufvIhrD4DJQgQP2ga7dvQsM1pmaUoHPIki2p8/https/pbs.twimg.com/media/FAM6FrLUUAE0ASl.jpg%3Alarge?width=845&height=676')
+        .setDescription('Cruiser Mission elvégzésével a Parancsnokok jutalmakra tehetnek szert ingyen, mint Fusou META. Emellett, Parancsnokok meg tudják venni a "Fair Winds Cruise Pass"-t és elvégezni a Cruise Missions-t, amiért Yorktown skint és egyébb dolgokat kapnak. ')
+        .setImage('https://images-ext-1.discordapp.net/external/NAGl8kvxkyMRU9L-DdSdY_Iv5NH8irc1gNgbUZ_muoI/https/pbs.twimg.com/media/FAcAbArVQAIHtcq.jpg%3Alarge?width=1020&height=556')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
