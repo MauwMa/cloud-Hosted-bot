@@ -7,8 +7,8 @@ module.exports = {
         .setColor('#f2082d')
         .setTitle('friedrich der Große Build')
         .setURL('')
-        .setDescription('HE dps | AP dps | Survival | Budget')
-        .setImage('https://i.imgur.com/VGwVA3l.png')
+        .setDescription('HE | AP | CH 13 | Budget')
+        .setImage('https://i.imgur.com/KlgHj6t.png')
         message.channel.send(friedrich);
 
     }    
