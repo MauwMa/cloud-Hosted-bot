@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('【Cruise Missions】')
+        .setTitle('🔥Fusou META🔥')
         .setURL('')
-        .setDescription('Cruiser Mission elvégzésével a Parancsnokok jutalmakra tehetnek szert ingyen, mint Fusou META. Emellett, Parancsnokok meg tudják venni a "Fair Winds Cruise Pass"-t és elvégezni a Cruise Missions-t, amiért Yorktown skint és egyébb dolgokat kapnak. ')
-        .setImage('https://images-ext-1.discordapp.net/external/NAGl8kvxkyMRU9L-DdSdY_Iv5NH8irc1gNgbUZ_muoI/https/pbs.twimg.com/media/FAcAbArVQAIHtcq.jpg%3Alarge?width=1020&height=556')
+        .setDescription('Csatahajó, Fusou vagyok. Békét hozok e föld meggyötört lelkeinek. Parancsnok, áldást keresel... vagy megváltást? \n\nFusou META hamarosan leszáll. Ingyenesen megszerezhető lesz Cruise Mission elvégzéséért.')
+        .setImage('https://images-ext-1.discordapp.net/external/3XU1yofWf-g68uV_y9eU1exso9-qT17mIb9i8P9cRxw/https/pbs.twimg.com/media/FAdYtrqVEAAzqb0.jpg%3Alarge?width=1783&height=910')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
