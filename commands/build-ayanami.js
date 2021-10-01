@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Auto | Manual | Suicide | Budget')
         .setImage('https://i.imgur.com/xuyabkN.png')
+        .setTimestamp()
         message.channel.send(ayanami);
 
     }    

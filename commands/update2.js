@@ -7,6 +7,7 @@ module.exports = {
         .setColor('RANDOM')
         .setTitle('Lucky Box')
         .setURL('')
+        .setTimestamp()
         .setDescription('A 2021-es Party Skin Zsákbamacska elérhető egészen 10/14 Magyar időszámítás szerint reggel 09:00-ig!')
         .setImage('https://images-ext-1.discordapp.net/external/QFg7y3Ev8vRKkzgeKb1BAWDz4hsLhSAJHksLKwIJmoo/https/pbs.twimg.com/media/E_-Y1JkVUAQ7Dxl.jpg%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update2);

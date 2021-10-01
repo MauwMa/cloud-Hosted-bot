@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Időzített | AP | HE | "Budget"')
         .setImage('https://i.imgur.com/itg8IwP.png')
+        .setTimestamp()
         message.channel.send(helena);
 
     }    

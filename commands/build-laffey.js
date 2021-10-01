@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Auto(survival) | Manual | Auto(torp) | Budget')
         .setImage('https://i.imgur.com/cxohosG.png')
+        .setTimestamp()
         message.channel.send(laffey);
 
     }    

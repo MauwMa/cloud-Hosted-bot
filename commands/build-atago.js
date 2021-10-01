@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Ideal? | Auto | Manual | Budget')
         .setImage('https://i.imgur.com/YMF2PQk.png')
+        .setTimestamp()
         message.channel.send(atago);
 
     }    

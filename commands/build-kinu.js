@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Auto | Anti Sub? | Manual | Budget')
         .setImage('https://i.imgur.com/uV1Xng3.png')
+        .setTimestamp()
         message.channel.send(kinu);
 
     }    

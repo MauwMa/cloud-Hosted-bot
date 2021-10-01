@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Ideal')
         .setImage('https://i.imgur.com/pfpdlkO.png')
+        .setTimestamp()
         message.channel.send(longisland);
 
     }    

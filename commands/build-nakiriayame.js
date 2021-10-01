@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('DPS | Balanced | Tank | Budget')
         .setImage('https://i.imgur.com/tqOWfQr.png')
+        .setTimestamp()
         message.channel.send(nakiriayame);
 
     }    

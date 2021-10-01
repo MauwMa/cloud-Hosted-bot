@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('NUKE(Manual) | Auto | Manual | Budget')
         .setImage('https://i.imgur.com/vVh7F9X.png')
+        .setTimestamp()
         message.channel.send(shimakaze);
 
     }    

@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Survival | Damage | Yolo | "budget"')
         .setImage('https://i.imgur.com/6cYRkfX.png')
+        .setTimestamp()
         message.channel.send(ibuki);
 
     }    

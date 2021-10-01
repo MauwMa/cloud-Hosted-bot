@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('DPS? | Off Tank 1 | Off Tank 2 | Budget')
         .setImage('https://i.imgur.com/Ycp9wGX.png')
+        .setTimestamp()
         message.channel.send(hipper);
 
     }    

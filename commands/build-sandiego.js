@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Best in slot | Balanced | No fly zone | Budget')
         .setImage('https://i.imgur.com/pl7Y3FF.png')
+        .setTimestamp()
         message.channel.send(sandiego);
 
     }    

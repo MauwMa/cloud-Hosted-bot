@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('AA | Anti Ambush | Hybrid | Badget(normal?)')
         .setImage('https://i.imgur.com/c57HBD6.png')
+        .setTimestamp()
         message.channel.send(akashi);
 
     }    

@@ -9,6 +9,8 @@ module.exports = {
         .setURL('')
         .setDescription('Slow Timing | General | Vs Light | Budget')
         .setImage('https://i.imgur.com/pZgkFSR.png')
+        .setTimestamp()
+
         message.channel.send(agir);
 
     }    

@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Vanguard | Avi | Main+CB | Budget(avi)')
         .setImage('https://i.imgur.com/tXimpOv.png')
+        .setTimestamp()
         message.channel.send(kashino);
 
     }    

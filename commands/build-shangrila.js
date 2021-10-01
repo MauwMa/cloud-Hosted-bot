@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Boss | AA | Mob | Budget')
         .setImage('https://i.imgur.com/dHSHqmR.png')
+        .setTimestamp()
         message.channel.send(shangrila);
 
     }    

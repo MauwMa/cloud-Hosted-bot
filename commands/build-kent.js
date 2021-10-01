@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('WHY | WOULD | YOU USE | Kent?')
         .setImage('https://i.imgur.com/1YHbrta.png')
+        .setTimestamp()
         message.channel.send(kent);
 
     }    

@@ -6,6 +6,7 @@ module.exports = {
         const nparancsoks = new Discord.MessageEmbed()
         .setColor('#bada55')
         .setTitle('Parancsok')
+        .setTimestamp()
         .setURL('')
         .setDescription('/ehes | /frakcio | /ham | /ham2 | /karveg | /keres | /tema | /update | /mute1 | /mute2 | /mute3 | /egyora | /karban')
         message.channel.send(nparancsoks);

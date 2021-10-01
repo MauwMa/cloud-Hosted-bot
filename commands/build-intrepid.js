@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('AA | Boss | Mob | Budget')
         .setImage('https://i.imgur.com/Ec7l8KP.png')
+        .setTimestamp()
         message.channel.send(intre);
 
     }    

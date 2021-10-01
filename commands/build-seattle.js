@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('DPS | AA | Balanced | Budget')
         .setImage('https://i.imgur.com/qAAGpmZ.png')
+        .setTimestamp()
         message.channel.send(seattle);
 
     }    

@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Late game | Reload | General | Budget')
         .setImage('https://i.imgur.com/i3CjdZ8.png')
+        .setTimestamp()
         message.channel.send(hood);
 
     }    

@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('AP | FAST | HE | Budget')
         .setImage('https://i.imgur.com/vCEoEay.png')
+        .setTimestamp()
         message.channel.send(bismarck);
 
     }    

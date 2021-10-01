@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Burst" | Fast reload | AA | Budget')
         .setImage('https://i.imgur.com/t3rvQuK.png')
+        .setTimestamp()
         message.channel.send(perseus);
 
     }    

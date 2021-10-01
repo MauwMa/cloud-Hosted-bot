@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('dps | AA | Anti sub | Budget')
         .setImage('https://i.imgur.com/s6BjADP.png')
+        .setTimestamp()
         message.channel.send(suzutsuki);
 
     }    

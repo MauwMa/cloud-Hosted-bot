@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Tank(mob) | Tank(Boss) | Full AA | Budget')
         .setImage('https://i.imgur.com/PFnC7un.png')
+        .setTimestamp()
         message.channel.send(montpelier);
 
     }    

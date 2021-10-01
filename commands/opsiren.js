@@ -8,6 +8,7 @@ module.exports = {
         .setTitle('Operation Siren Útmutatók')
         .setURL('')
         .setDescription('')
+        .setTimestamp()
         .addFields(
             {name: 'Operation Sirenhez útmutatók és egyéb segítségre szolgaló dolgok', value: ':small_blue_diamond:[Operation Siren Corrosin 7 útmutató](http://shorturl.at/lBFL8) by Cica'},
         )

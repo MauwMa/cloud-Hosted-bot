@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Late game | Auto | Manual | Budget')
         .setImage('https://i.imgur.com/uV1Xng3.png')
+        .setTimestamp()
         message.channel.send(maya);
 
     }    

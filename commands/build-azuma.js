@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Best in slot | Good | Meme? | Budget')
         .setImage('https://i.imgur.com/Jq8GHk7.png')
+        .setTimestamp()
         message.channel.send(azuma);
 
     }    

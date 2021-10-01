@@ -8,6 +8,7 @@ module.exports = {
         .setTitle('Parancsok')
         .setURL('')
         .setDescription('Fontos, hogy ékezetnélkül írjátok be nyaaa~')
+        .setTimestamp()
         .addFields(
             {name: 'Útmutatók:', value: '/build-hajónév\n/opsiren\n/felszer'},
             {name: 'Szerepadás:', value: '/csatlakozas-amagi - Csatlakozol az Amagi szerver szerephez\n/csatlakozas-avrora - Csatlakozol az Avrora szerver szerephez\n/csatlakozas-lexington - Csatlakozol az Lexington szerver szerephez\n/csatlakozas-sandy - Csatlakozol az Sandy szerver szerephez\n/csatlakozas-washington - Csatlakozol az Washington szerver szerephez'}

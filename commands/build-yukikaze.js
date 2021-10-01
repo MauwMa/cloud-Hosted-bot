@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Best in slot? | Auto | Manual | Budget')
         .setImage('https://i.imgur.com/xSvnfPR.png')
+        .setTimestamp()
         message.channel.send(yukikaze);
 
     }    

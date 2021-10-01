@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Boss | Mob | ? | Budget')
         .setImage('https://i.imgur.com/BVDsdCb.png')
+        .setTimestamp()
         message.channel.send(arkroyal);
 
     }    

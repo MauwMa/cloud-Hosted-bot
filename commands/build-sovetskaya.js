@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('CH13 | AP | HE | budget')
         .setImage('https://i.imgur.com/JgNg5Dt.png')
+        .setTimestamp()
         message.channel.send(sovetskaya);
 
     }    

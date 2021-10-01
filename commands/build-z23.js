@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Balanced | FP Meme | Tank | Budget')
         .setImage('https://i.imgur.com/Vo48OAj.png')
+        .setTimestamp()
         message.channel.send(z23);
 
     }    

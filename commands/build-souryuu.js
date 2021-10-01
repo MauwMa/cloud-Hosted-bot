@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('General? | Boss | Mob | Budget')
         .setImage('https://i.imgur.com/nFnsSKX.png')
+        .setTimestamp()
         message.channel.send(souryuu);
 
     }    

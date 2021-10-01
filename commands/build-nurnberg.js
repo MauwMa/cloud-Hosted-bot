@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('DPS | General | CH13 | Budget')
         .setImage('https://i.imgur.com/9iCrkjX.png')
+        .setTimestamp()
         message.channel.send(nurnberg);
 
     }    

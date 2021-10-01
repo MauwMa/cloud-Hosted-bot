@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('AP | Helena fight | Preload(arm opt) | Budget')
         .setImage('https://i.imgur.com/EXBaHRd.png')
+        .setTimestamp()
         message.channel.send(kinggeorge);
 
     }    

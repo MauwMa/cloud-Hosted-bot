@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Boss+timing | Boss | Mob | Budget')
         .setImage('https://i.imgur.com/Gc61HYP.png')
+        .setTimestamp()
         message.channel.send(formidable);
 
     }    

@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('AP | More AP | HE but why? | Budget')
         .setImage('https://i.imgur.com/WTjv45F.png')
+        .setTimestamp()
         message.channel.send(prinzeugen);
 
     }    

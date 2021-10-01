@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('FP | Survival | Full Meme | Budget')
         .setImage('https://i.imgur.com/8cROTHy.png')
+        .setTimestamp()
         message.channel.send(shirakamifubuki);
 
     }    

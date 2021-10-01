@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Reload | AP | HE | Budget')
         .setImage('https://i.imgur.com/IyQdfeF.png')
+        .setTimestamp()
         message.channel.send(scharnhorst);
 
     }    

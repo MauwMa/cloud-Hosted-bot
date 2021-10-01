@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Balanced | Manual | Auto | Budget"')
         .setImage('https://i.imgur.com/MRrmoOT.png')
+        .setTimestamp()
         message.channel.send(kasumi);
 
     }    

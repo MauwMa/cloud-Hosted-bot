@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('CH13 | Tank(front) | DPS | Budget')
         .setImage('https://i.imgur.com/hfhxpQ8.png')
+        .setTimestamp()
         message.channel.send(bremerton);
 
     }    

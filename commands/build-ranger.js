@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Slow | Boss | Mob | Budget')
         .setImage('https://i.imgur.com/85u643r.png')
+        .setTimestamp()
         message.channel.send(ranger);
 
     }    

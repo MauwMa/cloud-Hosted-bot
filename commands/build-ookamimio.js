@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Slow | DMG | AA | Budget')
         .setImage('https://i.imgur.com/Kn3QLeW.png')
+        .setTimestamp()
         message.channel.send(ookamimio);
 
     }    

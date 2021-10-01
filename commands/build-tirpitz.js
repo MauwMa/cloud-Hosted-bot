@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('AP | HE | Tank | Budget')
         .setImage('https://i.imgur.com/GkRDIm0.png')
+        .setTimestamp()
         message.channel.send(tirpitz);
 
     }    

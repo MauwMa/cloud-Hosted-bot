@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Support BB | AP | HE | budget')
         .setImage('https://i.imgur.com/0fmBz4X.png')
+        .setTimestamp()
         message.channel.send(southdakota);
 
     }    

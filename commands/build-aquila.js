@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Mob | Boss | Heal | budget')
         .setImage('https://i.imgur.com/OwH1SZo.png')
+        .setTimestamp()
         message.channel.send(aquila);
 
     }    

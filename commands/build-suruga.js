@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('AP | HE | Speed | Budget')
         .setImage('https://i.imgur.com/WPxHXKJ.png')
+        .setTimestamp()
         message.channel.send(suruga);
 
     }    

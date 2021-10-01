@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('HE | AP | AP(long battles) | Budget')
         .setImage('https://i.imgur.com/Z95z2nl.png')
+        .setTimestamp()
         message.channel.send(howe);
 
     }    

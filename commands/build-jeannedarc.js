@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Offtank 1 | Helena Fight | Offtank 2 | Budget')
         .setImage('https://i.imgur.com/9VXUYx3.png')
+        .setTimestamp()
         message.channel.send(jeanne);
 
     }    

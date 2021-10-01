@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Boss | Mob | AA | Budget')
         .setImage('https://i.imgur.com/Tv8c4Vi.png')
+        .setTimestamp()
         message.channel.send(shinano);
 
     }    

@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Balanced | FP(back) | Tank(front) | Budget')
         .setImage('https://i.imgur.com/nGzw59t.png')
+        .setTimestamp()
         message.channel.send(sanfrancisco);
 
     }    

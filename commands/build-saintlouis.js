@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Tank | DPS | Helena Fight | Budget')
         .setImage('https://i.imgur.com/gAi2i14.png')
+        .setTimestamp()
         message.channel.send(saintlouis);
 
     }    

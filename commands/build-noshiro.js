@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Balanced | Tank | Torp | Budget')
         .setImage('https://i.imgur.com/xzIwTb4.png')
+        .setTimestamp()
         message.channel.send(noshiro);
 
     }    

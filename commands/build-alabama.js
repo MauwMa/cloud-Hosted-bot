@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Best in Slot? | AP | HE+timing | budget')
         .setImage('https://i.imgur.com/rZ6qN6j.png')
+        .setTimestamp()
         message.channel.send(alabama);
 
     }    

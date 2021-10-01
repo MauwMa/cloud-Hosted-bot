@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('But why? | Manual | Auto | Budget')
         .setImage('https://i.imgur.com/KfzKB0X.png')
+        .setTimestamp()
         message.channel.send(mutsuki);
 
     }    

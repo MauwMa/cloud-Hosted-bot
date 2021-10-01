@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('CH13 | AP | HE | Budget')
         .setImage('https://i.imgur.com/L5E6Xju.png')
+        .setTimestamp()
         message.channel.send(tosa);
 
     }    

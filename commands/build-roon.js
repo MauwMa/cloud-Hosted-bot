@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Reload | Tank | FP | Budget')
         .setImage('https://i.imgur.com/Tshg9y1.png')
+        .setTimestamp()
         message.channel.send(roon);
 
     }    

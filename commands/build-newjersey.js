@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('AP | HE | SPEED | Budget')
         .setImage('https://i.imgur.com/XnmzxOR.png')
+        .setTimestamp()
         message.channel.send(newjersey);
 
     }    

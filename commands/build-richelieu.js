@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Slot | HE | Survival | Budget')
         .setImage('https://i.imgur.com/LYy5afX.png')
+        .setTimestamp()
         message.channel.send(richelieu);
 
     }    

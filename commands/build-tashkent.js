@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Survival | DPS | AA | Budget')
         .setImage('https://i.imgur.com/UrJ87TL.png')
+        .setTimestamp()
         message.channel.send(tashkent);
 
     }    

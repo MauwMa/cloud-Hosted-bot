@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('CH13 | HE | AP | Budget')
         .setImage('https://i.imgur.com/PdymKIn.png')
+        .setTimestamp()
         message.channel.send(Odin);
 
     }    

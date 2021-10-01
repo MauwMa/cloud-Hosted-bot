@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('dmg | Auto1 | Auto2 | Budget')
         .setImage('https://i.imgur.com/e91pLxE.png')
+        .setTimestamp()
         message.channel.send(lemalin);
 
     }    

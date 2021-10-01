@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('Dmg | Support(Slow) | Heal | budget')
         .setImage('https://i.imgur.com/Q4ux5qf.png')
+        .setTimestamp()
         message.channel.send(ryuuhou);
 
     }    

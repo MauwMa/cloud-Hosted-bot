@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('AA | DPS | Survival | Budget')
         .setImage('https://i.imgur.com/djyJVR0.png')
+        .setTimestamp()
         message.channel.send(neptune);
 
     }    

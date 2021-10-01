@@ -7,6 +7,7 @@ module.exports = {
         .setColor('GREEN')
         .setTitle('AzurTalk')
         .setURL('')
+        .setTimestamp()
         .setDescription('1 óra múlva kezdődik az AzurTalk. Aki jön, aki nem akkor is menni fog nyaaa~')
         client.channels.cache.find(channel => channel.id === "856904370595561473").send(azurtalk)
         //   .then ((msg) => {setTimeout(function(){

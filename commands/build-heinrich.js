@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('AP | Balanced | Anti-shield | Budget')
         .setImage('https://i.imgur.com/WTjv45F.png')
+        .setTimestamp()
         message.channel.send(heinrich);
 
     }    

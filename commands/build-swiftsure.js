@@ -9,6 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('trigger | AA | Survival | Budget')
         .setImage('https://i.imgur.com/6TBcYmK.png')
+        .setTimestamp()
         message.channel.send(swiftsure);
 
     }    
