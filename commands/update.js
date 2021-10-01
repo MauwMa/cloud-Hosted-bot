@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Értesítés')
+        .setTitle('')
         .setURL('')
         .setTimestamp()
-        .setDescription('A szerver sürgős karbantartáson megy keresztül. Jelenleg hiba van a battle passben. A főhadiszállás már rajta van az ügyön, köszönjük a türelmeteket. Bármilyen változás meg lesz azonnal osztva.')
-        .setImage('https://images-ext-2.discordapp.net/external/bUVyOEBfuhLKGs8Br8iRSox0AeFjq6GmjQfnFglihKM/https/pbs.twimg.com/media/FAmPSamVQAM1D21.png%3Alarge')
+        .setDescription('Promise Crate elérhető október 14. magyar időszámítás szerint 9:00-ig.')
+        .setImage('https://images-ext-1.discordapp.net/external/YQxwutIG3anozfW1sMVTxituHEWsIM2eBc94azWGZ0I/https/pbs.twimg.com/media/FAnBiAlVcAQEXFY.png%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
