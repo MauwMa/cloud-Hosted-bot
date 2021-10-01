@@ -9,7 +9,7 @@ module.exports = {
         .setURL('')
         .setDescription('')
         .setImage('https://i.redd.it/5857dj1riqf41.jpg')
-        .setTimestamp('valami')
+        .setTimestamp()
         message.channel.send(unloli);
 
     }    
