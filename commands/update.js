@@ -5,10 +5,10 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('🔥Fusou META🔥')
+        .setTitle('Értesítés')
         .setURL('')
-        .setDescription('Csatahajó, Fusou vagyok. Békét hozok e föld meggyötört lelkeinek. Parancsnok, áldást keresel... vagy megváltást? \n\nFusou META hamarosan leszáll. Ingyenesen megszerezhető lesz Cruise Mission elvégzéséért.')
-        .setImage('https://images-ext-1.discordapp.net/external/3XU1yofWf-g68uV_y9eU1exso9-qT17mIb9i8P9cRxw/https/pbs.twimg.com/media/FAdYtrqVEAAzqb0.jpg%3Alarge?width=1783&height=910')
+        .setDescription('A szerver sürgős karbantartáson megy keresztül. Jelenleg hiba van a battle passben. A főhadiszállás már rajta van az ügyön, köszönjük a türelmeteket. Bármilyen változás meg lesz azonnal osztva.')
+        .setImage('https://images-ext-2.discordapp.net/external/bUVyOEBfuhLKGs8Br8iRSox0AeFjq6GmjQfnFglihKM/https/pbs.twimg.com/media/FAmPSamVQAM1D21.png%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
