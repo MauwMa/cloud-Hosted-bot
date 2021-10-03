@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('')
+        .setTitle('Emlékeztető')
         .setURL('')
         .setTimestamp()
-        .setDescription('Promise Crate elérhető október 14. magyar időszámítás szerint 9:00-ig.')
-        .setImage('https://images-ext-1.discordapp.net/external/YQxwutIG3anozfW1sMVTxituHEWsIM2eBc94azWGZ0I/https/pbs.twimg.com/media/FAnBiAlVcAQEXFY.png%3Alarge')
+        .setDescription('"Upon the Shimmering Blue" event és eventes hajók 10/4 magyar időszámítás szerint 09:00-ig lesz elérhető. Kérjük a beosztásaitokat tervezzétek e szerint.')
+        .setImage('https://i.imgur.com/QxNKPzU.jpg')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
