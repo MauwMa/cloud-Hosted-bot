@@ -1,16 +1,16 @@
 module.exports = {
-    name: 'build-friedrich',
-    description: 'build-friedrich',
+    name: 'build-fdg',
+    description: 'build-fdg',
     permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
-        const friedrich = new Discord.MessageEmbed()
+        const fdg = new Discord.MessageEmbed()
         .setColor('#f2082d')
-        .setTitle('friedrich der Große Build')
+        .setTitle('Friedrich der Große Build')
         .setURL('')
         .setDescription('HE | AP | CH 13 | Budget')
         .setImage('https://i.imgur.com/KlgHj6t.png')
         .setTimestamp()
-        message.channel.send(friedrich);
+        message.channel.send(fdg);
 
     }    
 }
