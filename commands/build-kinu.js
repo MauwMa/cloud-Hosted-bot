@@ -8,7 +8,7 @@ module.exports = {
         .setTitle('Kinu Build')
         .setURL('')
         .setDescription('Auto | Anti Sub? | Manual | Budget')
-        .setImage('https://i.imgur.com/uV1Xng3.png')
+        .setImage('https://i.imgur.com/cEAmR1P.png')
         .setTimestamp()
         message.channel.send(kinu);
 
