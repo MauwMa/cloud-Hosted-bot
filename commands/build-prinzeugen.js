@@ -8,7 +8,7 @@ module.exports = {
         .setTitle('Prinz Eugen Build')
         .setURL('')
         .setDescription('AP | More AP | HE but why? | Budget')
-        .setImage('https://i.imgur.com/WTjv45F.png')
+        .setImage('https://i.imgur.com/fVJaz4B.png')
         .setTimestamp()
         message.channel.send(prinzeugen);
 
