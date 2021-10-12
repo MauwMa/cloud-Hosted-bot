@@ -7,7 +7,7 @@ module.exports = {
 
 
 
-        var exportScheduler = schedule.scheduleJob('0 0 6 7 10 *', function() { 
+        var exportScheduler = schedule.scheduleJob('0 0 6 14 10 *', function() { 
             const egyora = new Discord.MessageEmbed()
             .setColor('#ffff00')
             .setTitle('Értesítés!')
