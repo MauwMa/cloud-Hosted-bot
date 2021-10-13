@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('【Crimson Echoes】')
+        .setTitle('Emlékeztető')
         .setURL('')
         .setTimestamp()
-        .setDescription('A Crimson Echoes event véglegesen bekerül a War Archives-ba a következő karbantartás után.')
-        .setImage('https://images-ext-2.discordapp.net/external/WXHBPYtXZnsfA8LhcpEGV5CsNgb0uUW6mUeXNFeon5Q/https/pbs.twimg.com/media/FBPqm5lVcAAcjwW.png%3Alarge')
+        .setDescription('Parancsnokok\n\nA parti skinek 10/14 magyar időszámítás szerint 09:00-ig lesznek elérhetőek.')
+        .setImage('https://i.imgur.com/WjMv86E.jpg')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
