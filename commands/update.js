@@ -8,8 +8,8 @@ module.exports = {
         .setTitle('')
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnokok,\n\n Volt egy hiba amely megengedte, hogy a "Popularity Poll"-ban lehetett szavazni Bismarckra. Top 3 volt 2019-ben ezért nem jogosult a szavazásra. Az összes szavazat, amely Bismarckra lett használva vissza lett küldve üzenetben. Elnézést a kellemetlenségért.')
-        .setImage('https://images-ext-2.discordapp.net/external/x3FlMERywGpP07X7X6y-Tgbmf0_L9D3WStfvGtZmowU/https/pbs.twimg.com/media/FBq4DBRUUAQEiKG.jpg%3Alarge')
+        .setDescription('Parancsnokok, a Crimson Echoes event mostmár elérhető a War Archivesban, Amagi és Tosa várják a megérkezésedet~')
+        .setImage('https://images-ext-2.discordapp.net/external/Mf_vF4JOluP4hz1WFrx3YB4cFmHmd0amqpy3dwbb1mU/https/pbs.twimg.com/media/FBrE9RWVIAAuDuA.jpg%3Alarge?width=1202&height=676')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
