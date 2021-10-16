@@ -4,7 +4,7 @@ module.exports = {
     description: 'felmeres',
     execute (client, message, args, Discord){
         const frakcio = new Discord.MessageEmbed()
-        .setColor('WHITE')
+        .setColor('#304281')
         .setTitle('Felmérés')
         .setURL('')
         .setDescription('Kíváncsiskodásképp ki az, aki hanggal játsza a játékot?')
