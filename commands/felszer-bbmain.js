@@ -1,12 +1,10 @@
 module.exports = {
-    name: 'felszer-bbmain',
-    description: 'felszer-bbmain',
-    permissions: ["KICK_MEMBERS"],
-    execute (client, message, args){
+    name: 'tesst',
+    description: 'tesst',
+    permissions: ["SEND_MESSAGES"],
+    execute (client, message, args, Discord){
+        message.channel.send("Message", {files: ["bbmain.png"]});
 
-        message.channel.send("https://i.imgur.com/qzMzc8c.jpg")
 
     }    
 }
-
-
