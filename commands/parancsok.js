@@ -4,7 +4,7 @@ module.exports = {
     permissions: ["KICK_MEMBERS"],
     execute (client, message, args, Discord){
         const parancsoks = new Discord.MessageEmbed()
-        .setColor('#bada55')
+        .setColor('#2ecc71')
         .setTitle('Parancsok')
         .setURL('')
         .setDescription('Fontos, hogy ékezetnélkül írjátok be nyaaa~')

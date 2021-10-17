@@ -4,7 +4,7 @@ module.exports = {
     permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
         const felszer = new Discord.MessageEmbed()
-        .setColor('#c30000')
+        .setColor('#2ecc71')
         .setTitle('Felszerelés Útmutatók')
         .setURL('')
         .setDescription('')

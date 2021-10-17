@@ -4,7 +4,7 @@ module.exports = {
     permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
         const newEmbed = new Discord.MessageEmbed()
-        .setColor('#304281')
+        .setColor('#2ecc71')
         .setTitle('Operation Siren Útmutatók')
         .setURL('')
         .setDescription('')
