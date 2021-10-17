@@ -8,8 +8,8 @@ module.exports = {
         .setTitle('')
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnokok, a Crimson Echoes event mostmár elérhető a War Archivesban, Amagi és Tosa várják a megérkezésedet~')
-        .setImage('https://images-ext-2.discordapp.net/external/Mf_vF4JOluP4hz1WFrx3YB4cFmHmd0amqpy3dwbb1mU/https/pbs.twimg.com/media/FBrE9RWVIAAuDuA.jpg%3Alarge?width=1202&height=676')
+        .setDescription('Parancsnokok,\n\n Fürdőruhás skinek Amagira, Tosára és sok másra visszatértek. Magyar időszámítás szerint 10/27 8:59-ig lesznek elérhetőek.')
+        .setImage('https://i.imgur.com/IyBX6Q8.jpg')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
