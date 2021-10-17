@@ -3,7 +3,7 @@ module.exports = {
     description: 'felszer-bbmain',
     permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
-        message.channel.send("Message", {files: ["bbmain.png"]});
+        message.channel.send({files: ["bbmain.png"]});
 
 
     }    
