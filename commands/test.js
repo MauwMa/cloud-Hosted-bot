@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'tesz',
+    name: 'teszt',
     description: 'teszt',
     permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
