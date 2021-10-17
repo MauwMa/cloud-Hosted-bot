@@ -3,7 +3,7 @@ module.exports = {
     description: 'felszer',
     permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
-        const newEmbed = new Discord.MessageEmbed()
+        const felszer = new Discord.MessageEmbed()
         .setColor('#c30000')
         .setTitle('Felszerelés Útmutatók')
         .setURL('')
@@ -12,7 +12,7 @@ module.exports = {
         .addFields(
             {name: 'Battleship útmutatók', value: ':small_blue_diamond: Főfegyver: /felszer-bbmain'},
         )
-        message.channel.send(newEmbed);
+        message.channel.send(felszer);
 
     }    
 }
