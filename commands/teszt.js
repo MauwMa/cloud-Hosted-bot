@@ -8,7 +8,7 @@ module.exports = {
         .setTitle('Nagato már nem loli többé')
         .setURL('')
         .setDescription('')
-        .setImage('https://i.imgur.com/qzMzc8c.jpg', 'https://i.imgur.com/qzMzc8c.jpg')
+        .setImage('https://i.imgur.com/qzMzc8c.jpg')
         .setTimestamp()
         message.channel.send(teszt);
 
