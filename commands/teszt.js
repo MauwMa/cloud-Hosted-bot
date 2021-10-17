@@ -1,14 +1,16 @@
 module.exports = {
-    name: 'teszt',
+    name: 'tesz',
     description: 'teszt',
-    permissions: ["KICK_MEMBERS"],
-    execute (client, message, args){
-
-        message.channel.send("https://i.imgur.com/AJh6R10.png")
-
-    if (message.deletable) message.delete();
+    permissions: ["SEND_MESSAGES"],
+    execute (client, message, args, Discord){
+        const teszt = new Discord.MessageEmbed()
+        .setColor('#304281')
+        .setTitle('Nagato már nem loli többé')
+        .setURL('')
+        .setDescription('')
+        .setImage('https://i.imgur.com/qzMzc8c.jpg', 'https://i.imgur.com/qzMzc8c.jpg')
+        .setTimestamp()
+        message.channel.send(teszt);
 
     }    
 }
-
-
