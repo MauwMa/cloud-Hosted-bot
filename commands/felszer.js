@@ -10,7 +10,7 @@ module.exports = {
         .setDescription('')
         .setTimestamp()
         .addFields(
-            {name: 'Battleship Main Gun út mutató', value: ':small_blue_diamond: /felszer-bbmain'},
+            {name: 'Battleship Main Gun útmutató', value: ':small_blue_diamond: /felszer-bbmain'},
         )
         message.channel.send(newEmbed);
 
