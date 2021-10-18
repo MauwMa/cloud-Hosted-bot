@@ -8,8 +8,8 @@ module.exports = {
         .setTitle('')
         .setURL('')
         .setTimestamp()
-        .setDescription('USS New Orleans felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('https://images-ext-2.discordapp.net/external/Z4_KOXnMuisYJUFTPGf5HzKgwX9kOHuE8XNVN9KwKcg/https/pbs.twimg.com/media/FB0ad5rXMAIM_-E.jpg%3Alarge?width=1739&height=910')
+        .setDescription('Parancsnokok,\n\nA közelgő karbantartás után elérhető lesz a "Blueprint Completion Plan" Gascogne-re. Parancsnokok extra tervrajzokat gyűjthetnek minden kutatás után Gascogne-re. A maximum 30db-ot lehet szerezni az event alatt.')
+        .setImage('https://images-ext-2.discordapp.net/external/ZNVRDtRhjV-V0BKD8-l6opP7sqn-rP-sEqAjBVKuaTA/https/pbs.twimg.com/media/FB-inKgVkAIv3Hw.jpg%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
