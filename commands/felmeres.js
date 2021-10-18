@@ -14,7 +14,7 @@ module.exports = {
             msg.react('<:Javno:883269657174372382>')
         }, 1000)})
         if (felmeres){
-            return message.channel.send(`Elküldtem az updatet nyaaa~`);
+            return message.channel.send(`Elküldtem az felmérést nyaaa~`);
           }
     }    
 
