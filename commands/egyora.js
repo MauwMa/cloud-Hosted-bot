@@ -4,9 +4,6 @@ module.exports = {
     permissions: ["KICK_MEMBERS"],
     description: 'egyora',
     execute (client, message, args, Discord){
-
-
-
         var exportScheduler = schedule.scheduleJob('0 00 6 21 10 *', function() { 
             const egyora = new Discord.MessageEmbed()
             .setColor('#ffff00')

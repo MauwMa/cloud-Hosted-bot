@@ -6,7 +6,7 @@ module.exports = {
          const keres = client.channels.cache.find(channel => channel.id === "789936506193182740");
         keres.send("Van valakinek valamilyen build kérése Cicához nyaaa~?");
         if (keres){
-            return message.channel.send(`Megkérdeztem a többi parancsnokoktól nyaaa~`);
+            return message.channel.send(`Megkérdeztem a többi parancsnokoktól nyaaa~ `);
           }
 
 
