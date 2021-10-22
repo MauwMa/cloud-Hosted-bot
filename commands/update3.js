@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update3 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('❀Véletlen túlmelegedés?❀')
+        .setTitle('⚜Le Terrible⚜')
         .setURL('')
         .setTimestamp()
-        .setDescription('Voah! ...Megint elestem... De legalább már hűvösebb van... Mi? Fotózás? Neeee, ne készíts rólam képet~\n\nIJN Isuzu felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/78JUTwcn42m2kZsOsl5aHIJcz6jx6XZUHoYwRg6juGc/https/pbs.twimg.com/media/E_Vk8W6VkAMC1r-.jpg%3Alarge?width=1232&height=672')
+        .setDescription('Le Terrible vagyok, az elegáns nagy romboló, ki védi az Iris Libre tanítását. Az eszményeidet követve jöttem. Parancsnok, kérlek mutasd meg a harcolásod okát. \n\nFFNF Le Terrible felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
+        .setImage('https://i.imgur.com/weJpk94.jpg')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update3);
         if (update3){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
