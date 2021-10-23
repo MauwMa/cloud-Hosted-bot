@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Értesítés')
+        .setTitle('❀Tranquil Sunya❀')
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnokok,\n\nFacebook bejelentkezés hiba miatt, a facebookal összecsatoló bejelentkezéssel jelenleg gondok vannak. Parancsnokok Twitterrel és Yostar felhasználóval probléma mentesen be tudnak jelentkezni. Kérünk legyetek türelmesek, amíg megvizsgáljuk a problémát. Köszönjük a támogatást.')
-        .setImage('https://images-ext-2.discordapp.net/external/9NTkVab8vxCxJ9usxuWF7C_QAiBrWZ9tCx99hhzdRmA/https/pbs.twimg.com/media/FCX3C50VgAMoOLN.jpg%3Alarge')
+        .setDescription('Örülök hogy visszatértél, Uram. Megváltoztattam a viseletemet annak érdekében, hogy jobban véghez tudjam vinni a parancs– hogy "együtt pihenjünk". Most hát... meg tudnád mutatni, hogy hogyan folytassam tovább?\n\nIJN Ibuki az új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-1.discordapp.net/external/xl0I1lds7DxgKfTbPN1MQRsj-M9bSJdq9NbnB9jVmmw/https/pbs.twimg.com/media/FCXk1gVVgAAsfTt.jpg%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
