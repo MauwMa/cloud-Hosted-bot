@@ -10,13 +10,13 @@ const noNoWords = ["https://cdn.discordapp.com"];
     require(`./handlers/${handler}`)(client, Discord);
 })
 
-
-
-
-if (message.content.includes("https://cdn.discordapp.com"))
-message.delete();
-
-
+client.on("message", (message) => {
+ const str = "https://cdn.discordapp.com";
+ if(message.content.startsWith(str))
+ {message.delete();
+}
+}
+);
 
 
 
