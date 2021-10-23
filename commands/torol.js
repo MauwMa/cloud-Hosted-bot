@@ -14,7 +14,7 @@ module.exports = {
     }
 
     message.channel.bulkDelete(deleteAmount + 1, true);
-    message.channel.send(`***${deleteAmount}***db szabályt megszegő tartalom törölve~`)
+    message.channel.send(`***${deleteAmount}*** db szabályt megszegő tartalom törölve~`)
 
 
     }    
