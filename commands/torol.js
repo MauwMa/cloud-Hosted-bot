@@ -1,7 +1,7 @@
 module.exports = {
-    name: 'tartalom',
+    name: 'torol',
     permissions: ["KICK_MEMBERS"],
-    description: 'tartalom',
+    description: 'torol',
     execute (client, message, args, Discord){
 
 
@@ -14,7 +14,7 @@ module.exports = {
     }
 
     message.channel.bulkDelete(deleteAmount + 1, true);
-    message.reply(`***${deleteAmount}***db szabályt megszegő tartalom törölve~`)
+    message.channel.send(`***${deleteAmount}***db szabályt megszegő tartalom törölve~`)
 
 
     }    
