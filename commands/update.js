@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('')
+        .setTitle('Értesítés')
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnokok,\n\nA közelgő karbantartás után elérhető lesz a "Blueprint Completion Plan" Gascogne-re. Parancsnokok extra tervrajzokat gyűjthetnek minden kutatás után Gascogne-re. A maximum 30db-ot lehet szerezni az event alatt.')
-        .setImage('https://images-ext-2.discordapp.net/external/ZNVRDtRhjV-V0BKD8-l6opP7sqn-rP-sEqAjBVKuaTA/https/pbs.twimg.com/media/FB-inKgVkAIv3Hw.jpg%3Alarge')
+        .setDescription('Parancsnokok,\n\nFacebook bejelentkezés hiba miatt, a facebookal összecsatoló bejelentkezéssel jelenleg gondok vannak. Parancsnokok Twitterrel és Yostar felhasználóval probléma mentesen be tudnak jelentkezni. Kérünk legyetek türelmesek, amíg megvizsgáljuk a problémát. Köszönjük a támogatást.')
+        .setImage('https://images-ext-2.discordapp.net/external/9NTkVab8vxCxJ9usxuWF7C_QAiBrWZ9tCx99hhzdRmA/https/pbs.twimg.com/media/FCX3C50VgAMoOLN.jpg%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
