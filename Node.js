@@ -10,7 +10,7 @@ const noNoWords = ["https://cdn.discordapp.com"];
     require(`./handlers/${handler}`)(client, Discord);
 })
 
-client.on.("message", (message) => {
+client.on("message", (message) => {
  client.channels.cache.find(channel => channel.id === "789938303590727700")
  const str = "https://cdn.discordapp.com";
  if(message.content.startsWith(str))
