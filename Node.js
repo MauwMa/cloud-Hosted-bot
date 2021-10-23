@@ -10,10 +10,10 @@ const noNoWords = ["https://cdn.discordapp.com"];
     require(`./handlers/${handler}`)(client, Discord);
 })
 
-client.on("message", (message) => {
+client.on.("message", (message) => {
  const str = "https://cdn.discordapp.com";
- if(client.channels.cache.find(channel => channel.id === "789936292413571102")message.content.startsWith(str))
- {message.delete();
+ if(message.content.startsWith(str))
+ {client.channels.cache.find(channel => channel.id === "789936292413571102").message.delete();
 }
 }
 );
