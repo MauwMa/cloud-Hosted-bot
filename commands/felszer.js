@@ -11,7 +11,7 @@ module.exports = {
         .setTimestamp()
         .addFields(
             {name: 'Csatahajó útmutatók', value: ':small_blue_diamond: Főfegyver: /felszer-bbmain'},
-            {name: 'Repülőgép-Hordozó útmutatók', value: ':samll_blue_diamond: Repülőgépek: /felszer-cvrepcsik'},
+            {name: 'Repülőgép-Hordozó útmutatók', value: ':small_blue_diamond: Repülőgépek: /felszer-cvrepcsik'},
         )
         message.channel.send(felszer);
 
