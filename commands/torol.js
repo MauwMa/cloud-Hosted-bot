@@ -1,6 +1,6 @@
 module.exports = {
     name: 'torol',
-    permissions: ["KICK_MEMBERS"],
+    permissions: ["MENTION_EVERYONE"],
     description: 'torol',
     execute (client, message, args, Discord){
 
