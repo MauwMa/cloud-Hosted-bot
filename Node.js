@@ -11,9 +11,10 @@ const noNoWords = ["https://cdn.discordapp.com"];
 })
 
 client.on.("message", (message) => {
+ client.channels.cache.find(channel => channel.id === "789938303590727700")
  const str = "https://cdn.discordapp.com";
  if(message.content.startsWith(str))
- {client.channels.cache.find(channel => channel.id === "789936292413571102").message.delete();
+ {message.delete();
 }
 }
 );
