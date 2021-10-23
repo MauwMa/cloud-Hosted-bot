@@ -4,9 +4,29 @@ const client = new Discord.Client({partials: ["MESSAGE", "CHANNEL", "REACTION" ]
 client.commands = new Discord.Collection();
 client.events = new Discord.Collection();
 
+const noNoWords = ["https://cdn.discordapp.com"];
+
 ['command_handler', 'event_handler'].forEach(handler =>{
     require(`./handlers/${handler}`)(client, Discord);
 })
+
+
+
+
+client.on("message", message => {
+    var content = message.content;
+
+    for (var i = 0; i < noNoWords.length; i++) {
+        if (content.includes(noNoWords[i])){  
+            message.delete();
+            break
+        }
+    }
+};
+
+
+
+
 
 client.on('guildMemberAdd', guildMember =>{
         const udvozloembed = new Discord.MessageEmbed()
