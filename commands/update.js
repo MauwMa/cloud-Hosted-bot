@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('❀Tranquil Sunya❀')
+        .setTitle('❀PJ Poker Party❀')
         .setURL('')
         .setTimestamp()
-        .setDescription('Örülök hogy visszatértél, Uram. Megváltoztattam a viseletemet annak érdekében, hogy jobban véghez tudjam vinni a parancs– hogy "együtt pihenjünk". Most hát... meg tudnád mutatni, hogy hogyan folytassam tovább?\n\nIJN Ibuki az új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/xl0I1lds7DxgKfTbPN1MQRsj-M9bSJdq9NbnB9jVmmw/https/pbs.twimg.com/media/FCXk1gVVgAAsfTt.jpg%3Alarge')
+        .setDescription('Most te következel, Parancsnok! Melyik legyen az~? Biiiiiztos vagy, hogy ez a kártya legyen? ...Hallak, Suzuya! Ne mond el a Parancsnoknak milyenek a kártyák!\n\nIJN Kumano az új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://i.imgur.com/Ygla43t.jpg')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
