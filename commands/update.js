@@ -8,8 +8,8 @@ module.exports = {
         .setTitle('⚜Napfény, Tengeri fuvallat, and Szentség')
         .setURL('')
         .setTimestamp()
-        .setDescription('Hogy telik a napod, Parancsnok? Hehe, az okos nővéremet keresed, Le Malint? Ha igen, akkor jobban tennéd, ha olyan helyen keresnéd amely kevésbé... népszerű~♪\n\nFFNF Le Terrible az új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-2.discordapp.net/external/JHjss9isTRzw-EdxJtidEofluVHqGN_am8kykYSqd4A/https/pbs.twimg.com/media/FCheaSgVEAIkSMg.jpg%3Alarge')
+        .setDescription('Miért nem lazítasz egy kicsit, mielőtt végiggondolnád a nap történéseit? Biztosan sokkal hatásosabb lenne úgy.\n\nIJN Noshiro az új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-1.discordapp.net/external/AEgrIMe3hpVbz7LcPnbMmmI7YdyZTkk6u4Bj1UWny9Y/https/pbs.twimg.com/media/FCip1StVIAcllYQ.jpg%3Alarge?width=1202&height=676')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
