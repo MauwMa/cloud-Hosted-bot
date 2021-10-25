@@ -5,7 +5,7 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('❀PJ Poker Party❀')
+        .setTitle('⚜Napfény, Tengeri fuvallat, and Szentség')
         .setURL('')
         .setTimestamp()
         .setDescription('Hogy telik a napod, Parancsnok? Hehe, az okos nővéremet keresed, Le Malint? Ha igen, akkor jobban tennéd, ha olyan helyen keresnéd amely kevésbé... népszerű~♪\n\nFFNF Le Terrible az új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
