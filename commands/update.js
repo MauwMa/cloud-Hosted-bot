@@ -8,8 +8,8 @@ module.exports = {
         .setTitle('Értesítés')
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnokok\n\nA Facebook bejelentkező hiba meg lett oldva. Parancsnokok mostantól be fognak tudni jelentkezni a facebook felhasználójukkal. Kompenzálásként 3 High-Efficiency Combat Logistics Plan és 6db <:Kocka:790201634100740117> -t osztunk ki. Köszönjük a türelmeteket.')
-        .setImage('https://images-ext-1.discordapp.net/external/uqiaQAlKAye2JfpJWhzxjJmVdlStIR5jXbRvcyQqGcM/https/pbs.twimg.com/media/FCndsIOUcAMEyHO.jpg%3Alarge')
+        .setDescription('Parancsnokok, köszönjük a támogatásaitokat, elértük 260k követőt twitteren. Helena META itt van, hogy együtt ünnepeljük. HQ 10db <:Kocka:790201634100740117> és 15.000 <:Pnz:790201580812894218> küld ki mindenkinek.')
+        .setImage('https://images-ext-2.discordapp.net/external/tselL8Ic84Wza7tpxffLdCVtDXwOCWjk-Qzq0Fxy6nU/https/pbs.twimg.com/media/FC19b4lUUAA5hl-.jpg%3Alarge?width=987&height=555')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
