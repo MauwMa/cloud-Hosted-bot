@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Merch')
+        .setTitle('')
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnokok, az Azur Lane 2021 Halloween Lucky Bag elérhető. Látogassatok el a boltba. Kíváncsi vagyok, mit fogtok onnan szerezni, nyaaa~\n\nBolt Link: https://t.co/fdl58JV2d9\n\nEmail: store.cs@yo-star.com')
-        .setImage('https://images-ext-1.discordapp.net/external/HJwmbBxyFdded-W6-ujrjzPl_uTiJ3BgT7QsTsQlZx8/%3Fformat%3Dpng%26name%3D386x202/https/pbs.twimg.com/card_img/1453189827134988292/ZKxFoG9G')
+        .setDescription('Parancsnokok\n\n A Skybound Oratorio Rerun event jelenleg megy! Ezek a karakterek limitált ideig elérhetőek az event épításben 11/11 magyar időszámítás szerint 08:00-ig.')
+        .setImage('https://images-ext-2.discordapp.net/external/B62dGF3ALTGelNJJEPxmVrAjvIN6Io-luNWrZW9vadI/https/pbs.twimg.com/media/FC3WNkAVcAE6V-b.jpg%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
