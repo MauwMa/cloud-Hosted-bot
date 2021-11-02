@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Értesítés')
+        .setTitle('Bútorzat')
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnokok,\n\nHQ egy hotfixet adott ki, amelyben Le Terrible hangot kapott és az Operation Sirenben a <:Pnz:790201580812894218> vásárlását 3x-ról 10x-re növelte. Emellett, HQ 2000 "Supply Shop Voucher"-t küld minden Parancsnoknak a November 11. karbantartás után.')
-        .setImage('https://images-ext-2.discordapp.net/external/bI_eZQjwX-bEw4AQImtTl93gLcydSbuRAmT-e94jCoM/https/pbs.twimg.com/media/FDLKSyTVIAYwzPX.jpg%3Alarge')
+        .setDescription('Novemberi bejelentkezős Bútorzat: Időjárás Projektor (Winter)')
+        .setImage('https://images-ext-2.discordapp.net/external/ytJ5Nj7edJadW8O_IJD2j8Y0nSYUT2wsoG6QBy-xKZ4/https/pbs.twimg.com/media/FDLhjvHUYAUcOZx.jpg%3Alarge?width=1224&height=556')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
