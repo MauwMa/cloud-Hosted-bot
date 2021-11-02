@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('')
+        .setTitle('Értesítés')
         .setURL('')
         .setTimestamp()
-        .setDescription('Boldog Halloweent! Parancsnok, úgy tűnik San Francisco, Glowworm és Abercrombie készen állnak hogy meglepjenek, te fel vagy készülve rá?')
-        .setImage('https://images-ext-2.discordapp.net/external/3BOuFRRi7B0ZeGVEFETsWt7Q-jIqdMKrKLeSZmfNko8/https/pbs.twimg.com/media/FC3XNiWVcAcJ44M.jpg%3Alarge?width=989&height=556')
+        .setDescription('Parancsnokok,\n\nHQ egy hotfixet adott ki, amelyben Le Terrible hangot kapott és az Operation Sirenben a <:Pnz:790201580812894218> vásárlását 3x-ról 10x-re növelte. Emellett, HQ 2000 "Supply Shop Voucher"-t küld minden Parancsnoknak a November 11. karbantartás után.')
+        .setImage('https://images-ext-2.discordapp.net/external/bI_eZQjwX-bEw4AQImtTl93gLcydSbuRAmT-e94jCoM/https/pbs.twimg.com/media/FDLKSyTVIAYwzPX.jpg%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
