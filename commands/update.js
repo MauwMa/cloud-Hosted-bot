@@ -8,11 +8,12 @@ module.exports = {
         .setTitle('Bútorzat')
         .setURL('')
         .setTimestamp()
-        .setDescription('Novemberi bejelentkezős Bútorzat: Időjárás Projektor (Winter)')
-        .setImage('https://images-ext-2.discordapp.net/external/ytJ5Nj7edJadW8O_IJD2j8Y0nSYUT2wsoG6QBy-xKZ4/https/pbs.twimg.com/media/FDLhjvHUYAUcOZx.jpg%3Alarge?width=1224&height=556')
+        .setDescription('Parancsnokok\n\nFacebook hiba miatt, a facebookal összecsatoló bejelentkezéssel jelenleg gondok vannak. Parancsnokok Twitterrel és Yostar felhasználóval probléma mentesen be tudnak jelentkezni. Kérünk legyetek türelmesek, amíg megvizsgáljuk a problémát. Köszönjük a támogatást.')
+        .setImage('https://images-ext-1.discordapp.net/external/vaDLFsI5igNpQ4bO_5Ufal06OmUkuRwI71-nT7xsz9g/https/images-ext-2.discordapp.net/external/9NTkVab8vxCxJ9usxuWF7C_QAiBrWZ9tCx99hhzdRmA/https/pbs.twimg.com/media/FCX3C50VgAMoOLN.jpg%253Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
           }
     }    
 }
+
