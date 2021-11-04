@@ -5,7 +5,7 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Bútorzat')
+        .setTitle('Értesítés')
         .setURL('')
         .setTimestamp()
         .setDescription('Parancsnokok\n\nFacebook hiba miatt, a facebookal összecsatoló bejelentkezéssel jelenleg gondok vannak. Parancsnokok Twitterrel és Yostar felhasználóval probléma mentesen be tudnak jelentkezni. Kérünk legyetek türelmesek, amíg megvizsgáljuk a problémát. Köszönjük a támogatást.')
