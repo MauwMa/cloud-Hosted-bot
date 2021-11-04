@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('')
+        .setTitle('⚜Foch⚜')
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnokok, a Skybound Oratario event visszatért. Richelieu és Béarn egy kis látogatást tesz a könyvtárban. Szeretnél csatlakozni hozzájuk?')
-        .setImage('https://images-ext-1.discordapp.net/external/nMliECKUwLYtIoLsgg3OwPdQB5lzrLarNKShhAng4Ow/https/pbs.twimg.com/media/FCyzNRMVQAI5Xjd.jpg%3Alarge?width=393&height=556')
+        .setDescription('Hellóka~ Szóval te vagy a Parancsnok? Foch vagyok, Suffren osztályból. Magamat egy tapasztalt stratégistának gondolom, szóval remélem hasznosnak fogsz találni~ Hahaha, akárhogyis, örvendek a találkozásnak~\n\nMNF Foch felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
+        .setImage('https://images-ext-1.discordapp.net/external/DiklRHUHckLgtoRNxECH3L_fuDotQ-IUyZ_CTnm7SL0/https/pbs.twimg.com/media/FDVTJYKVEAI1ETw.jpg%3Alarge?width=1060&height=555')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update2);
         if (update2){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
