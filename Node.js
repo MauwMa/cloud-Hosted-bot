@@ -4,20 +4,20 @@ const client = new Discord.Client({partials: ["MESSAGE", "CHANNEL", "REACTION" ]
 client.commands = new Discord.Collection();
 client.events = new Discord.Collection();
 
-const noNoWords = ["https://cdn.discordapp.com"];
+
 
 ['command_handler', 'event_handler'].forEach(handler =>{
     require(`./handlers/${handler}`)(client, Discord);
 })
 
-client.on("message", (message) => {
-    if (message.channel.id === '789938303590727700') {
- const str = "https://cdn.discordapp.com";
- if(message.content.startsWith(str))
- {message.delete();
-}
-}}
-);
+//client.on("message", (message) => {
+//    if (message.channel.id === '789938303590727700') {
+// const str = "https://cdn.discordapp.com";
+// if(message.content.startsWith(str))
+// {message.delete();
+//}
+//}}
+//);
 
 
 
