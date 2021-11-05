@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Értesítés')
+        .setTitle('⚜Szivárvány Randevú⚜')
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnokok\n\nA Facebook bejelentkező hiba meg lett oldva. Parancsnokok mostantól be fognak tudni jelentkezni a facebook felhasználójukkal. Azonban, mivel a Facebookal mostanában több hiba is felmerült, a Főhadiszállás erősen ajánlja, hogy vagy Twitterrel vagy a Yostarral is kösd össze a felhasználódat.')
-        .setImage('https://images-ext-1.discordapp.net/external/vaDLFsI5igNpQ4bO_5Ufal06OmUkuRwI71-nT7xsz9g/https/images-ext-2.discordapp.net/external/9NTkVab8vxCxJ9usxuWF7C_QAiBrWZ9tCx99hhzdRmA/https/pbs.twimg.com/media/FCX3C50VgAMoOLN.jpg%253Alarge')
+        .setDescription('Hé, Parancsnok, megvárattalak? Tudod hogy megy, néha nagyon nehéz egy lánynak a jó ruhát kiválasztania. Akárhogyis, induljunk meg~♪\n\nMNF Foch az új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-2.discordapp.net/external/8BRnAYlp2Hgr30vIXU67IYklOXU61IXeGuEbTsz8iUQ/https/pbs.twimg.com/media/FDbMc4WVQAIWRm4.jpg%3Alarge?width=1122&height=555')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
