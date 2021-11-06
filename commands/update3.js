@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update3 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('⚜Minden Hallowees este fekete macskája⚜')
+        .setTitle('✠Utolsó Kör✠')
         .setURL('')
         .setTimestamp()
-        .setDescription('Ha figyelmen kívül hagysz, akkor használni fogom a fekete macska mágiámat és tökké változtatlak! Ez eléggé Halloweenes? Ahahaha! Csak hülyéskedem! Gyerünk, csináljunk valami mókást este, Parancsnok!\n\nMNF La Galissonnière az új L2D ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/HcZcnBQMTF9fZd6roqnfyHlYbOYuYbrx9s8as5bACEg/https/pbs.twimg.com/media/FCs5mRBVEAAkE5_.jpg%3Alarge?width=1920&height=843')
+        .setDescription('Viel Glück~ Jó pillanatod van, Parancsnok? Csak hogy tudd az egyetlen személy akinek szurkolok... te vagy~\n\nKMS Prinz Eugen az új L2D ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-1.discordapp.net/external/tr7E9FPKdCJc9vOG1712RuGs4M6rdosWNTK1SwNifq8/https/pbs.twimg.com/media/FDgT-C6aAAAyVh7.jpg%3Alarge?width=1738&height=910')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update3);
         if (update3){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
