@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('⚜Szivárvány Randevú⚜')
+        .setTitle('Emlékeztető')
         .setURL('')
         .setTimestamp()
-        .setDescription('Hé, Parancsnok, megvárattalak? Tudod hogy megy, néha nagyon nehéz egy lánynak a jó ruhát kiválasztania. Akárhogyis, induljunk meg~♪\n\nMNF Foch az új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-2.discordapp.net/external/8BRnAYlp2Hgr30vIXU67IYklOXU61IXeGuEbTsz8iUQ/https/pbs.twimg.com/media/FDbMc4WVQAIWRm4.jpg%3Alarge?width=1122&height=555')
+        .setDescription('Parancsnokok\n\n La Galissonniére L2D skine és a többi új skin 11/11 magyar időszámítás szerint reggel 7:00-ig lesz elérhető.')
+        .setImage('https://images-ext-1.discordapp.net/external/oWde7_C6alQ3MNyU6KbOvwfhORttVNneVuZg72Y7O3g/https/pbs.twimg.com/media/FC8rCnxVkAQSf0Z.jpg%3Alarge?width=1127&height=555')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
