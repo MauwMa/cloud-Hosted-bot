@@ -10,14 +10,14 @@ client.events = new Discord.Collection();
     require(`./handlers/${handler}`)(client, Discord);
 })
 
-//client.on("message", (message) => {
-//    if (message.channel.id === '789938303590727700') {
-// const str = "https://cdn.discordapp.com";
-// if(message.content.startsWith(str))
-// {message.delete();
-//}
-//}}
-//);
+client.on("message", (message) => {
+    if (message.channel.id === '789938303590727700') {
+ const str = "https://cdn.discordapp.com";
+ if(message.content.startsWith(str))
+ {message.delete();
+}
+}}
+);
 
 
 
