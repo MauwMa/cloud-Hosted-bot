@@ -16,6 +16,7 @@ module.exports = {
             {name: 'Romboló útmutatók:', value: ':small_blue_diamond: Főfegyver: /felszer-ddmaingun'},
             {name: 'Általános útmutatók:', value: ':small_blue_diamond: Légvédelem: /felszer-antiair'}
             
+            
         )
         message.channel.send(felszer);
 
