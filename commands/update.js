@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Emlékeztető')
+        .setTitle('【The Flame-Touched Dagger】')
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnokok\n\n A Cognitive Array Support Terv event 11/11 magyar időszámítás szerint 08:00-kor ér véget. Kérjük mindenki szedje ki a jutalmakat, amíg lehet.')
-        .setImage('https://images-ext-2.discordapp.net/external/292RaXOWs_MyoaQpMk48qXGB0yT8_ns7dM5Gr8dJp18/https/images-ext-1.discordapp.net/external/e-ITop4dEK09gz6doLFu0WEIEZxgXhlc84BVViOf7So/https/pbs.twimg.com/media/FA8Bw8mVEAUioZe.png%253Alarge')
+        .setDescription('A Lángérintett Tőr event elkezdődött és 11/25 magyar időszámítás szerint 7:59-ig lesz elérhető. Az új karakter, Foch, mérföldkő jutalomként vagy heavy építésből lehet megszerezni limitált ideig.')
+        .setImage('https://images-ext-2.discordapp.net/external/0SlPHF5ONk6QRN77eDrZj6z0q2ijpRFQrESJSq1ALjw/https/pbs.twimg.com/media/FD63kFSUcAYj3yt.png%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
