@@ -8,8 +8,8 @@ module.exports = {
         .setTitle('【The Flame-Touched Dagger】')
         .setURL('')
         .setTimestamp()
-        .setDescription('A Lángérintett Tőr event elkezdődött és 11/25 magyar időszámítás szerint 7:59-ig lesz elérhető. Az új karakter, Foch, mérföldkő jutalomként vagy heavy építésből lehet megszerezni limitált ideig.')
-        .setImage('https://images-ext-2.discordapp.net/external/0SlPHF5ONk6QRN77eDrZj6z0q2ijpRFQrESJSq1ALjw/https/pbs.twimg.com/media/FD63kFSUcAYj3yt.png%3Alarge')
+        .setDescription('Parancsnokok,\n\nEzek a limitált skinek 11/25 magyar időszámítás szerint 07:59-ig elérhetőek. Ne hadjátok ki a lehetőséget, hogy megszerezzétek!')
+        .setImage('https://images-ext-1.discordapp.net/external/PewGqojlZtxSD3zF9gVtv0aMjjmeew9iLbGwMszUImw/https/pbs.twimg.com/media/FD_ZKzcVIA00KXi.jpg%3Alarge?width=1125&height=554')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
