@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('★Black Friday Rerun Outfits★')
+        .setTitle('★Akashi Fire Sale★')
         .setURL('')
         .setTimestamp()
-        .setDescription('Hogy megünnepeljük a black friday-t, Black Friday Rerun Outfits különleges listája visszatér November 18.-án. A Black Friday Rerun Outfits, 2021 Június 10.-e előtti skinek lesznek elérhetők. (Collabb skinek kivételével)')
-        .setImage('https://images-ext-1.discordapp.net/external/S6jq9ozaEmC5g23lQYLAF4st8ypOZSCcQ6j1o4NUyWE/https/pbs.twimg.com/media/FEKT2WdaMAANTdm.png%3Alarge')
+        .setDescription('November 18.ával kezdve, bármelyik Black Friday Rerun Skin vásárlásakor jutalmakat kapsz azáltal, hogy hányat veszel. A jutalmak tartalmaznak Promise Ring-et és limitált bútorzatot is, amit a Dromban is lehet venni.')
+        .setImage('https://images-ext-1.discordapp.net/external/HS1DcyemvkSZ645bBBAENsYUzQojecCPBIOn17J6vp0/https/pbs.twimg.com/media/FEKNkaWVUAcVEPa.jpg%3Alarge?width=1389&height=676')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
