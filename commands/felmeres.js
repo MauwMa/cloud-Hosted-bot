@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#2ecc71')
         .setTitle('Felmérés')
         .setURL('')
-        .setDescription('Akashi kíváncsinya~ Vettél valaha valamit véletlenül <:Gems:790201608855486513>-ért?')
+        .setDescription('Téged zavar, amikor megpingellek a karbantartás végekor? nyaaa~')
         client.channels.cache.find(channel => channel.id === "789936506193182740").send(felmeres)
         .then ((msg) => {setTimeout(function(){
             msg.react('<:Javyes:883269683439091712>')
