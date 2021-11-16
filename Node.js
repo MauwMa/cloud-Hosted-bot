@@ -28,10 +28,7 @@ module.exports = async (client) => {
           type: "PLAYING", // PLAYING, WATCHING, LISTENING, STREAMING,
       }
   });
-      client.Manager.init(client.user.id);
-      client.log(" " + client.user.tag); // You can change the text if you want, but DO NOT REMOVE "client.user.tag"
-  client.RegisterSlashCommands();
-  };
+  }
 
 client.on('guildMemberAdd', guildMember =>{
         const udvozloembed = new Discord.MessageEmbed()
