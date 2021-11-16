@@ -20,18 +20,6 @@ client.on("message", (message) => {
 );
 
 
-client.on("ready", () =>{
-    console.log(``);
-    client.user.setPresence({
-        status: "online",  
-        game: {
-            name: "Using !help",  
-            type: "PLAYING: Azur Lane" //PLAYING: WATCHING: LISTENING: STREAMING:
-        }
-    });
- });
-
-
 
 client.on('guildMemberAdd', guildMember =>{
         const udvozloembed = new Discord.MessageEmbed()
