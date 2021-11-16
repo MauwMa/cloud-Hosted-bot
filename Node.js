@@ -19,7 +19,19 @@ client.on("message", (message) => {
 }}
 );
 
-
+module.exports = async (client) => {
+    client.Ready = true, 
+    client.user.setPresence({
+      status: "online",  // You can show online, idle, and dnd
+      activity: {
+          name: "Azur Lane",  // The message shown
+          type: "PLAYING", // PLAYING, WATCHING, LISTENING, STREAMING,
+      }
+  });
+      client.Manager.init(client.user.id);
+      client.log(" " + client.user.tag); // You can change the text if you want, but DO NOT REMOVE "client.user.tag"
+  client.RegisterSlashCommands();
+  };
 
 client.on('guildMemberAdd', guildMember =>{
         const udvozloembed = new Discord.MessageEmbed()
