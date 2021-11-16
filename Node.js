@@ -21,7 +21,7 @@ client.on("message", (message) => {
 
 
 client.on("ready", () =>{
-    console.log(`Logged in as ${client.user.tag}!`);
+    console.log(``);
     client.user.setPresence({
         status: "online",  
         game: {
