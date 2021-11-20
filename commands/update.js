@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('★Black Friday Lucky Music Box★')
+        .setTitle('')
         .setURL('')
         .setTimestamp()
-        .setDescription('A Black Friday megünneplésképp, HQ egy különleges limitált Szerencsés Zenedobozzal készült. Ez az exkluzív zsákbamacska garantáltan ad L2D skint és 35<:Kocka:790201634100740117> és megannyi más cuccot.')
-        .setImage('https://images-ext-2.discordapp.net/external/sg0MH6EyQZm5YbNr_wSgGMMnvSIz-IPRi-DP3wPF214/https/pbs.twimg.com/media/FEOi5pKVIAIGDXQ.jpg%3Alarge?width=1425&height=676')
+        .setDescription('Parancsnokok\n\n Ezek a limitált skinek visszatértek a Black Friday alkalmából és Akashi Fire Sale eventért. Magyar időszámítás szerint 12/2 07:59-ig lesznek elérhetőek.')
+        .setImage('https://images-ext-1.discordapp.net/external/1ufLEe_c7ckMtC_0o1ZYBtf34LeUo6U1A9ewsX_ggP8/https/pbs.twimg.com/media/FEjt4KcUcAUWotE.jpg%3Alarge?width=1125&height=554')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
