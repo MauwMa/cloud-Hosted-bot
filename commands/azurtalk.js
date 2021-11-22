@@ -9,10 +9,16 @@ module.exports = {
         .setURL('')
         .setTimestamp()
         .setDescription('AzurTalk Szombaton!!! Délután kinek mikor lenne jó?')
-        client.channels.cache.find(channel => channel.id === "791956226521956394").send(azurtalk)
+        client.channels.cache.find(channel => channel.id === "856904370595561473").send(azurtalk)
            .then ((msg) => {setTimeout(function(){
            msg.react('1️⃣')
            msg.react('2️⃣')
+           msg.react('3️⃣')
+           msg.react('4️⃣')
+           msg.react('5️⃣')
+           msg.react('6️⃣')
+           msg.react('7️⃣')
+           msg.react('8️⃣')
         }, 1000)})
         
 //if (message.deletable) message.delete();
