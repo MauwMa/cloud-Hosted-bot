@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('⚜Foch⚜')
+        .setTitle('★Chise Asukagawa★')
         .setURL('')
         .setTimestamp()
-        .setDescription('Hellóka~ Szóval te vagy a Parancsnok? Foch vagyok, Suffren osztályból. Magamat egy tapasztalt stratégistának gondolom, szóval remélem hasznosnak fogsz találni~ Hahaha, akárhogyis, örvendek a találkozásnak~\n\nMNF Foch felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/DiklRHUHckLgtoRNxECH3L_fuDotQ-IUyZ_CTnm7SL0/https/pbs.twimg.com/media/FDVTJYKVEAI1ETw.jpg%3Alarge?width=1060&height=555')
+        .setDescription('Hééééé, valahogy egy teljesen ismeretlen helyre lyukadtam ki... Óh, öhm, Chise Asukagawa a nevem! Mivel egy ideig biztos itt leszek, legyunk jóban!\n\nChise Asukagawa felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')        
+        .setImage('https://images-ext-1.discordapp.net/external/QtqgzSfhctn3J216QPFdxVn0MbSQ_HplE8P0VXv2WiQ/https/pbs.twimg.com/media/FEt29cFagAEfUFh.jpg%3Alarge?width=1101&height=551')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update2);
         if (update2){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
