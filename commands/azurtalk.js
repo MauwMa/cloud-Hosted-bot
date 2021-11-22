@@ -8,12 +8,17 @@ module.exports = {
         .setTitle('AzurTalk')
         .setURL('')
         .setTimestamp()
-        .setDescription('AzurTalk hétvégén!!! Kinek mkor lenne jó?')
-        client.channels.cache.find(channel => channel.id === "856904370595561473").send(azurtalk)
-        //   .then ((msg) => {setTimeout(function(){
-        //   msg.react("<:one:>")
-        //    msg.react(":regional_indicator_v:")
-        //}, 1000)})
+        .setDescription('AzurTalk Szombaton!!! Délután kinek mikor lenne jó?')
+        client.channels.cache.find(channel => channel.id === "791956226521956394").send(azurtalk)
+           .then ((msg) => {setTimeout(function(){
+           msg.react("<:three:>")
+           msg.react("<:four:>")
+           msg.react("<:five:>")
+           msg.react("<:six:>")
+           msg.react("<:seven:>")
+           msg.react("<:eight:>")
+           msg.react("<:nine:>")
+        }, 1000)})
         
 //if (message.deletable) message.delete();
 if (azurtalk){
