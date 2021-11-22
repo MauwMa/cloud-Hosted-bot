@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('★Hass★')
+        .setTitle('★Vakáció kettőnek★')
         .setURL('')
         .setTimestamp()
-        .setDescription('Helló, Hass vagyok. Hirtelen erre a furcsa helyre sodort a szél... De, elég érdekesnek tűnik. Amúgy meg, nem próbléma ha itt videóznék?\n\nHass felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/bbtVc5cuQ81-GHs7L-1zuDFFIP1pT2eMqRYQcn6ga0E/https/pbs.twimg.com/media/FEy3RDGVkAIi-Rq.jpg%3Alarge?width=1101&height=551')
+        .setDescription('Üdv újra itthon, Parancsnok. Jó sok cuccot hoztál nekem, mi? Akkor hát, ne csak álldogálj ott, siess és gyere ide hozzám~\n\nAkane Shinjo az új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-2.discordapp.net/external/YZO1LiSXKeLOwTFMC_grafj43r3eD-qF-wyzuIoTl1I/https/pbs.twimg.com/media/FEy39G3VQAses4L.jpg%3Alarge?width=1239&height=551')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
