@@ -11,13 +11,13 @@ module.exports = {
         .setDescription('AzurTalk Szombaton!!! Délután kinek mikor lenne jó?')
         client.channels.cache.find(channel => channel.id === "791956226521956394").send(azurtalk)
            .then ((msg) => {setTimeout(function(){
-           msg.react("<:three:>")
-           msg.react("<:four:>")
-           msg.react("<:five:>")
-           msg.react("<:six:>")
-           msg.react("<:seven:>")
-           msg.react("<:eight:>")
-           msg.react("<:nine:>")
+           msg.react(":three:")
+           msg.react(":four:")
+           msg.react(":five:")
+           msg.react(":six:")
+           msg.react(":seven:")
+           msg.react(":eight:")
+           msg.react(":nine:")
         }, 1000)})
         
 //if (message.deletable) message.delete();
