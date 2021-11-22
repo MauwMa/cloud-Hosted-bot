@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('★Chise Asukagawa★')
+        .setTitle('★Namiko★')
         .setURL('')
         .setTimestamp()
-        .setDescription('Hééééé, valahogy egy teljesen ismeretlen helyre lyukadtam ki... Óh, öhm, Chise Asukagawa a nevem! Mivel egy ideig biztos itt leszek, legyunk jóban!\n\nChise Asukagawa felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')        
-        .setImage('https://images-ext-1.discordapp.net/external/QtqgzSfhctn3J216QPFdxVn0MbSQ_HplE8P0VXv2WiQ/https/pbs.twimg.com/media/FEt29cFagAEfUFh.jpg%3Alarge?width=1101&height=551')
+        .setDescription('Pacsi, itt Namiko! Öhm, várj, ez az a másik világba reinkarnáció dolog, ami szuper népszerű? ...Nem az, aham. Nos, akárhogyis, örvendek a szerencsének.\n\nNamiko felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')        
+        .setImage('https://images-ext-2.discordapp.net/external/wjI1sDTUuVLhGG_lGTQo72lmvIGeKcnlVG3gIQBVuSU/https/pbs.twimg.com/media/FEy3qUSVkAA7o9s.jpg%3Alarge?width=1101&height=551')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update2);
         if (update2){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
