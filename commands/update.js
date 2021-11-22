@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('★Mujina★')
+        .setTitle('★Yume Minami★')
         .setURL('')
         .setTimestamp()
-        .setDescription('Kaiju Eugenicist, Majiuna. Asszem csatahajó vagyok most. Csak kérdezem, hogy biztos legyen... Nincs a ti világotokba kaiju, igaz?\n\nMujina felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/fNS7hbpw_smqKEbRnTCd7L_1otcG267RBYhyZLpgU_c/https/pbs.twimg.com/media/FEt5I8uakAAgu7_.jpg%3Alarge?width=1101&height=551')
+        .setDescription('Helló, Yume Minami a nevem. Ebbe a világba kerültem valamilyen ok miatt. Mindent megteszek, hogy részt vegyek a flottában, mint nehézcirkáló.\n\nYume Minami felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
+        .setImage('https://images-ext-2.discordapp.net/external/4t_Bt3woHWEYy9tO7rlAyW5RMJ7LgSbOdT-7_m49DUU/https/pbs.twimg.com/media/FEt3bAJacAErVu1.jpg%3Alarge?width=1101&height=551')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
