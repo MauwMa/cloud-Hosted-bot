@@ -8,7 +8,7 @@ module.exports = {
         .setTitle('★Aranyozott Sétány★')
         .setURL('')
         .setTimestamp()
-        .setDescription('Te is jösz, Parancsnok? Ezesetben, legyünk egymás társasága, amíg nézzük a gingko levelek esését.\n\nMujina az új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setDescription('Te is jösz, Parancsnok? Ezesetben, legyünk egymás társasága, amíg nézzük a gingko levelek hullását.\n\nMujina az új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
         .setImage('https://images-ext-2.discordapp.net/external/_B6vVCbSTS_lrOwq6SDUzYANz582pNbX59Tc5ZcWOIA/https/pbs.twimg.com/media/FE30RXyVkAA3ccd.jpg%3Alarge?width=1239&height=551')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update3);
         if (update3){
