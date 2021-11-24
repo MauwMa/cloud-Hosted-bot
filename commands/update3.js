@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update3 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('★Akane Shinjo★')
+        .setTitle('★Aranyozott Sétány★')
         .setURL('')
         .setTimestamp()
-        .setDescription('Hellóka, Akane Shinjo vagyok. Ez a felszerelés szuper menően néz ki, mintha egyből egy mechából jött volna ki. Mármost ha csak egy kaiju lenne itt valahol, akkor az lenne a legjobb...\n\nAkane Shinjo felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('https://images-ext-2.discordapp.net/external/7jeXl2HxUedah8TgtzZJVkW6nwrS1q2-qqEkn3n0baY/https/pbs.twimg.com/media/FEt3MVDakAM0uHS.jpg%3Alarge?width=1101&height=551')
+        .setDescription('Te is jösz, Parancsnok? Ezesetben, legyünk egymás társasága, amíg nézzük a gingko levelek esését.\n\nMujina az új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-2.discordapp.net/external/_B6vVCbSTS_lrOwq6SDUzYANz582pNbX59Tc5ZcWOIA/https/pbs.twimg.com/media/FE30RXyVkAA3ccd.jpg%3Alarge?width=1239&height=551')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update3);
         if (update3){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
