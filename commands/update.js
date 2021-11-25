@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('★Tengerparti forgatás!★')
+        .setTitle('★Szabadnapi Randi★')
         .setURL('')
         .setTimestamp()
-        .setDescription('Itt van Hass. Ma este, körbe sétáljuk a kikötőt éjszaka. Ééééés, egy különleges vendégünk lesz- a Parancsnok! ... Psszt, héj, goyrs nézz a kamerába!\n\nHass az új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-2.discordapp.net/external/9hYa_bv70L5WAe3PD-hQ4HwKujlffP1UTvdlasIoLTI/https/pbs.twimg.com/media/FE9m8PAVcAQ63q0.jpg%3Alarge?width=1239&height=551')
+        .setDescription('Úgy érzem eleget shoppingoltunk már. Álljunk meg és pihenjünk egy kicsit, majd mennyünk újra egy kört~♪\n\nUSS Bremerton az új L2D ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-1.discordapp.net/external/vsGzrTP4iTGjHDFxmkt1e55rDfTYEqF1D2I1nS_CSgg/https/pbs.twimg.com/media/FFCoG53VgAwQSpz.jpg%3Alarge?width=1113&height=551')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
