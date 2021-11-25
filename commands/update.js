@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Merch')
+        .setTitle('★Tengerparti forgatás!★')
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnokok\n\n Ezek az imádni való desszert-témájú plüssek Le Malin és Perseusról November 25.-én magyar időszámítás szerint 05:00-kor lesznek elérhetőek\n\nBolt link: https://t.co/fdl58JDrlB\n\nEmail: store.cs@yo-star.com')
-        .setImage('')
+        .setDescription('Itt van Hass. Ma este, körbe sétáljuk a kikötőt éjszaka. Ééééés, egy különleges vendégünk lesz- a Parancsnok! ... Psszt, héj, goyrs nézz a kamerába!\n\nHass az új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-2.discordapp.net/external/9hYa_bv70L5WAe3PD-hQ4HwKujlffP1UTvdlasIoLTI/https/pbs.twimg.com/media/FE9m8PAVcAQ63q0.jpg%3Alarge?width=1239&height=551')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
