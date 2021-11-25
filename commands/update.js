@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('★Szabadnapi Randi★')
+        .setTitle('Boldog Hálaadást')
         .setURL('')
         .setTimestamp()
-        .setDescription('Úgy érzem eleget shoppingoltunk már. Álljunk meg és pihenjünk egy kicsit, majd mennyünk újra egy kört~♪\n\nUSS Bremerton az új L2D ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/vsGzrTP4iTGjHDFxmkt1e55rDfTYEqF1D2I1nS_CSgg/https/pbs.twimg.com/media/FFCoG53VgAwQSpz.jpg%3Alarge?width=1113&height=551')
+        .setDescription('Parancsnokok, Boldog Hálaadást! Reméljük jól telik az ünneplés~')
+        .setImage('https://images-ext-1.discordapp.net/external/3EvYYuZHQ04vCl1KIhMn94dVRLuGZmEID37zQBbKO4Q/https/pbs.twimg.com/media/FFDpuiVVUAcBE-t.jpg%3Alarge?width=1202&height=676')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
