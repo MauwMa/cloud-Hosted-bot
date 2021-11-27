@@ -8,7 +8,7 @@ module.exports = {
         .setTitle('AzurTalk')
         .setURL('')
         .setTimestamp()
-        .setDescription('1 Órás előzetes értesítés az AzurTalkról!')
+        .setDescription('Itt az ideje az AzurTalkhoz!')
         client.channels.cache.find(channel => channel.id === "856904370595561473").send(azurtalk)
         //    .then ((msg) => {setTimeout(function(){
         //    msg.react('1️⃣')
