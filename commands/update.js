@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('【Operation Siren】')
+        .setTitle('🔥Gneisenau META🔥')
         .setURL('')
         .setTimestamp()
-        .setDescription('Az Operation Sirennek hamarosan jön az 5. Fejezete! Parancsnokok fel vagytok készülve rá?')
-        .setImage('https://images-ext-2.discordapp.net/external/zPYmDQf-cA_RIbX6-bQet6_x6-heutJEDJCkSfiy4ik/https/pbs.twimg.com/media/FFquwP3VUAANkPz.png%3Alarge')
+        .setDescription('Te vagy... a Parancsnok, igaz? Más szóval, az egyetlen akinek van hatalma irányítania engem. Habár egyátalán nem érdeklődöm irántad mint személy, mégis engedelmeskedni fogok a parancsaidnak... Legalábbis egy darabig.\n\nHelena META hamarosan leszáll közénk. Parancsnok, képes vagy legyőzni és betoboroznod a kikötődbe?')
+        .setImage('https://images-ext-1.discordapp.net/external/OXKzbRHKEYaH6ojwS85M4OUce_xpzDz0QdoTZ3_03BM/https/pbs.twimg.com/media/FFu8_KHaIAMc_s3.jpg%3Alarge?width=1079&height=551')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
