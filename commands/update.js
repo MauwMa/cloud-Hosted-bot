@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Emlékeztető')
+        .setTitle('【Operation Siren】')
         .setURL('')
         .setTimestamp()
-        .setDescription('Ezek a limnitált skinek az Auzr Lane | SSSS.GRIDMAN / SSSS.DYNAZENON Collabból magyar időszámítás szerint 12/9 7:59-ig lesznek elérhetőek.')
-        .setImage('https://images-ext-1.discordapp.net/external/gBHlq1hulHLjrGxYOK_VfhSjdYvInu0r44wvoqXsiFw/https/pbs.twimg.com/media/FFRn0ndaQAIbi_M.jpg%3Alarge?width=1847&height=910')
+        .setDescription('Az Operation Sirennek hamarosan jön az 5. Fejezete! Parancsnokok fel vagytok készülve rá?')
+        .setImage('https://images-ext-2.discordapp.net/external/zPYmDQf-cA_RIbX6-bQet6_x6-heutJEDJCkSfiy4ik/https/pbs.twimg.com/media/FFquwP3VUAANkPz.png%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
