@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#2ecc71')
         .setTitle('Felmérés')
         .setURL('')
-        .setDescription('Tetszett a Gridmanes collab, nyaaa~?')
+        .setDescription('Tetszett a "SSSS.Gridman"-es collab, nyaaa~?')
         client.channels.cache.find(channel => channel.id === "789936506193182740").send(felmeres)
         .then ((msg) => {setTimeout(function(){
             msg.react('<:Javyes:883269683439091712>')
