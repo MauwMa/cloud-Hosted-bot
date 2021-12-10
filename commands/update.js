@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Megjegyzés')
+        .setTitle('★Esti Kikapcsolódás★')
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnokok, \n\n A Google Playen és App Sotreban új frissítés érhető el az Azur Lanehez. Ez NEM kötelező frissítés. Parancsnokok továbbra is játszani tudnak Azur Lane-nel a frissítés nélkül.')
-        .setImage('https://images-ext-2.discordapp.net/external/n6_MI79_qjffCWW89SxEwts0gVkYwkMBbeXXtFd6-KI/https/pbs.twimg.com/media/FGLGWPQUYA4YsCK.jpg%3Alarge')
+        .setDescription('Tekintetedre és a folyamatos győzelmeidre, Parancsnok. Hehe, ma este rumos kedvembe vagyok. Csatlakozol hozzám egy ideig?\n\nUSS New Orleans az új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-1.discordapp.net/external/pAmQeSCoeMrqVr654uzM4G5ByWccefbuHjT6YQU5oBE/https/pbs.twimg.com/media/FGQosFhUUAE5oqJ.jpg%3Alarge?width=1010&height=551')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
