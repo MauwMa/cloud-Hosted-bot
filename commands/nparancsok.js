@@ -8,7 +8,7 @@ module.exports = {
         .setTitle('Parancsok')
         .setTimestamp()
         .setURL('')
-        .setDescription('/ehes | /frakcio | /ham | /ham2 | /karveg | /keres | /tema | /update | /mute1 | /mute2 | /mute3 | /egyora | /karban')
+        .setDescription('/egyora | /felmeres | /ehes | /frakcio | /ham | /ham2 | /karveg | /karban | /keres | /tema | /kuka | /update | /mute1 | /mute2 | /mute3 | /egyora |')
         message.channel.send(nparancsoks);
 
         if (message.deletable) message.delete();
