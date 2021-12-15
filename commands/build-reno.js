@@ -8,7 +8,7 @@ module.exports = {
         .setTitle('Reno Build')
         .setURL('')
         .setDescription('Normal | CH13 | Surface dps | Budget')
-        .setImage('https://i.imgur.com/qAAGpmZ.png')
+        .setImage('https://i.imgur.com/y9xmTGW.png')
         .setTimestamp()
         message.channel.send(reno);
 
