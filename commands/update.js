@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('【Scherzo of Iron and Blood】')
+        .setTitle("【Today's Debut✩Tomorrow's Star! Rerun】")
         .setURL('')
         .setTimestamp()
-        .setDescription('Scherzo of Iron and Blood event véglegesen bekelrül a War Archives-ba a következő karbantartáskor.')
-        .setImage('https://images-ext-2.discordapp.net/external/JWdn3--G17JOPftDnUiB_343Ie137w2S7LDGvNoUBrI/https/pbs.twimg.com/media/FGib978VIAAk5J4.jpg%3Alarge?width=1110&height=550')
+        .setDescription(`Li'l Sandy vissza fog térni a "Today's Debut✩Tomorrow's Star!" event Rerunjával. Szerezz elegendő "Friendship Point"-ot, hogy ténylegesen csatlakozzon Li'l Sandy hozzád!`)
+        .setImage('https://images-ext-1.discordapp.net/external/ARt9Fr33Xv0eUxRPhyOAWJUB7sLvZGbIeRtEKJ4ImSM/https/pbs.twimg.com/media/FGpVcecVkAI2L8x.png%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
