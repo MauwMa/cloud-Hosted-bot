@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle("❀Mikulás Eltévedt Segéde!❀")
+        .setTitle("Karbantartás vége")
         .setURL('')
         .setTimestamp()
-        .setDescription("Vigyázz! Félre, Parancsnok! ...Fuh. Hogy megmagyarázzam, segítek a Mikulásnak kiosztani a karácsonyi ajándékokat! Most ha megbocsájtasz, nem húzhatom az időt vagy elkések... Várj, rossz helyre jöttem? MICSODA?!\n\nIJN Akatsuki új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.")
-        .setImage('https://images-ext-2.discordapp.net/external/m9j0iwAdVqoHG8Y07o2n6MTVDc0eMkOWIXwrox25yn0/https/pbs.twimg.com/media/FHMzWVaVkAA9Ffe.jpg%3Alarge?width=1005&height=548')
+        .setDescription("Parancsnokok,\n\nA vészhelyzeti karbantartás véget ért és mostmár minden szerver fut. Kompenzálásképp (5db <:Kocka:790201634100740117> és 5db High-Efficiency...) lett elküldve üzenetben. Elnézést kérünk a kellemetlenségért")
+        .setImage('https://images-ext-2.discordapp.net/external/PGLOP1lyRoOuSu0_VOVLG4pDYnNQRtj_iBvYnSzdF30/https/pbs.twimg.com/media/FE21HPTVUAEzk36.jpg%3Alarge?width=965&height=551')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
