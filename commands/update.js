@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle("Karbantartás vége")
+        .setTitle("✠Elbe✠")
         .setURL('')
         .setTimestamp()
-        .setDescription("Parancsnokok,\n\nA vészhelyzeti karbantartás véget ért és mostmár minden szerver fut. Kompenzálásképp (5db <:Kocka:790201634100740117> és 5db High-Efficiency...) lett elküldve üzenetben. Elnézést kérünk a kellemetlenségért")
-        .setImage('https://images-ext-2.discordapp.net/external/PGLOP1lyRoOuSu0_VOVLG4pDYnNQRtj_iBvYnSzdF30/https/pbs.twimg.com/media/FE21HPTVUAEzk36.jpg%3Alarge?width=965&height=551')
+        .setDescription("Jade-osztályú hordozó vagyok, Elbe. És te vagy ennek a flottának a Parancsnoka? Hmm, elég biztos lehetsz magadba ha hozzád jön az, aki a győzelmet elhozza neked♪\n\nKMS Elbe felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.")
+        .setImage('https://images-ext-1.discordapp.net/external/u8e5gnWmUveZlWComGfyXwhpNT305sX3bVeSpKJFI-M/https/pbs.twimg.com/media/FHS6qjYVcAASIT4.jpg%3Alarge?width=1291&height=676')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
