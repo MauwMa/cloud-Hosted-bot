@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('【Call to Arms: Iron Blood】')
+        .setTitle('Tiszta Bolt, Tiszta Elme❀')
         .setURL('')
         .setTimestamp()
-        .setDescription('Call to Arms: Iron Blood, egy előevent, a következő karbantartás után kerül be. Szerezz extra tapasztalatot Prinz Eugen, Peter Strasser, Tirpitz és U-47-el, hogy felkészülj a nagy eventre.')        
-        .setImage('https://images-ext-2.discordapp.net/external/g4S-dj_1nVgxyeAqNJ7s7XyrXgZ87YnmvmGT2MhrGO4/https/pbs.twimg.com/media/FHILcCEVQAMtKaD.jpg%3Alarge')
+        .setDescription('Fuu, készis van a bejárat... Óh üdvözöllek, Parancsnok! Éppen takarítok, adj egy pillanatot... Azonnal ott leszek!\n\nIJN Choukai új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')        
+        .setImage('https://images-ext-2.discordapp.net/external/UBwV5SW6iqqQjGS64gTWIbBfJBNS7PC5MUND9tAK2oI/https/pbs.twimg.com/media/FHXl-ELUYAAnwrm.jpg%3Alarge?width=1171&height=676')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update2);
         if (update2){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
