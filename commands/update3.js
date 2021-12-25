@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update3 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('✠Ulrich von Hutten✠')
+        .setTitle('Boldog Karácsonyt')
         .setURL('')
         .setTimestamp()
-        .setDescription('Ulrich von Hutten vagyok, az Iron Blood remény és megbánás szimbóluma. Az érkezésem ünneplést vagy kétségbeesést okoz, ezt neked kell eldöntened. Szívesen fogok válaszolni rá.\n\nKMS Ulrich von Hutten felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/Y_stpBTgjs_VhrLBGWqjicIGarfb_eo5Clj6PfZSvpg/https/pbs.twimg.com/media/FHITrzEUUAcE5IQ.jpg%3Alarge?width=1047&height=548')
+        .setDescription('Boldog Karácsonyt, Parancsnok! New Jersey megérkezett az ajándékokkal mindenki számára! Ne felejtsétek megnézni az üzeneteiteket a játékban~\n\nFanart:うおのめうろこ (@uonomekouro) ')
+        .setImage('https://images-ext-2.discordapp.net/external/t4yCy9fsNgsHRhMK7ApHqDy-L9yIJHz8_cPfFQ5e38Y/https/pbs.twimg.com/media/FHXyNFYVUAcdJvy.jpg%3Alarge?width=1202&height=676')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update3);
         if (update3){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
