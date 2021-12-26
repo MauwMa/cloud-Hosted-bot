@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update3 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('✠Magdeburg✠')
+        .setTitle('✠Ideje Felmutatni?✠')
         .setURL('')
         .setTimestamp()
-        .setDescription('Yó! Iron Blood könnyű-cirkáló, Magdeburg megérkezett! Adj egy öklöst, hogy megünepeljük a barátságunkat! Várj, öhm... Rajtam vannak ezek a metál páncélkesztyűk, szóval csak óvatosan a saját biztonságodért.\n\nKMS Elbe felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/zvyNckpXAKRGgTeQ78TPEGMeZG44kBl1pDcEOIfYKm0/https/pbs.twimg.com/media/FHXlEFgVQAAJeAM.jpg%3Alarge?width=1291&height=676')
+        .setDescription('Köszönöm a türelmeteket. Nagy korsó Iron Blood sör ahogy az rendel- M-Miiii?! Ahhh...! Fhuuu, valahogy sikerült nem kiöntenem egy cseppet sem... M-Mit akarsz?\n\nKMS Elbe új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-1.discordapp.net/external/W6r1iLgYui-T8k3sRq0OlOv1lSt5K37XbKzD9NmJRYw/https/pbs.twimg.com/media/FHciGjLUUAIDu44.jpg%3Alarge?width=950&height=548')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update3);
         if (update3){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);

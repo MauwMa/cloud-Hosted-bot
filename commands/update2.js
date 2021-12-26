@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Tiszta Bolt, Tiszta Elme❀')
+        .setTitle('✠U-1206✠')
         .setURL('')
         .setTimestamp()
-        .setDescription('Fuu, készis van a bejárat... Óh üdvözöllek, Parancsnok! Éppen takarítok, adj egy pillanatot... Azonnal ott leszek!\n\nIJN Choukai új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')        
-        .setImage('https://images-ext-2.discordapp.net/external/UBwV5SW6iqqQjGS64gTWIbBfJBNS7PC5MUND9tAK2oI/https/pbs.twimg.com/media/FHXl-ELUYAAnwrm.jpg%3Alarge?width=1171&height=676')
+        .setDescription('Parancsnok! Igen, te! Gyere ide vissza! Köszöntened kellene engem! Ide figyelj, én vagyok az Iron Blood tengeralattjárója U-1206 és itt fogok szolgálni mától! És ne felejtsd el legközelebb!\n\nKMS U-1206 felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')        
+        .setImage('https://images-ext-1.discordapp.net/external/OluTaVBlfW0jWbR2jIlqN8ZyPzO2IpS55C2VkaDPP9g/https/pbs.twimg.com/media/FHchkW8UUAAvACZ.jpg%3Alarge?width=1047&height=548')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update2);
         if (update2){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
