@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle("✠Prinz Adalbert✠")
+        .setTitle("★A Cicás Meglepetés!★")
         .setURL('')
         .setTimestamp()
-        .setDescription("Biztonságban ideértem a kikötőhöz! Itt az ideje körülnézni. A kérdés, hogy honnan kezdjem... Hm? Te vagy a parancsnok? Rendben. Hali, örvendek a találkozásnak és a többi. Később találkozunk~\n\nKMS Prinz Adalbert felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.")
-        .setImage('https://images-ext-2.discordapp.net/external/2xJbUJaSIcXmsy04jd8pHoi3EMD1U9fDekCn7v1gc-Q/https/pbs.twimg.com/media/FHhIqIJVQAAVh39.jpg%3Alarge?width=1739&height=910')
+        .setDescription("Meglepetééééés! Egész végig a dobozban voltam! ...Ennyire sikerült meglepnem téged? Heeheee~ Tessék, itt egy utalvány bocsánatkérésképp. Gyere nézz be később és használd el~♪\n\nUSS Albacore új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok..")
+        .setImage('https://images-ext-1.discordapp.net/external/k0HtQ_ZhBqU2F9d5w3SELw1ogR1hZlbXBlE-EsKm1wU/https/pbs.twimg.com/media/FHnFcVZVUAAQdno.jpg%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
