@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('⛨A Szív Királynő⛨')
+        .setTitle('✠Rendbontó Cseléd✠')
         .setURL('')
         .setTimestamp()
-        .setDescription(`Én? Szolgáljak neked, mint cseléd? Oho! Zene füleimnek, Parancsnok! Milyen csodálatos és ambiciózus tőled! ...Csak ideiglenesig? És te elégedett vagy vele?\n\nRN Marco Polo új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.`)        
-        .setImage('https://images-ext-1.discordapp.net/external/pNlI-dZjvjFin1S68Sjbon4VjEY8xLrkH25W0MNIXg4/https/pbs.twimg.com/media/FHsOQGvVkAMRLHt.jpg%3Alarge')
+        .setDescription(`*sóhaj* Tényleg zavarnod kell engem miközben szüneten vagyok? ...Csak viccelek, nem kell komolyan venned. Amúgy is kerestem valakit akivel el tudom ütni az időt.\n\nKMS Ulrich von Hutten az új L2D ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.`)        
+        .setImage('https://images-ext-1.discordapp.net/external/4rsIN3dug9klAAedNIm6LZfmfWESLIxeS9xegyAAeSk/https/pbs.twimg.com/media/FHsNHibVkAAiPs5.jpg%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update2);
         if (update2){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
