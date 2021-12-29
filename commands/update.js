@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle("✠Városi Cselédlány✠")
+        .setTitle("♚Délutáni Rögtönzés♚")
         .setURL('')
         .setTimestamp()
-        .setDescription("Keresztül jövök! Utat kérek! Óh, csak te vagy Parancsnok. Később beszélünk- kávét kell kiszállítanom.\n\nKMS U-47 új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok..")
-        .setImage('https://images-ext-1.discordapp.net/external/mSeoEaCejVAipWGPIYyDFHrfqa59YZqhyS55a3arS4s/https/pbs.twimg.com/media/FHn3yNzVQAM-bjz.jpg%3Alarge')
+        .setDescription('Szép napot, Parancs- Eeeh, úgy értem "Mester"? Ufff, habár jobban szeretlek Parancsnoknak hívni... Akárhogy is, gyakorlom a hegedülést, hogy jobb légkört teremtsek a bolt körül. Azért jöttél ide, mert ide csábított a zeném dallama?\n\nHMS Southampton új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok..')
+        .setImage('https://images-ext-2.discordapp.net/external/ysd9nR9G1Z0XQSF9vbtI9YQB9q7Cid1rl6pokHHTezA/https/pbs.twimg.com/media/FHn8ilKUcAEHG-S.jpg%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
