@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle("★A Cicás Meglepetés!★")
+        .setTitle("✠Városi Cselédlány✠")
         .setURL('')
         .setTimestamp()
-        .setDescription("Meglepetééééés! Egész végig a dobozban voltam! ...Ennyire sikerült meglepnem téged? Heeheee~ Tessék, itt egy utalvány bocsánatkérésképp. Gyere nézz be később és használd el~♪\n\nUSS Albacore új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok..")
-        .setImage('https://images-ext-1.discordapp.net/external/k0HtQ_ZhBqU2F9d5w3SELw1ogR1hZlbXBlE-EsKm1wU/https/pbs.twimg.com/media/FHnFcVZVUAAQdno.jpg%3Alarge')
+        .setDescription("Keresztül jövök! Utat kérek! Óh, csak te vagy Parancsnok. Később beszélünk- kávét kell kiszállítanom.\n\nKMS U-47 új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok..")
+        .setImage('https://images-ext-1.discordapp.net/external/mSeoEaCejVAipWGPIYyDFHrfqa59YZqhyS55a3arS4s/https/pbs.twimg.com/media/FHn3yNzVQAM-bjz.jpg%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
