@@ -5,7 +5,7 @@ module.exports = {
     execute (client, message, args, Discord){
         const zet = new Discord.MessageEmbed()
         .setColor('#2ecc71')
-        .setAuthor({ name: 'Azur Lane Hungary' , iconURL: 'https://i.imgur.com/6DgcVUu.png'})
+        .setAuthor({ name: 'Some name', iconURL: 'https://i.imgur.com/AfFp7pu.png', url: 'https://discord.js.org' })
         .setTitle('teszt teszt teszt teszt ')
         .setTimestamp()
         .setURL('')
