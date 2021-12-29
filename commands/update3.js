@@ -5,11 +5,11 @@ module.exports = {
     execute (client, message, args, Discord){
         const update3 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('✠Munka Utáni Szolgáltatás✠')
+        .setTitle('')
         .setURL('')
         .setTimestamp()
-        .setDescription('Zzz... Huh? Elszundítottam volna? Csak pár másodpercig akartam pihentetni a szememet, de mennyi ideig aludtam... Várj egy kicsit, miért vagy még mindig itt, Parancsnok?\n\nKMS Prinz Adalbert az új L2D ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-2.discordapp.net/external/PXILhr7SbV2Kqhw6LIfKyqd331I15oYk1S9sasQDfJM/https/pbs.twimg.com/media/FHsOjf_VgAU482r.jpg%3Alarge')
+        .setDescription('A Shougatsu Szerencse Doboz 2022 karbantartás után lesz elérhető.')
+        .setImage('https://images-ext-2.discordapp.net/external/KVxe03MvYPz7wE23cuMFxZl1K08rhLglXwxm3zGH4ik/https/pbs.twimg.com/media/FHxWyecVkAED-0F.jpg%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update3);
         if (update3){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
