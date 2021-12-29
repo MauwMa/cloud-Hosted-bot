@@ -5,7 +5,7 @@ module.exports = {
     execute (client, message, args, Discord){
         const update3 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('✠The Conquered Unhulde✠')
+        .setTitle('✠A meghódított Unhulde✠')
         .setURL('')
         .setTimestamp()
         .setDescription('Teljesen gubancos a hajam... Ezt pedig így. Nem, nem kell segítség. Azért vagyok itt, hogy az álmaid flottájában szolgáljalak. Élvezd amíg tart. Hehehe.\n\nKMS August von Parseval új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
