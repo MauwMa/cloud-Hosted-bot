@@ -5,7 +5,7 @@ module.exports = {
     execute (client, message, args, Discord){
         const update3 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Munka Utáni Szolgáltatás✠')
+        .setTitle('✠Munka Utáni Szolgáltatás✠')
         .setURL('')
         .setTimestamp()
         .setDescription('Zzz... Huh? Elszundítottam volna? Csak pár másodpercig akartam pihentetni a szememet, de mennyi ideig aludtam... Várj egy kicsit, miért vagy még mindig itt, Parancsnok?\n\nKMS Prinz Adalbert az új L2D ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
