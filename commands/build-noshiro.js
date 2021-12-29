@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#ff90ff')
         .setTitle('Noshiro Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Balanced | Tank | Torp | Budget')
         .setImage('https://i.imgur.com/xzIwTb4.png')
         .setTimestamp()

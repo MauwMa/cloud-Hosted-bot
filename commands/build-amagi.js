@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#ff90ff')
         .setTitle('Amagi Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('DMG | Preload | Balanced | Budget')
         .setImage('https://i.imgur.com/El4Jl98.png')
         .setTimestamp()

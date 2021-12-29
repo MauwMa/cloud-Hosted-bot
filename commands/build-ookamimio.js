@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#ff90ff')
         .setTitle('Ookami Mio Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Slow | DMG | AA | Budget')
         .setImage('https://i.imgur.com/Kn3QLeW.png')
         .setTimestamp()

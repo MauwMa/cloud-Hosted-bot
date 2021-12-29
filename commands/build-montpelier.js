@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#16108b')
         .setTitle('montpelier Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Tank(mob) | Tank(Boss) | Full AA | Budget')
         .setImage('https://i.imgur.com/PFnC7un.png')
         .setTimestamp()

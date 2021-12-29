@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#16108b')
         .setTitle('Ranger Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Slow | Boss | Mob | Budget')
         .setImage('https://i.imgur.com/85u643r.png')
         .setTimestamp()

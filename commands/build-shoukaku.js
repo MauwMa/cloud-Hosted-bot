@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#ff90ff')
         .setTitle('Shoukaku Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Gyors | DMG | None | Budget')
         .setImage('https://i.imgur.com/niGYMpT.png')
         .setTimestamp()

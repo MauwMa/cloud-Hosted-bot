@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#c5c5ff')
         .setTitle('Formidable Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Boss+timing | Boss | Mob | Budget')
         .setImage('https://i.imgur.com/Gc61HYP.png')
         .setTimestamp()

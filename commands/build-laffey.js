@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#16108b')
         .setTitle('Laffey Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Auto(survival) | Manual | Auto(torp) | Budget')
         .setImage('https://i.imgur.com/cxohosG.png')
         .setTimestamp()

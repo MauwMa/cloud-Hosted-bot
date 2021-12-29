@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#16108b')
         .setTitle('sovetskaya Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('CH13 | AP | HE | budget')
         .setImage('https://i.imgur.com/JgNg5Dt.png')
         .setTimestamp()

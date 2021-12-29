@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#2ecc71')
         .setTitle('Parancsok')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Fontos, hogy ékezetnélkül írjátok be nyaaa~')
         .setTimestamp()
         .addFields(

@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#c5c5ff')
         .setTitle('Perseus Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Burst" | Fast reload | AA | Budget')
         .setImage('https://i.imgur.com/t3rvQuK.png')
         .setTimestamp()

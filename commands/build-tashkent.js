@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#bbbbbb')
         .setTitle('Tashkent Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Survival | DPS | AA | Budget')
         .setImage('https://i.imgur.com/UrJ87TL.png')
         .setTimestamp()

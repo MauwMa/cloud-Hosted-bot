@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#16108b')
         .setTitle('Long Island Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Ideal')
         .setImage('https://i.imgur.com/pfpdlkO.png')
         .setTimestamp()

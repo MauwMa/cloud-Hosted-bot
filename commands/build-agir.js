@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#f2082d')
         .setTitle('Agir Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Slow Timing | General | Vs Light | Budget')
         .setImage('https://i.imgur.com/pZgkFSR.png')
         .setTimestamp()

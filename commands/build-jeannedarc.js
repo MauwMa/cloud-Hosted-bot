@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#16108b')
         .setTitle('Jeanne dArc Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Offtank 1 | Helena Fight | Offtank 2 | Budget')
         .setImage('https://i.imgur.com/9VXUYx3.png')
         .setTimestamp()

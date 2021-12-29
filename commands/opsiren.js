@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#2ecc71')
         .setTitle('Operation Siren Útmutatók')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('')
         .setTimestamp()
         .addFields(

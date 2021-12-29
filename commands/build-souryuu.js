@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#ff90ff')
         .setTitle('Souryuu Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('General? | Boss | Mob | Budget')
         .setImage('https://i.imgur.com/nFnsSKX.png')
         .setTimestamp()

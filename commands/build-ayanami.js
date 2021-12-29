@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#ff90ff')
         .setTitle('Ayanami Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Auto | Manual | Suicide | Budget')
         .setImage('https://i.imgur.com/xuyabkN.png')
         .setTimestamp()

@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#16108b')
         .setTitle('San Francisco Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Balanced | FP(back) | Tank(front) | Budget')
         .setImage('https://i.imgur.com/nGzw59t.png')
         .setTimestamp()

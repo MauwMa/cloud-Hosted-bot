@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#ff90ff')
         .setTitle('Azuma Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Best in slot | Good | Meme? | Budget')
         .setImage('https://i.imgur.com/Jq8GHk7.png')
         .setTimestamp()

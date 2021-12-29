@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#f2082d')
         .setTitle('Tirpitz Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('AP | HE | Tank | Budget')
         .setImage('https://i.imgur.com/GkRDIm0.png')
         .setTimestamp()

@@ -7,6 +7,7 @@ module.exports = {
         .setColor('WHITE')
         .setTitle('Gascogne U Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('? | ? | ? | Budget')
         .setImage('https://i.imgur.com/NOveReP.png')
         .setTimestamp()

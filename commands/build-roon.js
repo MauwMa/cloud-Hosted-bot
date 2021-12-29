@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#f2082d')
         .setTitle('Roon Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Reload | Tank | FP | Budget')
         .setImage('https://i.imgur.com/Tshg9y1.png')
         .setTimestamp()

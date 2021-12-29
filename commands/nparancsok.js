@@ -8,6 +8,7 @@ module.exports = {
         .setTitle('Parancsok')
         .setTimestamp()
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('/egyora | /felmeres | /ehes | /frakcio | /ham | /ham2 | /karveg | /karban | /keres | /tema | /kuka | /update | /mute1 | /mute2 | /mute3 | /egyora |')
         message.channel.send(nparancsok);
 

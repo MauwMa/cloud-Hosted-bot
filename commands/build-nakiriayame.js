@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#ff90ff')
         .setTitle('Nakiri Ayame Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('DPS | Balanced | Tank | Budget')
         .setImage('https://i.imgur.com/tqOWfQr.png')
         .setTimestamp()

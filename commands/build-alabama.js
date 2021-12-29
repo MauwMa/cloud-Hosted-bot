@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#16108b')
         .setTitle('Alabama Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Best in Slot? | AP | HE+timing | budget')
         .setImage('https://i.imgur.com/rZ6qN6j.png')
         .setTimestamp()

@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#16108b')
         .setTitle('Helena Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Időzített | AP | HE | "Budget"')
         .setImage('https://i.imgur.com/itg8IwP.png')
         .setTimestamp()

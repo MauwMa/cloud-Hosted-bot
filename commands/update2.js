@@ -5,6 +5,7 @@ module.exports = {
     execute (client, message, args, Discord){
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setTitle('✠Rendbontó Cseléd✠')
         .setURL('')
         .setTimestamp()

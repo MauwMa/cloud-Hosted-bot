@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#304281')
         .setTitle('Nagato már nem loli többé')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('')
         .setImage('https://i.redd.it/5857dj1riqf41.jpg')
         .setTimestamp()

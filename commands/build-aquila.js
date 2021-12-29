@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#065535')
         .setTitle('Aquila Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Mob | Boss | Heal | budget')
         .setImage('https://i.imgur.com/OwH1SZo.png')
         .setTimestamp()

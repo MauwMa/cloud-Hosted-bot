@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#ff90ff')
         .setTitle('Shinano Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Boss | Mob | AA | Budget')
         .setImage('https://i.imgur.com/Tv8c4Vi.png')
         .setTimestamp()

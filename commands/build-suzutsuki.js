@@ -7,6 +7,7 @@ module.exports = {
         .setColor('#ff90ff')
         .setTitle('Suzutsuki Build')
         .setURL('')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('dps | AA | Anti sub | Budget')
         .setImage('https://i.imgur.com/s6BjADP.png')
         .setTimestamp()
