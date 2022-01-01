@@ -6,11 +6,11 @@ module.exports = {
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle("Emlékeztető")
+        .setTitle("")
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnokok,\n\n A Tower of Transcendence event jelenleg megy! Ezek a limitált karakterek az event építésből elérhetőek egészen 1/13/2022 magyar időszámítás szerint 7:59-ig.')
-        .setImage('https://images-ext-1.discordapp.net/external/H7kTB9nyHgQK6NPCCTH3iw2kNdDom3bQCid8nzxMs8I/https/pbs.twimg.com/media/FH2X238VUAE4jgM.jpg%3Alarge?width=1069&height=548')
+        .setDescription('Parancsnokok,\n\n Boldog Új Évet! Z46 és Friedrich der Große megérkeztek, hogy velünk ünnepeljék meg az Új Évet!\n\nFanart: 薔薇缶 - (@canned_rose)')
+        .setImage('https://images-ext-2.discordapp.net/external/sbvOCpoAB0tmaIn1HyLDf6gcIvubvNWgiezM_PuHFzQ/https/pbs.twimg.com/media/FH8G-3IVQAMkJSJ.jpg%3Alarge?width=974&height=548')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
