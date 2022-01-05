@@ -9,8 +9,8 @@ module.exports = {
         .setTitle("")
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnokok,\n\n az Azur Lane hivatalos Twitter oldala elérte a 270k követőt! New Jersey itt van, hogy velünk együtt ünnepelje meg ezt a mérföldkövet~\n\nFanart: hanusu - (Pixiv=2488853)')
-        .setImage('https://images-ext-2.discordapp.net/external/7mXmUwyGA3o3_tInH89IU56kHQpxVfQ6HiQmaVMzAKk/https/pbs.twimg.com/media/FH7GchvVkAAJ082.jpg%3Alarge?width=1618&height=910')
+        .setDescription('Parancsnokok,\n\n A Port Café butorzat szett elérhető egészen Január 13. magyar időszámítás szerint 07:59-ig. Ne hagyjátok ki az esélyt, hogy megszerezzétek őket~')
+        .setImage('https://images-ext-1.discordapp.net/external/_4eEQJhJB1Vk7KD1gZALoWylZSugTA_zJgK_RIwC-A0/https/pbs.twimg.com/media/FIPuXbkVQAEB2lA.jpg%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
