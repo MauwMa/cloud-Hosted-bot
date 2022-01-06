@@ -6,11 +6,11 @@ module.exports = {
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle("")
+        .setTitle("【Tüzijáték műhely】")
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnokok,\n\n A Shougatsu Lucky Bag 2021 Január 13. magyar időszámítás szerint 07:59-ig lesz még elérhető.')
-        .setImage('https://images-ext-1.discordapp.net/external/KDVzf1JqmBKOzPPPGOBO4moSoHj36-iRjpbAeUpB8EQ/https/pbs.twimg.com/media/FIVN1IuUUAAZ7LP.jpg%3Alarge')
+        .setDescription('Parancsnokok, már elvégeztétek a Fireworks Workshop mini-eventet és Z28-at köszöntöttétek a kikötőtökben? Ez a mini-event Január 13. magyar időszámítás szerint 07:59-ig lesz még elérhető.')
+        .setImage('https://images-ext-1.discordapp.net/external/W-_B-rNTeCSU8rfcJl-fz4VFBsP61GA1p2jbr925ed8/https/pbs.twimg.com/media/FIaB22rVcAA3Pv-.jpg%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
