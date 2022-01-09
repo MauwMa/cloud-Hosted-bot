@@ -6,11 +6,11 @@ module.exports = {
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle("【Tüzijáték műhely】")
+        .setTitle("【Passionate Polaris】")
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnokok, már elvégeztétek a Fireworks Workshop mini-eventet és Z28-at köszöntöttétek a kikötőtökben? Ez a mini-event Január 13. magyar időszámítás szerint 07:59-ig lesz még elérhető.')
-        .setImage('https://images-ext-1.discordapp.net/external/W-_B-rNTeCSU8rfcJl-fz4VFBsP61GA1p2jbr925ed8/https/pbs.twimg.com/media/FIaB22rVcAA3Pv-.jpg%3Alarge')
+        .setDescription('Passionate Polaris event a következő karbantartás után bekerül a War Archives-ba..')
+        .setImage('https://images-ext-2.discordapp.net/external/XMxk03Y3Mf260p_ZGo4ZkAqqJZOVACgc0GybquD4QVk/https/pbs.twimg.com/media/FIfD1xpUUAEbgR-.jpg%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
