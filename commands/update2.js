@@ -6,11 +6,11 @@ module.exports = {
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle('✠Rendbontó Cseléd✠')
+        .setTitle('★Tavaszi Ihlet★')
         .setURL('')
         .setTimestamp()
-        .setDescription(`*sóhaj* Tényleg zavarnod kell engem miközben szüneten vagyok? ...Csak viccelek, nem kell komolyan venned. Amúgy is kerestem valakit, akivel el tudom ütni az időt.\n\nKMS Ulrich von Hutten az új L2D ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.`)        
-        .setImage('https://images-ext-1.discordapp.net/external/4rsIN3dug9klAAedNIm6LZfmfWESLIxeS9xegyAAeSk/https/pbs.twimg.com/media/FHsNHibVkAAiPs5.jpg%3Alarge')
+        .setDescription(`Ezt nézd meg, Parancsnok! Hehehe, hozzáadtam egy tüzijáték kilövőt a szuperhős felszerelésemhez. Menő, mi? ...Jobban érdeklődsz az új kinézetem után? De,,, a tűzijáték...\n\nUSS Reno új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')`)        
+        .setImage('https://images-ext-2.discordapp.net/external/OMdBgYpthh7xcjAu_g5JUaOZ6U6WrU-imra1BMfUP1c/https/pbs.twimg.com/media/FJXyThAacAA5A9C.jpg%3Alarge?width=1034&height=548')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update2);
         if (update2){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
