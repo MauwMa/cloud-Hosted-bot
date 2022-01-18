@@ -6,11 +6,11 @@ module.exports = {
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle("❀Hajnal-Phoenix hívása❀")
+        .setTitle("❀Virágzó Tavasz, Fénylő Hold❀")
         .setURL('')
         .setTimestamp()
-        .setDescription('Ez a bankett az ajándékom neked... és a jelenléted a legnagyszerűbb jutalom, amire valha is reménykedtem~ Így igaz, nem foglak elengedni este, amíg eszméletedet el nem veszted. Ehehe... Ahahaha~♡\n\nIJN Akagi az új L2D ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/zdk8Yqs7GMHwjxTZEymsB7r4Xwmj8b3W9_B55iCYQj0/https/pbs.twimg.com/media/FJTf1KPaIAA2J89.jpg%3Alarge?width=1034&height=548')
+        .setDescription('A Lunar Új Évre milyen virágokkal kellene feldíszítenem az irodát? Ááh, Nem tudom eldönteni! Öhm, Parancsnok, átnézed belülről? Körbe vezetlek! Fuuh...\n\nIJN Hanazuki új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-1.discordapp.net/external/ICsGflBm-vd732TaCiZD0BPUFss7tvyj46WO03QEp2A/https/pbs.twimg.com/media/FJT92K-acAA0bjJ.jpg%3Alarge?width=1034&height=548')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
