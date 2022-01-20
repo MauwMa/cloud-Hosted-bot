@@ -9,8 +9,8 @@ module.exports = {
         .setTitle("❀Firecrackers and Steamed Buns❀")
         .setURL('')
         .setTimestamp()
-        .setDescription('Mmh... Boldog Új Évet. Azon vagyok, hogy a petárdákat a barátaimhoz vigyem... A buci amit eszek? Ezt a erőfeszítéseimért kaptam köszönetképp.\n\nIJN Yoizuki új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-2.discordapp.net/external/iEUk0Ekl1HHPEWpXUi-MI4Rg_68LK-LNqrIzvSXQOpU/https/pbs.twimg.com/media/FJXylblaUAIgLr7.jpg%3Alarge?width=1034&height=548')
+        .setDescription('A nevem Bristol, Eagle Union romboló! Üdvözletem, Parancsnok! Ez a kikötő rengeteg rejtélynek add otthont... A feladatommá teszem mindegyiknek megoldását! Heheheheh!\n\nUSS Bristol a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok')
+        .setImage('https://images-ext-2.discordapp.net/external/IePJNi5c6g7eZaZyfgh6OZ2hqAZnA6bgkeXGEMzTHN0/https/pbs.twimg.com/media/FJimDXEaUAIEExn.jpg%3Alarge?width=1291&height=676')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
