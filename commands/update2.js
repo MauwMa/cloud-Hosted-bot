@@ -6,7 +6,7 @@ module.exports = {
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle('❀Jet Ink, Silver Quills❀')
+        .setTitle('❀Tinták, Ezüsttollak ❀')
         .setURL('')
         .setTimestamp()
         .setDescription(`Boldog Új Évet, Parancsnok. Hogy megünnepeljük ezt a szezont, készítettem egy szabott ruhát magamnak, amely tradicionális Dargon Empery ruhákat használ alapnak. Nem nézek ki... gyerekesen, ugye?\n\nIJN Oite felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.`)        
