@@ -6,11 +6,11 @@ module.exports = {
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle('★Az Alapkő Hadvezér★')
+        .setTitle('★Mese a Császárságból★')
         .setURL('')
         .setTimestamp()
-        .setDescription(`Állj meg! Ki vagy te?! ...Óh, te vagy az, Parancsnok. Összetévesztettelek egy kémmel. Miért vagy itt? Vagy szemlélni? Vagy ne adj isten, információt gyűjtesz a seregemről? \n\nUSS Pennsylvania új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.`)        
-        .setImage('https://images-ext-1.discordapp.net/external/eKZ6FNPCwm65qcYWFPEAYsan4nWXxaai8sHvnXYbC1M/https/pbs.twimg.com/media/FJsVebDUYAIhBKI.jpg%3Alarge?width=1274&height=676')
+        .setDescription(`Boldog Hold Új Évet, Parancsnok! Végre eljött az idő, hogy belenézzünk a Dragon Empery régi legendáiba! Az igazság eme legendák mögött, hogy olyan lenyűgőzőek legyenek, mint maguk a legendák!\n\nUSS Bristol új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.`)        
+        .setImage('https://images-ext-2.discordapp.net/external/iAk8s0mFK8gxUgyv9kCYa468TmvDo2E1880y9egDGIc/https/pbs.twimg.com/media/FJwZyU8VgAAq4k6.jpg%3Alarge?width=1274&height=676')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update2);
         if (update2){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
