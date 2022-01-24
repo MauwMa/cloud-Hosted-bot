@@ -6,11 +6,11 @@ module.exports = {
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle("⚓Chen Hai⚓")
+        .setTitle("♚A Gyógyítás Vörös Kamrája♚")
         .setURL('')
         .setTimestamp()
-        .setDescription('Szóval te vagy itt az agy az operációk mögött, mi? ...Hehe, végre találkozhattam a legendás Parancsnokkal szemtől szembe. Megtiszteltetés veled együtt dolgozni. Bízom benne, hogy fel fogsz élni a saját magasztos elvárásaidnak.\n\nChen Hai felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/2fZ-0Sa5YxRQJtb6bgQbxfvoDL9EboicqqnL8ue3RFs/https/pbs.twimg.com/media/FJnfnMCVIAUJEEH.jpg%3Alarge?width=1291&height=676')
+        .setDescription('*Combjaira üt* Mester, te szegény teremtés~ Nézzenek oda milyen keményen dolgozol~ Hehe, gyere ide gyorsan, hogy el tudjalak kényesztetni~\n\nHMS Charybdis az új L2D ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-1.discordapp.net/external/RaGqFcmJdmTiw5-s7n1pZs1xL7oTWiaEdRjg9Y3ilaQ/https/pbs.twimg.com/media/FJwZgCUVgAA2OJU.jpg%3Alarge?width=1274&height=676')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
