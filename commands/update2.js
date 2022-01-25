@@ -6,11 +6,11 @@ module.exports = {
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle('♚Hajdani Növénygyűjtő♚')
+        .setTitle('★Messziről jövő Varázslónő★')
         .setURL('')
         .setTimestamp()
-        .setDescription(`Hogyan érzed magad, Parancsnok? Hehe, most nem hordom a megszokott nővéri köpenyemet, de úgy hiszem nem nagyon különböző~\n\nHMS Hermione új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.`)        
-        .setImage('https://images-ext-1.discordapp.net/external/T35AxVFXre5ZCx7ThL1jmHSWKABUYAcMN7XpncZ6nAo/https/pbs.twimg.com/media/FJ2y0qNaMAUt6nK.jpg%3Alarge?width=1274&height=676')
+        .setDescription(`Úgy hallottam ezek a ruhák a Dargon Emperyből vannak, de egy kicsit... Öhmm, nem hogy nem tetszenek, csak a gondolat hogy ilyen ruhákban látsz egy kicsit zavarba ejtő... D-De nem mintha el kezdenék sírni...\n\nUSS Arizona új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.`)        
+        .setImage('https://images-ext-2.discordapp.net/external/rHY6OH7Wy0pGAMLLh-hVdNttTl0Agzpvt3rAK6PjoXU/https/pbs.twimg.com/media/FJ8F9LhakAIYJK8.jpg%3Alarge?width=1274&height=676')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update2);
         if (update2){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
