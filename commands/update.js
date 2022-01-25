@@ -6,11 +6,11 @@ module.exports = {
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle("♚A Gyógyítás Vörös Kamrája♚")
+        .setTitle("⚓Vestibule of Wonders⚓")
         .setURL('')
         .setTimestamp()
-        .setDescription('*Combjaira üt* Mester, te szegény teremtés~ Nézzenek oda milyen keményen dolgozol~ Hehe, gyere ide gyorsan, hogy el tudjalak kényesztetni~\n\nHMS Charybdis az új L2D ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/RaGqFcmJdmTiw5-s7n1pZs1xL7oTWiaEdRjg9Y3ilaQ/https/pbs.twimg.com/media/FJwZgCUVgAA2OJU.jpg%3Alarge?width=1274&height=676')
+        .setDescription('Itt vagy, Parancsnok, mint ahogy megígérted. Hogyan tetszik az itteni légkör? Hehe, foglalj helyet és élvezd lassan a teádat. Végül is, rengeteg időnk van~\n\nChen Hai új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-2.discordapp.net/external/hwINYao_P-LJNUpqf7_uTFbW621IZ-xr47UtEBBT2JQ/https/pbs.twimg.com/media/FJ3yioragAU_SJt.jpg%3Alarge?width=1274&height=676')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
