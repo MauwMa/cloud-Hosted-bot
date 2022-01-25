@@ -6,7 +6,7 @@ module.exports = {
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle("⚓Vestibule of Wonders⚓")
+        .setTitle("⚓A Csodák Előcsarnoka⚓")
         .setURL('')
         .setTimestamp()
         .setDescription('Itt vagy, Parancsnok, mint ahogy megígérted. Hogyan tetszik az itteni légkör? Hehe, foglalj helyet és élvezd lassan a teádat. Végül is, rengeteg időnk van~\n\nChen Hai új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
