@@ -7,6 +7,7 @@ module.exports = {
         var exportScheduler = schedule.scheduleJob('0 0 7 27 01 *', function() { 
             const egyora = new Discord.MessageEmbed()
             .setColor('#ffff00')
+            .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
             .setTitle('Értesítés!')
             .setURL('')
             .setDescription('1 órás előzetes értesítés a következő karbantartásról.\n Minden szerver előreláthatólag 8 órán keresztül le lesznek állítva. \nKérjük ne felejtsétek el megetetni a hajóitokat nyaa~!')

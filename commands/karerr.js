@@ -5,6 +5,7 @@ module.exports = {
     execute (client, message, args, Discord){
         const karerr = new Discord.MessageEmbed()
         .setColor('#ffff00')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setTitle('Karbantartás!!')
         .setURL('')
         .setDescription('A főhadiszállás egy váratlan problémába ütközött a karbantartás miatt és emiatt határozatlan időre meghosszabbítjuk a karbantartást. Bármilyen változás fog történni azt meg fogjuk osztani.\n\nKöszönjük a megértéseteket!')

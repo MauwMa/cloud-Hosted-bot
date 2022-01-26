@@ -5,6 +5,7 @@ module.exports = {
     execute (client, message, args, Discord){
         const karban = new Discord.MessageEmbed()
         .setColor('#ffff00')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setTitle('Karbantartás!!')
         .setURL('')
         .setDescription('Parancsnokok, 01/27 Csütörtökön Magyar Időszámítás szerint \nreggel 08:00-kor lesz karbantartás. Kérjük a beosztásaitokat tervezzétek e szerint nyaaa~')
