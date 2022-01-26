@@ -6,11 +6,11 @@ module.exports = {
         const update3 = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle('⚓Hai Chi⚓')
+        .setTitle('⚓Hai Tien⚓')
         .setURL('')
         .setTimestamp()
-        .setDescription('Te vagy a parancsnok? Hahah, rengeteg dolgot hallottam rólad! Óh igaz, elfelejtettem bemutatkozni! Hai Chi vagyok, Hai Tien-osztályú cirkáló. A két kedvenc dolgom a tradicionális opera és a kirándulás! ...De, hagyjuk a csevegést. Többet fogsz megtudni rólam előbb-utóbb ammúgy is!\n\nHai Chi felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('https://images-ext-2.discordapp.net/external/CIlx_SJcKmPrc3zrfmMWGZ5QWvbHFIhaLGNlImOvCDs/https/pbs.twimg.com/media/FKBZPnNagAMPxMu.jpg%3Alarge?width=1291&height=676')
+        .setDescription('Örülök hogy megismerhetlek, Parancsnok. Dragon Empery Hai Tienje vagyok. Mint újonc aki nem tudja eme helynek szokásait, kérlek bírkozz meg velem és baklövéseimmel.\n\nHai Tien felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
+        .setImage('https://images-ext-1.discordapp.net/external/Vut2OS0pGgoaisetT_mk2b-Z4h9bspGF2PFuYVT7aYI/https/pbs.twimg.com/media/FKBZ_XhaUAAcSWf.jpg%3Alarge?width=1291&height=676')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update3);
         if (update3){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
