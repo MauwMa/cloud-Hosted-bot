@@ -10,7 +10,7 @@ module.exports = {
         .setURL('')
         .setTimestamp()
         .setDescription('Junyou... vagyij. Kérlek adj utasításokat... Parancsnok.\n\nJunyou META hamarosan leszáll. Ingyenesen megszerezhető lesz Cruise Mission elvégzéséért.')
-        .setImage('https://images-ext-2.discordapp.net/external/eoknrX53De8BDeHXtju3tQO8EFmyLOsfFI_1cdAmb5o/https/pbs.twimg.com/media/FJ8GQ4SaAAEhUIn.jpg%3Alarge?width=1274&height=676')
+        .setImage('https://images-ext-1.discordapp.net/external/3V540MAEpxn6FBvKXXUjH-3N9a2l6id7y9lCdVxMtzc/https/pbs.twimg.com/media/FKMoPGQVkAEAIxD.jpg%3Alarge?width=1073&height=548')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
