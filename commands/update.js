@@ -6,11 +6,11 @@ module.exports = {
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle("★A Hatalmas Prérieken Túl ★")
+        .setTitle("【Világ a Festményen Belül】")
         .setURL('')
         .setTimestamp()
-        .setDescription('...Mm, ez elég is lesz a mai naplóbejegyzéshez. Kíváncsi vagyok, hogy mit fog gondolni Cleve miután elolvassa ezt~ Mit gondolsz Parancsnok? Várj... Parancsnok? Jesszus, ne settenkedj mögém, mikor az írásra vagyok fókuszálva...\n\nUSS Columbia új ruhájába öltözik. Cruiser Pass megvétele után szerezhető meg, ha teljesíted a Cruiser Küldetéseket. A Cruiser Küldetése Február 1.-én kezdődik.')
-        .setImage('https://images-ext-2.discordapp.net/external/AajVX2GxnuTVgLiSUwOcgGXHC5DH1tZedhxPSwEE7uQ/https/pbs.twimg.com/media/FKQ7rIEVgAosgcQ.jpg%3Alarge?width=1034&height=548')
+        .setDescription('Parancsnokok, elvégeztétek az eventet és köszöntöttétek Hai Chit és Hai Tient a kikötőtökben? Az event magyar időszámítás szerint Február 10.-én 08:00-kor ér véget.')
+        .setImage('https://images-ext-1.discordapp.net/external/acdyw1JRxPYDptxKZ_VUwv7GzhCX-Jxo6DkFZVx_0Qw/https/pbs.twimg.com/media/FKf7diqVcAA2ChH.jpg%3Alarge')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
