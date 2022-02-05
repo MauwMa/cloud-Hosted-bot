@@ -9,7 +9,7 @@ module.exports = {
         .setTimestamp()
         .setURL('')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setDescription('/egyora | /felmeres | /ehes | /frakcio | /ham | /ham2 | /karveg | /karban | /karerr1 | /karerr2 | /karerr | /keres | /tema | /kuka | /update | /mute1 | /mute2 | /mute3 | /egyora |')
+        .setDescription('/egyora | /felmeres | /ehes | /frakcio | /ham | /ham2 | /karveg | /karban | /karerr1 | /karerr2 | /karerr | /keres | /tema | /kuka | /update | /egyora |')
         message.channel.send(nparancsok);
 
         if (message.deletable) message.delete();
