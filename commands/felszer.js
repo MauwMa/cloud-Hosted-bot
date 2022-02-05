@@ -6,6 +6,7 @@ module.exports = {
         const felszer = new Discord.MessageEmbed()
         .setColor('#2ecc71')
         .setTitle('Felszerelés Útmutatók')
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setURL('')
         .setDescription('')
         .setTimestamp()
