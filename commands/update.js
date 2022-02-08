@@ -6,11 +6,11 @@ module.exports = {
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle("【Az Új Korszak, Az Új Erő】")
+        .setTitle("❀Szerencsés Csokoládé❀")
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnokok, megszereztétek már An Shan és Chang Chun retrofitjét? Az event Február 10. magyar időszámítás szerint 08:00-kor fog végetérni.')
-        .setImage('https://images-ext-2.discordapp.net/external/CwkXfQPr83ckOLs1Qscz2-hxiMWqpq54j4D3sMtIQa4/https/pbs.twimg.com/media/FKf76U_UYAIlfbY.jpg%3Alarge?width=1363&height=676')
+        .setDescription('Rendben, ennek jónak kell lennie... Hé, buta Parancsnok ne csak álldogálj. Igen, te. Ne üsd bele az orrod. Te leszel az első, aki megkapja az ÉN csokimat, szóval jobban teszed ha háládat könnyekben fejeznéd ki.\n\nIJN Shigure új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-1.discordapp.net/external/fLkz61nvkRK2Jz1CiQJkYNjCOElQagPQ6sm-ZDzzPpM/https/pbs.twimg.com/media/FLEBK_0VQAAgzyc.jpg%3Alarge?width=1005&height=548')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
