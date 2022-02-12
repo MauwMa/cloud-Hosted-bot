@@ -15,7 +15,7 @@ module.exports = {
             {name: 'Repülőgép-Hordozó útmutatók:', value: ':small_blue_diamond: Repülőgépek: /felszer-cvrepcsik'},
             {name: 'Cirkáló útmutatók', value: ':small_blue_diamond: Főfegyver: /felszer-cruisermain'},
             {name: 'Romboló útmutatók:', value: ':small_blue_diamond: Főfegyver: /felszer-ddmaingun'},
-            {name: 'Általános útmutatók:', value: ':small_blue_diamond: Légvédelem: /felszer-antiair\n:small_blue_diamond: Torpedók: /felszer-torpedo'}
+            {name: 'Általános útmutatók:', value: ':small_blue_diamond: Légvédelem: /felszer-antiair\n:small_blue_diamond: Torpedók: /felszer-torpedo\n:small_blue_diamond: Auxiliary Hátsósor: /felszer-auxmain'}
             
             
         )
