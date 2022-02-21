@@ -6,11 +6,11 @@ module.exports = {
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle("☭Ahogy mondod, Asszonyom☭")
+        .setTitle("☭Soobrazitelny☭")
         .setURL('')
         .setTimestamp()
-        .setDescription('Itt a Nyomozóiroda... Óh fiú, egy újabb eset. Parancsnok, végezz a papírmunkákkal amilyen gyorsan csak tudsz. Van egy szemtanunk interjúzni.\n\nSN Tallinn új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/OAoMNWUHU9YvIGP6NjhXcXoPpHBX_sg6lx7xgqw2oVo/https/pbs.twimg.com/media/FMBTiVtVUAI3uDi.jpg?width=881&height=468')
+        .setDescription('Ahh-ha-ha-haah! Elvtárs! Soobrazitelny vagyok, a Northern Parliament mechanikus zsenije! Ha bármi gépekkel való kapcsolatos ügyekben nézelődsz, akkor ne keress rajtam kívül mást!\n\nSN Kronshtadt felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
+        .setImage('https://images-ext-1.discordapp.net/external/RbjwSyDQDF5LjXyyUG1GB-Syc14gMVAmFGq-ym_v1Tw/https/pbs.twimg.com/media/FMBT5j_VgAADyyn.jpg')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
