@@ -6,11 +6,11 @@ module.exports = {
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle('❀Befészkelődni a hosszú éjszakákra❀')
+        .setTitle('☭Egy ellenállhatatlan AR kaland☭')
         .setURL('')
         .setTimestamp()
-        .setDescription(`Segíteni szerettem volna a stresszed eloszlatásában, ezért úgy gondoltam hogy népmeséket olvasok neked...Amikor ezt megemlítettem, Akashi ezeket a ruhákat ajánlotta nekem... M-Mit gondolsz?\n\nIJN Naganami új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.`)        
-        .setImage('https://images-ext-2.discordapp.net/external/bZnu8eESn5z-0Qrv_NLsatfm-HvYCE_-F9AUxNeldBA/https/pbs.twimg.com/media/FJ8Gjz8agAIB00b.jpg%3Alarge?width=1274&height=676')
+        .setDescription(`Itt Volga. Jelenleg egy fontos szemtanút követek, *korgás* ...Azért korog a hasam, mert ez a AR játék ilyen sok staminát követel? Áhh, elvesztettem a szemtanút...\n\nSN Volga új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.`)        
+        .setImage('https://images-ext-2.discordapp.net/external/Oldj6QDCqSF2VoH1CHV3gbBHDA5ilMZZgi-sM4Qf23U/https/pbs.twimg.com/media/FMHQtYcVUAIn7pP.jpg')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update2);
         if (update2){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
