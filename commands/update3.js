@@ -10,7 +10,7 @@ module.exports = {
         .setURL('')
         .setTimestamp()
         .setDescription('Az Új Northern Parliament fő event, Abyssal Refrain, Február 24.-én fog kezdődni. Az event bemutatja az új Ultra Rare Karge Cruisert, Kronshtadt és még megannyit!\n\nSN Volga felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('https://images-ext-2.discordapp.net/external/_l0Vsh7loA4iePWU9z31Jtd1XzPstZPbgvoNuXEeSWM/https/pbs.twimg.com/media/FMHQSWjUUAYW373.jpg')
+        .setImage('')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update3);
         if (update3){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
