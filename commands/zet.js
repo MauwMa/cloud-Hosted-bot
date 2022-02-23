@@ -5,6 +5,6 @@ module.exports = {
     execute (client, message, args, Discord){
         message.channel.send({files: ["zet.mp4"]});
 
-
+        if (message.deletable) message.delete();
     }    
 }
