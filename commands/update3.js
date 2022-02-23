@@ -6,10 +6,10 @@ module.exports = {
         const update3 = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle('☭Volga☭')
+        .setTitle('☭Azur Lane Abyssal Refrain Animáció PV☭')
         .setURL('')
         .setTimestamp()
-        .setDescription('Nem nézel ki valami jól... Eszel te mostanában rendesen? És mi a helyzet az alvással? Hmm... Talán van valami köze az érzelmi stresszhez, vagy kapcsolati problémákkal? ...Oh. A nevem Volga, Northern Parliament Volgája. Óh jaj, tényleg elfelejtettem bemutatkozni egészen idáig?\n\nSN Volga felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
+        .setDescription('Az Új Northern Parliament fő event, Abyssal Refrain, Február 24.-én fog kezdődni. Az event bemutatja az új Ultra Rare Karge Cruisert, Kronshtadt és még megannyit!\n\nSN Volga felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
         .setImage('https://images-ext-2.discordapp.net/external/_l0Vsh7loA4iePWU9z31Jtd1XzPstZPbgvoNuXEeSWM/https/pbs.twimg.com/media/FMHQSWjUUAYW373.jpg')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update3);
         if (update3){

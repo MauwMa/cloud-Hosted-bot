@@ -1,17 +1,10 @@
 module.exports = {
     name: 'zet',
     description: 'zet',
-    permissions: ["KICK_MEMBERS"],
+    permissions: ["SEND_MESSAGES"],
     execute (client, message, args, Discord){
-        const zet = new Discord.MessageEmbed()
-        .setColor('#2ecc71')
-        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle('teszt teszt teszt teszt ')
-        .setTimestamp()
-        .setURL('')
-        .setDescription('teszt teszt teszt teszt teszt teszt ')
-        message.channel.send(zet);
+        message.channel.send({files: ["zet.mp4"]});
 
-        if (message.deletable) message.delete();
+
     }    
 }
