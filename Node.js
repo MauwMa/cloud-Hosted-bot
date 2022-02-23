@@ -40,14 +40,4 @@ client.on('guildMemberAdd', guildMember =>{
 guildMember.guild.channels.cache.get('889129697873637416').send(udvozloembed)
 });
 
-
-const schedule = require('node-schedule');
-
-const job = schedule.scheduleJob('* 3 9 23 2 *', function(){
-  console.log('The answer to life, the universe, and everything!');
-});
-
-
-
-
 client.login(process.env.token);
