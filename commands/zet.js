@@ -8,8 +8,8 @@ module.exports = {
         .setTitle('Yuudachi Build')
         .setURL('')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setDescription('General | VS Light | FP | Budget')
-        .setImage({files: ["zet.mp4"]})
+        .setDescription({files: ["zet.mp4"]})
+        .setImage('')
         .setTimestamp()
         message.channel.send(zet);
 
