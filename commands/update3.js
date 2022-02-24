@@ -6,11 +6,11 @@ module.exports = {
         const update3 = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle('☭Azur Lane Abyssal Refrain Animáció PV☭')
+        .setTitle('')
         .setURL('')
         .setTimestamp()
-        .setDescription('Az Új Northern Parliament fő event, Abyssal Refrain, Február 24.-én fog kezdődni. Az event bemutatja az új Ultra Rare Karge Cruisert, Kronshtadt és még megannyit!\n\nSN Volga felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.')
-        .setImage('')
+        .setDescription('Parancsnok, az Abyssal Refrain event elkezdődött! Kronshtadt és a többi Northern Parliament tagok összegyűltek, hogy megvizsgálják a Szirén technológia rejtélyét.')
+        .setImage('https://images-ext-1.discordapp.net/external/yHEuGXgOZW0YeDtzXVcGeT2ObjcuP-l7NaBUiUpCHHQ/https/pbs.twimg.com/media/FMYGZ3ZVIAcGekP.jpg?width=1170&height=658')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update3);
         if (update3){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
