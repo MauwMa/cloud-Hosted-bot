@@ -9,8 +9,8 @@ module.exports = {
         .setTitle('')
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnok\n\nA jelenlegi event a Abyssal Refrain! Ezek a limitált karakterek az event építésben egészen Március 10.-ig lesznek elérhetőek.')
-        .setImage('https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/274814042_1665902797107506_8671470509112947035_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_ohc=veSNe-BxTUUAX-JPQGx&_nc_ht=scontent-vie1-1.xx&oh=00_AT-mWli6kzp4qu-FqC8K3gpsG0qL6trQeloYnjk6dnHXlA&oe=621DF62C')
+        .setDescription('Parancsnok\n\nNorthern Parliament lányai az új ruháikba öltöztek. Ezek a limitált kinézetek Március 10. magyar időszámítás szerint 7:59-ig lesznek elérhetőek.')
+        .setImage('https://images-ext-2.discordapp.net/external/TYZ9NOC8R30AA3cf64VexaI5l0phDn16W-vFm2Rov84/https/pbs.twimg.com/media/FMhgI7hWQAQl_lV.jpg?width=932&height=468')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update3);
         if (update3){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
