@@ -6,11 +6,11 @@ module.exports = {
         const update3 = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle('')
+        .setTitle('【Counterattack Within the Fjord Rerun】')
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnok\n\nNorthern Parliament lányai az új ruháikba öltöztek. Ezek a limitált kinézetek Március 10. magyar időszámítás szerint 7:59-ig lesznek elérhetőek.')
-        .setImage('https://images-ext-2.discordapp.net/external/TYZ9NOC8R30AA3cf64VexaI5l0phDn16W-vFm2Rov84/https/pbs.twimg.com/media/FMhgI7hWQAQl_lV.jpg?width=932&height=468')
+        .setDescription('Counterattack Within the Fjord event vissza fog térni a következő karbantartás után.')
+        .setImage('https://images-ext-2.discordapp.net/external/zvHdnp7R7jZ85SN7q31MaLIB-l74Ss7HJa2wsOSyXe4/https/pbs.twimg.com/media/FNA7x3BXwAQoKie.png')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update3);
         if (update3){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
