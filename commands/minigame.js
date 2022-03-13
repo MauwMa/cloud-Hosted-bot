@@ -11,7 +11,7 @@ module.exports = {
         .setTimestamp()
         .setDescription('Parancsnokok, egy új mini game érkezett nyaaa~ Frakcióként szerintetek, ki a legjobb Main/Vanguard helyre? \n\nTemplate:\n\nEagle Union   Main:   Vanguard:   \n\nRoyal Navy   Main:   Vanguard:   \n\nSakura Empire   Main:   Vanguard:   \n\nIron Blood   Main:   Vanguard:   \n\nDragon Empery   Vanguard:   \n\nSardegna Empire   Main:   Vanguard:   \n\nNorthern Parliament   Main:   Vanguard:   \n\nFrench Navy   Main:   Vanguard:   ')
         .setImage('')
-        client.channels.cache.find(channel => channel.id === "791956226521956394").send(minigame);
+        client.channels.cache.find(channel => channel.id === "811875214345764886").send(minigame);
         if (minigame){
             return message.channel.send(`Elküldtem az minigame-t nyaaa~`);
           }
