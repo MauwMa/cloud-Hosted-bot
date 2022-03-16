@@ -6,11 +6,11 @@ module.exports = {
         const update = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle("★Ördög a Szomszéd★")
+        .setTitle("❀Kajáljunk❀")
         .setURL('')
         .setTimestamp()
-        .setDescription('Ezt nézd meg - egymás mellé ültünk az órán. Már előre várom, hogy mit fogunk csinálni "tanóránkívüli tevékenységként" együtt. Hehehe~\n\nUSS Archerfish az új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
-        .setImage('https://images-ext-1.discordapp.net/external/N9cyz3dfoRN4D4WxDSnP9hxMz48yJ6UqHMqaymn4Fls/https/pbs.twimg.com/media/FN4KoZWaUAAE-A5.jpg?width=914&height=491')
+        .setDescription('Végre túl vagyunk a reggeli órákon~ Parancsnok, szeretnél egy remeket ebédelni velem? Heheh, kíváncsi vagy hogy mit csináltam? Hamarosan úgyis meg fogod tudni~\n\nIJN Ooshio az új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.')
+        .setImage('https://images-ext-2.discordapp.net/external/SaQvAZvD9FtqLCHdnChtmwvaALZdwco8de_90Qr1yDs/https/pbs.twimg.com/media/FN4K0NraQAIWhoB.jpg?width=914&height=491')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update);
         if (update){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
