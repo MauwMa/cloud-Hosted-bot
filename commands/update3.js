@@ -9,8 +9,8 @@ module.exports = {
         .setTitle('')
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnok, a Virtuális Torony event elkezdődött! Impero és a többi Sardegna Empire tagok összegyűltek kivizsgálnia a Virtuális Tornyot.\n\nFanart: ショウイチ - (@ekakijin)')
-        .setImage('https://images-ext-2.discordapp.net/external/4W7D239qorRi84m7Gv_qiWbnoyT3opKGZMm2eghB5xI/https/pbs.twimg.com/media/FOmKUoiVUAIWrnl.jpg?width=873&height=491')
+        .setDescription('Parancsnok,\n\nEzek a lányok az új iskolai ruhájukba öltöztek az új szemesztert köszöntve. A kinézetek Április 7. Magyar időszámítás szerint 8:59-ig lesznek elérhetőek.')
+        .setImage('https://images-ext-1.discordapp.net/external/ZSL637ays5EzmO72jRHQoKDaDAWoEz9KEQ-cXCH-GJc/https/pbs.twimg.com/media/FO6N6QFVgAI74P3.jpg?width=1022&height=503')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update3);
         if (update3){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
