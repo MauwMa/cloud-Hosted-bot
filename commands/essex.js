@@ -6,7 +6,7 @@ module.exports = {
 
         message.channel.send("<:Essex:827117741798457394>")
 
-    if (message.deletable) message.delete();
+   // if (message.deletable) message.delete();
 
     }    
 }
