@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'essex',
+    name: 'dessex',
     description: 'dessex',
     permissions: ["VIEW_CHANNEL"],
     execute (client, message, args){
