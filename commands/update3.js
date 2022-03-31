@@ -6,11 +6,11 @@ module.exports = {
         const update3 = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle('')
+        .setTitle('【Cruise Missions】')
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnok,\n\nEzek a lányok az új iskolai ruhájukba öltöztek az új szemesztert köszöntve. A kinézetek Április 7. Magyar időszámítás szerint 8:59-ig lesznek elérhetőek.')
-        .setImage('https://images-ext-1.discordapp.net/external/ZSL637ays5EzmO72jRHQoKDaDAWoEz9KEQ-cXCH-GJc/https/pbs.twimg.com/media/FO6N6QFVgAI74P3.jpg?width=1022&height=503')
+        .setDescription('Cruiser Mission elvégzésével a Parancsnokok jutalmakra tehetnek szert ingyen, mint Yamashiro META. Emellett, Parancsnokok meg tudják venni a "Fair Winds Cruise Pass"-t és elvégezni a Cruise Missions-t, amiért Enterprise skint és egyébb dolgokat kapnak.')
+        .setImage('https://i.imgur.com/c7tujK4.jpg')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update3);
         if (update3){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
