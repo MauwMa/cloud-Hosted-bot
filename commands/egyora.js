@@ -4,7 +4,7 @@ module.exports = {
     permissions: ["MENTION_EVERYONE"],
     description: 'egyora',
     execute (client, message, args, Discord){
-        var exportScheduler = schedule.scheduleJob('0 30 7 8 4 *', function() { 
+        var exportScheduler = schedule.scheduleJob('0 30 6 8 4 *', function() { 
             const egyora = new Discord.MessageEmbed()
             .setColor('#ffff00')
             .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
