@@ -6,11 +6,11 @@ module.exports = {
         const update3 = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle('')
+        .setTitle('【Aurora Noctis Rerun】')
         .setURL('')
         .setTimestamp()
-        .setDescription('Parancsnokok,\n\nEzek a karakterek az új kinézetükbe öltöztek és felkészültek az új tevékenységekre~ Ezek a kinézetek véglegesen elérhetőek lesznek .')
-        .setImage('https://images-ext-2.discordapp.net/external/Vg05fKX03TSgZpuOxWeYLE7G3BOqlKkcCcUwXRZ9lJc/https/pbs.twimg.com/media/FP091nPVsAI_fX0.jpg?width=1022&height=503')
+        .setDescription('Az Aurora Noctis Rerun a következő karbantartással fog elkezdődni. Jelentkezzbe az event időszakában, hogy Építés Jegyeket és Event Pontokat kapj. A további Jegyek a küldetések jutalmaiban lesznek.')
+        .setImage('https://images-ext-2.discordapp.net/external/Db3Fs2kSJuQZvzKdHHLx4FmAqn2St6TaDPszRMAorzs/https/pbs.twimg.com/media/FQDkIRJWYAIzqeM.png')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update3);
         if (update3){
             return message.channel.send(`Elküldtem az updatet nyaaa~`);
