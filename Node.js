@@ -40,4 +40,4 @@ client.on('guildMemberAdd', guildMember =>{
 guildMember.guild.channels.cache.get('889129697873637416').send(udvozloembed)
 });
 
-client.login("ODUxNzMwNTc2MzUyNDc3MjA0.GCqAiN.FntPPKiMnEL2cQSwl5cGVvBic1ZbuILZOfZk3E");
+client.login(process.env['token']);
