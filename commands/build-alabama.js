@@ -8,8 +8,8 @@ module.exports = {
         .setTitle('Alabama Build')
         .setURL('')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setDescription('Best in Slot? | AP | HE+timing | budget')
-        .setImage('https://i.imgur.com/rZ6qN6j.png')
+        .setDescription('SAP | AP | HE | Budget')
+        .setImage('https://media.discordapp.net/attachments/791956226521956394/1023179712962494514/Screenshot_2022-09-24-10-56-10.png?width=1156&height=650')
         .setTimestamp()
         message.channel.send(alabama);
 

@@ -9,7 +9,7 @@ module.exports = {
         .setTitle('Karbantartás!!')
         .setURL('')
         .setDescription('A főhadiszállás egy váratlan problémába ütközött a karbantartás miatt és emiatt 1 órával meghosszabbítjuk a karbantartást. Bármilyen változás fog történni azt meg fogjuk osztani.\n\nKöszönjük a megértéseteket!')
-        .setImage('https://images-ext-2.discordapp.net/external/PGLOP1lyRoOuSu0_VOVLG4pDYnNQRtj_iBvYnSzdF30/https/pbs.twimg.com/media/FE21HPTVUAEzk36.jpg%3Alarge?width=965&height=551')
+        .setImage('https://images-ext-2.discordapp.net/external/5v50XmQ9nF9KyOXWmb0nOWfrE2ORMd0UFkonjtTr7Ec/https/pbs.twimg.com/media/FNQCnhJakAgtc2h.jpg')
         .setTimestamp()
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(karerr1);
         if (karerr1){

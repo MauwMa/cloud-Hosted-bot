@@ -8,8 +8,8 @@ module.exports = {
         .setTitle('Algérie Build')
         .setURL('')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setDescription('AP | HE | HE | Budget')
-        .setImage('https://i.imgur.com/snlA47o.png')
+        .setDescription('Tank? | HE dmg | AP dmg | Budget')
+        .setImage('https://media.discordapp.net/attachments/791956226521956394/1023180205084389406/Screenshot_2022-09-24-10-59-33.png?width=1156&height=650')
         .setTimestamp()
         message.channel.send(algerie);
 

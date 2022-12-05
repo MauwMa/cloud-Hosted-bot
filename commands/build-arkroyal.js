@@ -8,8 +8,8 @@ module.exports = {
         .setTitle('Ark Royal Build')
         .setURL('')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setDescription('Boss | Mob | ? | Budget')
-        .setImage('https://i.imgur.com/BVDsdCb.png')
+        .setDescription('Full dmg | Gyors(abb) dmg | Mob | Budget')
+        .setImage('https://media.discordapp.net/attachments/791956226521956394/1023180509754433576/Screenshot_2022-09-24-11-05-35.png?width=1156&height=650')
         .setTimestamp()
         message.channel.send(arkroyal);
 

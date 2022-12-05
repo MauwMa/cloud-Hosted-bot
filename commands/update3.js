@@ -6,14 +6,14 @@ module.exports = {
         const update3 = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle('')
+        .setTitle(``)
         .setURL('')
+        .setDescription(`Parancsnokok, Boldog Hálaadást! Mint ahogy láthatjátok, a lányok élvezik az ételüket~\n-San Diego, ébredj~ A Parancsnok itt van~-\nBoldog ünnepeket kívánunk!`)
+        .setImage('https://images-ext-2.discordapp.net/external/1x1Lngt3X7s1TH5LRAR752tV6Nt-0icZTYeWSoK6LmA/https/pbs.twimg.com/media/FiKSjSOUoAA8354.jpg')
         .setTimestamp()
-        .setDescription('Parancsnokok, \n\n Ping Hai, Ning Hai, Bush és a többiek elérhetőek lesznek a Guild Shopban. Véglegesen kiválthatóak lesznek. Már meghívtad őket a kikötődbe?')
-        .setImage('https://images-ext-2.discordapp.net/external/1RIZiK-maGPxs8EP3v5rm8JDe9OlJJYOLxnbJVrrTKQ/https/pbs.twimg.com/media/FQIpV1_UYAEclU5.jpg?width=983&height=504')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update3);
         if (update3){
-            return message.channel.send(`Elküldtem az updatet nyaaa~`);
+            return message.channel.send(`Elküldtem az updatet nyaaa~ `);   
           }
-    }    
-}
+    }
+}  

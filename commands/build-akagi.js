@@ -8,8 +8,8 @@ module.exports = {
         .setTitle('Akagi Build')
         .setURL('')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setDescription('Planes | More Planes | Even more Planes | Budget')
-        .setImage('https://i.imgur.com/tuKpsWo.png')
+        .setDescription('Brrr | Mobing | AA | Budget')
+        .setImage('https://media.discordapp.net/attachments/791956226521956394/1023179565775999006/Screenshot_2022-09-24-10-51-51.png?width=1156&height=650')
         .setTimestamp()
         message.channel.send(akagi);
 

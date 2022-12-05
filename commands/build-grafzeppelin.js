@@ -8,8 +8,8 @@ module.exports = {
         .setTitle('Graf Zeppelin Build')
         .setURL('')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setDescription('BOSS | MOB | AA | Budget')
-        .setImage('https://i.imgur.com/fZr99zz.png')
+        .setDescription('AA | BOSS | MOB | Budget')
+        .setImage('https://media.discordapp.net/attachments/791956226521956394/1041802856212222072/Screenshot_2022-11-14-20-31-29.png?width=1193&height=671')
         .setTimestamp()
         message.channel.send(grafzeppelin);
 

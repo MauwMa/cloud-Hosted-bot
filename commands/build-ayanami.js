@@ -8,8 +8,8 @@ module.exports = {
         .setTitle('Ayanami Build')
         .setURL('')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setDescription('Auto | Manual | Suicide | Budget')
-        .setImage('https://i.imgur.com/xuyabkN.png')
+        .setDescription('Survival | Manual | Hybrid | Budget')
+        .setImage('https://media.discordapp.net/attachments/791956226521956394/1023181247578652702/Screenshot_2022-09-24-11-16-51.png?width=1156&height=650')
         .setTimestamp()
         message.channel.send(ayanami);
 

@@ -8,8 +8,8 @@ module.exports = {
         .setTitle('Formidable Build')
         .setURL('')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setDescription('Boss+timing | Boss | Mob | Budget')
-        .setImage('https://i.imgur.com/Gc61HYP.png')
+        .setDescription('Boss | Mob | W13(Mob) | Budget')
+        .setImage('https://media.discordapp.net/attachments/791956226521956394/1026898525017079838/Screenshot_2022-10-04-17-44-35.png?width=1193&height=671')
         .setTimestamp()
         message.channel.send(formidable);
 
