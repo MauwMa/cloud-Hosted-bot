@@ -6,7 +6,7 @@ module.exports = {
         const azurtalk = new Discord.MessageEmbed()
         .setColor('GREEN')
         .setTitle('AzurTalk')
-        .setURL('')
+         
         .setTimestamp()
         .setDescription('Magyar időszámítás szerint 19:00-kor lesz azur talk nyaaa~')
         client.channels.cache.find(channel => channel.id === "856904370595561473").send(azurtalk)

@@ -6,7 +6,7 @@ module.exports = {
         const kinggeorge = new Discord.MessageEmbed()
         .setColor('#c5c5ff')
         .setTitle('King George V Build')
-        .setURL('')
+         
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('AP | Helena fight | Preload(arm opt) | Budget')
         .setImage('https://i.imgur.com/EXBaHRd.png')

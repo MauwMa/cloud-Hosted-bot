@@ -6,7 +6,7 @@ module.exports = {
         const saintlouis = new Discord.MessageEmbed()
         .setColor('#f5f9ff')
         .setTitle('Saint Louis Build')
-        .setURL('')
+         
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Tank | DPS | Helena Fight | Budget')
         .setImage('https://i.imgur.com/gAi2i14.png')

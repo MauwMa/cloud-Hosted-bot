@@ -6,7 +6,7 @@ module.exports = {
         const yukikaze = new Discord.MessageEmbed()
         .setColor('#ff90ff')
         .setTitle('Yukikaze Build')
-        .setURL('')
+         
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Best in slot? | Auto | Manual | Budget')
         .setImage('https://i.imgur.com/xSvnfPR.png')

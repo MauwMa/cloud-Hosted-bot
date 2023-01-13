@@ -6,7 +6,7 @@ module.exports = {
         const valami = new Discord.MessageEmbed()
         .setColor('#ff90ff')
         .setTitle('Nagato Build')
-        .setURL('')
+         
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('AP | Fast | HE | Budget')
         .setImage('https://media.discordapp.net/attachments/789936506193182740/851162493878403162/Screenshot_2021-06-06-19-14-37.png?width=1112&height=626')

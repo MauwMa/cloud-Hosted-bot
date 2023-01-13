@@ -6,7 +6,7 @@ module.exports = {
         const kasumi = new Discord.MessageEmbed()
         .setColor('#ff90ff')
         .setTitle('Kasumi Build')
-        .setURL('')
+         
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Balanced | Manual | Auto | Budget"')
         .setImage('https://i.imgur.com/MRrmoOT.png')

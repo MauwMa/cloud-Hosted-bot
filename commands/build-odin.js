@@ -6,7 +6,7 @@ module.exports = {
         const Odin = new Discord.MessageEmbed()
         .setColor('#f2082d')
         .setTitle('Odin Build')
-        .setURL('')
+         
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('CH13 | HE | AP | Budget')
         .setImage('https://i.imgur.com/PdymKIn.png')

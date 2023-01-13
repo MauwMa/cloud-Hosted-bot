@@ -6,7 +6,7 @@ module.exports = {
         const nurnberg = new Discord.MessageEmbed()
         .setColor('#f2082d')
         .setTitle('Nürnberg Build')
-        .setURL('')
+         
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('DPS | General | CH13 | Budget')
         .setImage('https://i.imgur.com/9iCrkjX.png')

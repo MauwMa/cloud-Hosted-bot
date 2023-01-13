@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#2ecc71')
         .setTitle('Parancsok')
         .setTimestamp()
-        .setURL('')
+        
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription(' /azurtalk | /felmeres | /ehes  | /ham | /ham2 | /karveg | /karban | /karerr1 | /karerr2 | /karerr | /karigaz | /keres | /tema | /torol x | /kuka | /update | /egyora | /egytiz | ')
         message.channel.send(nparancsok);

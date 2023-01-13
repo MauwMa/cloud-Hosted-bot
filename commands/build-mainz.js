@@ -6,7 +6,7 @@ module.exports = {
         const mainz = new Discord.MessageEmbed()
         .setColor('#f2082d')
         .setTitle('Mainz Build')
-        .setURL('')
+         
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Tank(front) | DPS(Back) | Helena Fight | Budget')
         .setImage('https://i.imgur.com/ldFXtiU.png')

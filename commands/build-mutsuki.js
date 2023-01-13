@@ -6,7 +6,7 @@ module.exports = {
         const mutsuki = new Discord.MessageEmbed()
         .setColor('#ff90ff')
         .setTitle('Mutsuki Build')
-        .setURL('')
+         
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('But why? | Manual | Auto | Budget')
         .setImage('https://i.imgur.com/KfzKB0X.png')

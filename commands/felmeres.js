@@ -6,7 +6,7 @@ module.exports = {
         const felmeres = new Discord.MessageEmbed()
         .setColor('#2ecc71')
         .setTitle('Felmérés')
-        .setURL('')
+         
         .setDescription('Fogtok venni ebben az eventben skineket tőlem, nyaaa~?')
         client.channels.cache.find(channel => channel.id === "789936506193182740").send(felmeres)
         .then ((msg) => {setTimeout(function(){

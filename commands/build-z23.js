@@ -6,7 +6,7 @@ module.exports = {
         const z23 = new Discord.MessageEmbed()
         .setColor('#f2082d')
         .setTitle('Z23 Build')
-        .setURL('')
+         
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Balanced | FP Meme | Tank | Budget')
         .setImage('https://i.imgur.com/Vo48OAj.png')

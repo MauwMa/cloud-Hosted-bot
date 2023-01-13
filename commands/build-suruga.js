@@ -6,7 +6,7 @@ module.exports = {
         const suruga = new Discord.MessageEmbed()
         .setColor('#ff90ff')
         .setTitle('Suruga Build')
-        .setURL('')
+         
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('AP | HE | Speed | Budget')
         .setImage('https://i.imgur.com/WPxHXKJ.png')

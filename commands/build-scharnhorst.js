@@ -6,7 +6,7 @@ module.exports = {
         const scharnhorst = new Discord.MessageEmbed()
         .setColor('#f2082d')
         .setTitle('Scharnhorst Build')
-        .setURL('')
+         
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('Reload | AP | HE | Budget')
         .setImage('https://i.imgur.com/IyQdfeF.png')

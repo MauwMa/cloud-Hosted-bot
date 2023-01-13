@@ -7,7 +7,7 @@ module.exports = {
         .setColor('#2ecc71')
         .setTitle('Felszerelés Útmutatók')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setURL('')
+         
         .setDescription('')
         .setTimestamp()
         .addFields(

@@ -6,7 +6,7 @@ module.exports = {
         const prinzeugen = new Discord.MessageEmbed()
         .setColor('#f2082d')
         .setTitle('Prinz Eugen Build')
-        .setURL('')
+         
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
         .setDescription('AP | More AP | HE but why? | Budget')
         .setImage('https://i.imgur.com/fVJaz4B.png')
