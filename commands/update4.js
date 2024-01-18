@@ -4,12 +4,12 @@ module.exports = {
     permissions: ["KICK_MEMBERS"],
     execute (client, message, args, Discord){
         const update4 = new Discord.MessageEmbed()
-        .setColor('RANDOM')
+        .setColor('#DF794F')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle(`【Manjuu Torony Rerun】`)
+        .setTitle(`★Laffey II★`)
         
-        .setDescription(`A Manjuu Torony mini-game visszatér a következő karbantartás után. A mini-game hétszeri elvégzésével limitált karakterre Uranamira tehettek szert.`)
-        .setImage('https://images-ext-1.discordapp.net/external/8dwmPw-k5s-pCeo9GcTcbNgZyfrT-_bGJBNIqmyvTcM/https/pbs.twimg.com/media/FmBg7jWaYAEKPds.jpg')
+        .setDescription(`Laffey készen, buzgó és motiváltabb mint valaha... A felszerelésem változott csak, én nem... Szóval ne fogd meg ezeket a füleket, Parancsnok. Azok nem igaziak...\n\nUSS Laffey II megszerezhető a "Light-Chasing Sea of Stars" eventen!`)
+        .setImage('https://images-ext-2.discordapp.net/external/46tAIqXAnDFFL9AkOUFRGOR9H3XR8cim__IQiGh2WB0/https/pbs.twimg.com/media/GBYbPg3bsAANdQf.jpg?format=webp')
         .setTimestamp()
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update4);
         if (update4){

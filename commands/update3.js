@@ -6,10 +6,10 @@ module.exports = {
         const update3 = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
-        .setTitle(``)
+        .setTitle(`★Guam★`)
         
-        .setDescription(`Parancsnokok,\n\n A következő Augment Modulok elérhetőek lesznek a következő karbantartás után!\nChaser - Bizarr Teaidő\nLe Triomphatn - Lovag-Hercegnő Páncélkesztyűje`)
-        .setImage('https://images-ext-1.discordapp.net/external/0nU9RFgjV1wjNXg4wFH8vs6F6geGkDbSmcLD1ZSj9eg/https/pbs.twimg.com/media/FmLwJWSaEAE2efr.png')
+        .setDescription(`Guam vagyok, Alasaka osztály második hajója - még mindig dolgozom a becenevemen! Csak a háború utolsó perceire készültem el, viszont még mindig elkápráztatok mindenkit!\n\nUSS Guam felkészül a bevetésre és hamarosan a dokkodat fogja díszíteni a közel jövőben, Parancsnok.`)
+        .setImage('https://images-ext-2.discordapp.net/external/SgdPO1MiNtHpF8RQiQqYiKs-G-gSfSxuhyOy1Z8EIeM/https/pbs.twimg.com/media/GBYa8OMakAAc3UY.jpg?format=webp')
         .setTimestamp()
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update3);
         if (update3){

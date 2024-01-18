@@ -5,15 +5,16 @@ module.exports = {
     execute (client, message, args, Discord){
         const update2 = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png%22")
-        .setTitle("⚓Az Égi Kegyelem Mintaképe⚓")
+        .setAuthor("Azur Lane Hungary", "https://i.imgur.com/LxJJ70i.png")
+        .setTitle(`☭Nyuszi a Banyában☭`)
         
+        .setDescription(`Uughh... Oohh... Królik elolvad... Kezdek szédülni... Parancsnok Elvtárs, hozz nekem jeget...\n\nSN Grozny az új L2D kinézetébe öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.`)
+        .setImage('https://images-ext-2.discordapp.net/external/0XLLNNFt4Qbi74ziMcXf0wt4Kbvv5D0g1Icf4f71jXw/https/pbs.twimg.com/media/Fr0YVKVaAAYAmt5.jpg?width=1196&height=592')
         .setTimestamp()
-        .setDescription(`Igazán megtisztelőnek érzem, hogy együtt élvezhetjük ezt a csodálatos kilátást emme ünnepi alkalomkor, Parancsnok. Öhm... Nem csak udvariasságból mondom. Ritkán van ilyenekre alkalmunk, emiatt kicsit hízelegve érzem magam...\n\nROC Yat Sen az új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.`)
-        .setImage('https://images-ext-2.discordapp.net/external/u3HgVcaJEEnGoc68G9GV3jM_mUnjruds5nCR7ZSaCRo/https/pbs.twimg.com/media/FmRL3JYaYAEflmt.jpg?width=1193&height=671')
         client.channels.cache.find(channel => channel.id === "789936292413571102").send(update2);
         if (update2){
-            return message.channel.send('Elküldtem az updatet nyaaa~');  
+            return message.channel.send(`Elküldtem az updatet nyaaa~ `);   
           }
     }
-}
+}  
+    //    .setDescription(`\n\nFFNF L'Indomptable az új ruhájába öltözik. A közeljövőben a dokkodban fog várni, Parancsnok.`)
